@@ -1,0 +1,16 @@
+# Shopify Store Configuration
+# Fabric Outlet LLC (EIN: 93-1793978)
+# Credentials are loaded from environment variables
+
+stores:
+  fabric_outlet:
+    name: "Fabric Outlet"
+    domain_env: STORE_A_DOMAIN
+    token_env: STORE_A_ACCESS_TOKEN
+    api_version: "2024-01"
+
+  shiplap_quilt:
+    name: "The Shiplap Quilt Shop"
+    domain_env: STORE_B_DOMAIN
+    token_env: STORE_B_ACCESS_TOKEN
+    api_version: "2024-01"

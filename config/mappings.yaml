@@ -1,0 +1,51 @@
+# Tax Mappings and Rules
+
+# States where shipping is taxable
+shipping_taxable_states:
+  - AR
+  - CT
+  - DC
+  - GA
+  - HI
+  - IN
+  - KS
+  - KY
+  - MI
+  - MN
+  - MS
+  - NE
+  - NJ
+  - NM
+  - NY
+  - NC
+  - ND
+  - OH
+  - PA
+  - SC
+  - SD
+  - TN
+  - TX
+  - VT
+  - WA
+  - WV
+  - WI
+
+# States with no sales tax (excluded from reporting)
+no_sales_tax_states:
+  - AK  # Alaska (no state sales tax, but local may apply)
+  - DE  # Delaware
+  - MT  # Montana
+  - NH  # New Hampshire
+  - OR  # Oregon
+
+# Financial status values to include
+valid_financial_statuses:
+  - paid
+  - partially_paid
+  - partially_refunded
+  - refunded
+
+# Cancelled/voided statuses to exclude
+excluded_financial_statuses:
+  - voided
+  - pending

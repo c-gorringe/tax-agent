@@ -1,0 +1,39 @@
+# State Tax Registrations
+# Fabric Outlet LLC - Currently registered states
+
+registrations:
+  GA:
+    registered: true
+    filing_frequency: quarterly
+    account_number: ""
+
+  MI:
+    registered: true
+    filing_frequency: quarterly
+    account_number: ""
+
+  IL:
+    registered: true
+    filing_frequency: quarterly
+    account_number: ""
+
+  UT:
+    registered: true
+    filing_frequency: quarterly
+    account_number: ""
+
+  OH:
+    registered: true
+    filing_frequency: quarterly
+    account_number: ""
+
+  WA:
+    registered: true
+    filing_frequency: quarterly
+    account_number: ""
+
+# Add more states as needed:
+#  STATE_CODE:
+#    registered: true
+#    filing_frequency: monthly|quarterly|annually
+#    account_number: ""

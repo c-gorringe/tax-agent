@@ -1,0 +1,159 @@
+# Economic Nexus Thresholds by State
+# Updated from Avalara state-by-state guide (Feb 2026)
+# Source: https://www.avalara.com/us/en/learn/guides/state-by-state-guide-economic-nexus-laws.html
+
+thresholds:
+  # ============================================
+  # States with HIGHER sales thresholds
+  # ============================================
+  AL:
+    sales_threshold: 250000
+    transaction_threshold: null
+    period: rolling_12_months
+
+  CA:
+    sales_threshold: 500000
+    transaction_threshold: null
+    period: rolling_12_months
+
+  MS:
+    sales_threshold: 250000
+    transaction_threshold: null
+    period: rolling_12_months
+
+  NY:
+    sales_threshold: 500000
+    transaction_threshold: 100
+    period: rolling_4_quarters
+
+  TX:
+    sales_threshold: 500000
+    transaction_threshold: null
+    period: rolling_12_months
+
+  # ============================================
+  # States with $100K + 200 transaction thresholds
+  # (Either threshold triggers nexus - OR logic)
+  # ============================================
+  AR:
+    sales_threshold: 100000
+    transaction_threshold: 200
+    period: rolling_12_months
+
+  CT:
+    sales_threshold: 100000
+    transaction_threshold: 200
+    period: rolling_12_months
+
+  DC:
+    sales_threshold: 100000
+    transaction_threshold: 200
+    period: rolling_12_months
+
+  GA:
+    sales_threshold: 100000
+    transaction_threshold: 200
+    period: rolling_12_months
+
+  HI:
+    sales_threshold: 100000
+    transaction_threshold: 200
+    period: rolling_12_months
+
+  KY:
+    sales_threshold: 100000
+    transaction_threshold: 200
+    period: rolling_12_months
+
+  MD:
+    sales_threshold: 100000
+    transaction_threshold: 200
+    period: rolling_12_months
+
+  MI:
+    sales_threshold: 100000
+    transaction_threshold: 200
+    period: rolling_12_months
+
+  MN:
+    sales_threshold: 100000
+    transaction_threshold: 200
+    period: rolling_12_months
+
+  NE:
+    sales_threshold: 100000
+    transaction_threshold: 200
+    period: rolling_12_months
+
+  NV:
+    sales_threshold: 100000
+    transaction_threshold: 200
+    period: rolling_12_months
+
+  NJ:
+    sales_threshold: 100000
+    transaction_threshold: 200
+    period: rolling_12_months
+
+  OH:
+    sales_threshold: 100000
+    transaction_threshold: 200
+    period: rolling_12_months
+
+  RI:
+    sales_threshold: 100000
+    transaction_threshold: 200
+    period: rolling_12_months
+
+  VT:
+    sales_threshold: 100000
+    transaction_threshold: 200
+    period: rolling_12_months
+
+  VA:
+    sales_threshold: 100000
+    transaction_threshold: 200
+    period: rolling_12_months
+
+  WV:
+    sales_threshold: 100000
+    transaction_threshold: 200
+    period: rolling_12_months
+
+  # ============================================
+  # No sales tax states (excluded from nexus)
+  # ============================================
+  AK:
+    sales_threshold: 100000  # Has local taxes only
+    transaction_threshold: null
+    period: rolling_12_months
+
+  DE:
+    sales_threshold: null  # No sales tax
+    transaction_threshold: null
+
+  MT:
+    sales_threshold: null  # No sales tax
+    transaction_threshold: null
+
+  NH:
+    sales_threshold: null  # No sales tax
+    transaction_threshold: null
+
+  OR:
+    sales_threshold: null  # No sales tax
+    transaction_threshold: null
+
+  # ============================================
+  # Default: $100K sales only
+  # States: AZ, CO, FL, IA, ID, IL, IN, KS, LA, MA,
+  #         ME, MO, NC, NM, ND, OK, PA, SC, SD, TN,
+  #         UT, WA, WI, WY
+  # ============================================
+  default:
+    sales_threshold: 100000
+    transaction_threshold: null
+    period: rolling_12_months
+
+# Alert threshold percentage (80% = alert when approaching)
+alert_percentage: 80
