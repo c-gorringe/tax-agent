@@ -4,6 +4,8 @@ import os
 import sys
 from datetime import datetime, timedelta
 from pathlib import Path
+import hashlib
+import hmac
 
 import pandas as pd
 import streamlit as st
@@ -30,6 +32,76 @@ env_path = Path(__file__).parent / ".env"
 if env_path.exists():
     from dotenv import load_dotenv
     load_dotenv(env_path)
+
+
+# =============================================================================
+# PASSWORD PROTECTION
+# =============================================================================
+def check_password():
+    """Returns `True` if the user has entered the correct password."""
+
+    # Check if password is configured
+    password = None
+    if hasattr(st, 'secrets') and 'PASSWORD' in st.secrets:
+        password = st.secrets['PASSWORD']
+    elif os.environ.get('DASHBOARD_PASSWORD'):
+        password = os.environ.get('DASHBOARD_PASSWORD')
+
+    # If no password configured, allow access
+    if not password:
+        return True
+
+    def password_entered():
+        """Checks whether a password entered by the user is correct."""
+        if hmac.compare_digest(st.session_state["password"], password):
+            st.session_state["password_correct"] = True
+            del st.session_state["password"]  # Don't store password
+        else:
+            st.session_state["password_correct"] = False
+
+    # First run or password not correct
+    if "password_correct" not in st.session_state:
+        st.markdown("""
+        <div style="display: flex; justify-content: center; align-items: center; height: 60vh;">
+            <div style="text-align: center; padding: 40px; background: #f8fafc; border-radius: 12px; max-width: 400px;">
+                <h1 style="color: #1e40af;">📊 Tax Dashboard</h1>
+                <p style="color: #64748b;">Enter password to access</p>
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+
+        col1, col2, col3 = st.columns([1, 1, 1])
+        with col2:
+            st.text_input(
+                "Password",
+                type="password",
+                on_change=password_entered,
+                key="password",
+                label_visibility="collapsed",
+                placeholder="Enter password..."
+            )
+        return False
+
+    elif not st.session_state["password_correct"]:
+        col1, col2, col3 = st.columns([1, 1, 1])
+        with col2:
+            st.text_input(
+                "Password",
+                type="password",
+                on_change=password_entered,
+                key="password",
+                label_visibility="collapsed",
+                placeholder="Enter password..."
+            )
+            st.error("😕 Incorrect password")
+        return False
+
+    return True
+
+
+# Check password before showing anything
+if not check_password():
+    st.stop()
 
 
 def load_all_orders() -> pd.DataFrame:
@@ -125,7 +197,7 @@ st.sidebar.divider()
 # Navigation
 page = st.sidebar.radio(
     "Navigation",
-    ["Nexus Status", "Filing Packets", "Data Explorer", "Settings"],
+    ["Nexus Status", "Filing Packets", "Data Explorer", "Upload Data", "Settings"],
     label_visibility="collapsed"
 )
 
@@ -521,6 +593,180 @@ elif page == "Data Explorer":
         month_summary["Total Sales"] = month_summary["total_sales"].apply(lambda x: f"${x:,.2f}")
         month_summary["Tax Collected"] = month_summary["tax_collected"].apply(lambda x: f"${x:,.2f}")
         st.dataframe(month_summary[["Orders", "Total Sales", "Tax Collected"]], use_container_width=True)
+
+# Page: Upload Data
+elif page == "Upload Data":
+    st.title("Upload Data")
+
+    st.markdown("""
+    Upload your order and refund data as CSV files. This allows you to use the dashboard
+    without connecting directly to Shopify.
+
+    **Expected CSV format:**
+    - Orders should have columns: `store_id`, `order_id`, `processed_at`, `state`, `country`, `gross_sales`, `discounts`, `shipping`, `total_sales`, `taxable_sales`, `non_taxable_sales`, `tax_collected`
+    - Refunds should have columns: `store_id`, `order_id`, `refund_id`, `processed_at`, `state`, `country`, `refund_amount`, `tax_refunded`
+    """)
+
+    st.divider()
+
+    # Show current data status
+    st.subheader("Current Data Status")
+
+    curated_dir = Path(__file__).parent / "data" / "curated"
+    existing_periods = []
+    for period_dir in curated_dir.glob("*"):
+        if period_dir.is_dir() and period_dir.name != ".gitkeep":
+            orders_file = period_dir / "orders.csv"
+            if orders_file.exists():
+                df = pd.read_csv(orders_file)
+                existing_periods.append({
+                    "Period": period_dir.name,
+                    "Orders": len(df),
+                    "Stores": df["store_id"].nunique() if "store_id" in df.columns else 1,
+                    "Total Sales": f"${df['total_sales'].sum():,.2f}" if "total_sales" in df.columns else "N/A"
+                })
+
+    if existing_periods:
+        st.dataframe(pd.DataFrame(existing_periods), use_container_width=True, hide_index=True)
+    else:
+        st.info("No data uploaded yet.")
+
+    st.divider()
+
+    # Upload section
+    st.subheader("Upload New Data")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.markdown("**Orders CSV**")
+        orders_file = st.file_uploader(
+            "Upload orders",
+            type=["csv"],
+            key="orders_upload",
+            label_visibility="collapsed"
+        )
+
+    with col2:
+        st.markdown("**Refunds CSV** (optional)")
+        refunds_file = st.file_uploader(
+            "Upload refunds",
+            type=["csv"],
+            key="refunds_upload",
+            label_visibility="collapsed"
+        )
+
+    # Period name for the upload
+    period_name = st.text_input(
+        "Period name (e.g., 2025-Q4 or 2025-12)",
+        value=datetime.now().strftime("%Y-Q") + str((datetime.now().month - 1) // 3 + 1),
+        help="This will be used to organize the data"
+    )
+
+    if orders_file and period_name:
+        if st.button("📤 Upload Data", type="primary"):
+            try:
+                # Read and validate orders
+                orders_df = pd.read_csv(orders_file)
+
+                required_cols = ["store_id", "order_id", "processed_at", "state", "total_sales"]
+                missing_cols = [c for c in required_cols if c not in orders_df.columns]
+
+                if missing_cols:
+                    st.error(f"Missing required columns in orders: {', '.join(missing_cols)}")
+                else:
+                    # Save orders
+                    period_dir = curated_dir / period_name
+                    period_dir.mkdir(parents=True, exist_ok=True)
+
+                    orders_df.to_csv(period_dir / "orders.csv", index=False)
+                    st.success(f"✅ Uploaded {len(orders_df):,} orders for {period_name}")
+
+                    # Save refunds if provided
+                    if refunds_file:
+                        refunds_df = pd.read_csv(refunds_file)
+                        refunds_df.to_csv(period_dir / "refunds.csv", index=False)
+                        st.success(f"✅ Uploaded {len(refunds_df):,} refunds for {period_name}")
+
+                    # Clear cache to reload data
+                    st.cache_data.clear()
+                    st.rerun()
+
+            except Exception as e:
+                st.error(f"Error uploading data: {str(e)}")
+
+    st.divider()
+
+    # Download template
+    st.subheader("Download Templates")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        orders_template = pd.DataFrame({
+            "store_id": ["fabric_outlet", "fabric_outlet"],
+            "order_id": ["123456", "123457"],
+            "order_name": ["#1001", "#1002"],
+            "processed_at": ["2025-01-15 10:30:00", "2025-01-16 14:22:00"],
+            "state": ["GA", "MI"],
+            "country": ["US", "US"],
+            "gross_sales": [150.00, 89.50],
+            "discounts": [10.00, 0.00],
+            "shipping": [8.99, 5.99],
+            "total_sales": [148.99, 95.49],
+            "taxable_sales": [148.99, 95.49],
+            "non_taxable_sales": [0.00, 0.00],
+            "tax_collected": [10.43, 5.73]
+        })
+        st.download_button(
+            "📥 Orders Template",
+            orders_template.to_csv(index=False),
+            file_name="orders_template.csv",
+            mime="text/csv"
+        )
+
+    with col2:
+        refunds_template = pd.DataFrame({
+            "store_id": ["fabric_outlet"],
+            "order_id": ["123456"],
+            "refund_id": ["R001"],
+            "processed_at": ["2025-01-20 09:15:00"],
+            "state": ["GA"],
+            "country": ["US"],
+            "refund_amount": [50.00],
+            "tax_refunded": [3.50]
+        })
+        st.download_button(
+            "📥 Refunds Template",
+            refunds_template.to_csv(index=False),
+            file_name="refunds_template.csv",
+            mime="text/csv"
+        )
+
+    st.divider()
+
+    # Export current data
+    st.subheader("Export Current Data")
+
+    if not orders_df_global.empty if 'orders_df_global' in dir() else not orders_df.empty:
+        col1, col2 = st.columns(2)
+        with col1:
+            csv_data = orders_df.to_csv(index=False)
+            st.download_button(
+                "📥 Export All Orders",
+                csv_data,
+                file_name=f"all_orders_export_{datetime.now().strftime('%Y%m%d')}.csv",
+                mime="text/csv"
+            )
+        with col2:
+            if not refunds_df.empty:
+                csv_data = refunds_df.to_csv(index=False)
+                st.download_button(
+                    "📥 Export All Refunds",
+                    csv_data,
+                    file_name=f"all_refunds_export_{datetime.now().strftime('%Y%m%d')}.csv",
+                    mime="text/csv"
+                )
 
 # Page: Settings
 elif page == "Settings":
