@@ -21,8 +21,9 @@ build/
 # Data (keep structure, ignore content)
 data/raw/*
 !data/raw/.gitkeep
-data/curated/*
-!data/curated/.gitkeep
+# Include curated data for dashboard deployment
+# data/curated/*
+# !data/curated/.gitkeep
 data/outputs/*
 !data/outputs/.gitkeep
 
