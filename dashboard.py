@@ -417,15 +417,35 @@ elif page == "Filing Packets":
 
     # Filter orders for the selected period
     if not orders_df.empty:
+        # Handle timezone-aware vs naive datetime comparison
+        orders_processed = orders_df["processed_at"]
+        if orders_processed.dt.tz is not None:
+            # Convert period bounds to UTC if orders have timezone
+            period_start_ts = pd.Timestamp(period_start).tz_localize("UTC")
+            period_end_ts = pd.Timestamp(period_end).tz_localize("UTC")
+        else:
+            period_start_ts = pd.Timestamp(period_start)
+            period_end_ts = pd.Timestamp(period_end)
+
         period_orders = orders_df[
-            (orders_df["processed_at"] >= pd.Timestamp(period_start)) &
-            (orders_df["processed_at"] <= pd.Timestamp(period_end))
+            (orders_df["processed_at"] >= period_start_ts) &
+            (orders_df["processed_at"] <= period_end_ts)
         ].copy()
 
-        period_refunds = refunds_df[
-            (refunds_df["processed_at"] >= pd.Timestamp(period_start)) &
-            (refunds_df["processed_at"] <= pd.Timestamp(period_end))
-        ].copy() if not refunds_df.empty and "processed_at" in refunds_df.columns else pd.DataFrame()
+        if not refunds_df.empty and "processed_at" in refunds_df.columns:
+            refunds_processed = refunds_df["processed_at"]
+            if refunds_processed.dt.tz is not None:
+                period_refunds = refunds_df[
+                    (refunds_df["processed_at"] >= period_start_ts) &
+                    (refunds_df["processed_at"] <= period_end_ts)
+                ].copy()
+            else:
+                period_refunds = refunds_df[
+                    (refunds_df["processed_at"] >= pd.Timestamp(period_start)) &
+                    (refunds_df["processed_at"] <= pd.Timestamp(period_end))
+                ].copy()
+        else:
+            period_refunds = pd.DataFrame()
 
         if period_orders.empty:
             st.warning(f"No order data found for {period_name}")
