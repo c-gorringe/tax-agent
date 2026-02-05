@@ -36,6 +36,284 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# Custom CSS for modern dark theme
+st.markdown("""
+<style>
+    /* Import Google Font */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+    /* Global styles */
+    .stApp {
+        font-family: 'Inter', sans-serif;
+    }
+
+    /* Header styling */
+    .main-header {
+        background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+        padding: 2rem;
+        border-radius: 16px;
+        margin-bottom: 2rem;
+        box-shadow: 0 4px 20px rgba(99, 102, 241, 0.3);
+    }
+
+    .main-header h1 {
+        color: white;
+        font-weight: 700;
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    .main-header p {
+        color: rgba(255,255,255,0.8);
+        margin: 0.5rem 0 0 0;
+    }
+
+    /* Metric cards */
+    .metric-card {
+        background: linear-gradient(145deg, #1e293b 0%, #334155 100%);
+        border: 1px solid #475569;
+        border-radius: 12px;
+        padding: 1.5rem;
+        text-align: center;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .metric-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    }
+
+    .metric-value {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #6366f1;
+        margin: 0;
+    }
+
+    .metric-label {
+        font-size: 0.875rem;
+        color: #94a3b8;
+        margin-top: 0.25rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    /* Status badges */
+    .status-badge {
+        display: inline-block;
+        padding: 0.25rem 0.75rem;
+        border-radius: 9999px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .status-critical {
+        background: rgba(239, 68, 68, 0.2);
+        color: #f87171;
+        border: 1px solid rgba(239, 68, 68, 0.3);
+    }
+
+    .status-warning {
+        background: rgba(245, 158, 11, 0.2);
+        color: #fbbf24;
+        border: 1px solid rgba(245, 158, 11, 0.3);
+    }
+
+    .status-success {
+        background: rgba(34, 197, 94, 0.2);
+        color: #4ade80;
+        border: 1px solid rgba(34, 197, 94, 0.3);
+    }
+
+    /* State cards */
+    .state-card {
+        background: linear-gradient(145deg, #1e293b 0%, #0f172a 100%);
+        border: 1px solid #334155;
+        border-radius: 12px;
+        padding: 1.25rem;
+        text-align: center;
+        transition: all 0.2s;
+    }
+
+    .state-card:hover {
+        border-color: #6366f1;
+        box-shadow: 0 0 20px rgba(99, 102, 241, 0.2);
+    }
+
+    .state-card.critical {
+        border-color: #ef4444;
+        background: linear-gradient(145deg, #1e293b 0%, #1c1917 100%);
+    }
+
+    .state-card.warning {
+        border-color: #f59e0b;
+    }
+
+    .state-card.registered {
+        border-color: #22c55e;
+    }
+
+    .state-code {
+        font-size: 1.75rem;
+        font-weight: 700;
+        color: #f1f5f9;
+    }
+
+    .state-detail {
+        font-size: 0.75rem;
+        color: #94a3b8;
+        margin-top: 0.25rem;
+    }
+
+    /* Progress bars */
+    .progress-container {
+        background: #1e293b;
+        border-radius: 8px;
+        height: 8px;
+        overflow: hidden;
+        margin: 0.5rem 0;
+    }
+
+    .progress-bar {
+        height: 100%;
+        border-radius: 8px;
+        transition: width 0.5s ease;
+    }
+
+    .progress-critical {
+        background: linear-gradient(90deg, #ef4444, #f87171);
+    }
+
+    .progress-warning {
+        background: linear-gradient(90deg, #f59e0b, #fbbf24);
+    }
+
+    .progress-safe {
+        background: linear-gradient(90deg, #22c55e, #4ade80);
+    }
+
+    /* Section headers */
+    .section-header {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        margin: 2rem 0 1rem 0;
+        padding-bottom: 0.75rem;
+        border-bottom: 1px solid #334155;
+    }
+
+    .section-header h2 {
+        color: #f1f5f9;
+        font-weight: 600;
+        margin: 0;
+        font-size: 1.25rem;
+    }
+
+    .section-icon {
+        font-size: 1.5rem;
+    }
+
+    /* Action cards */
+    .action-card {
+        background: linear-gradient(145deg, #fef2f2 0%, #fee2e2 100%);
+        border: 1px solid #fecaca;
+        border-radius: 12px;
+        padding: 1rem 1.5rem;
+        margin: 0.5rem 0;
+    }
+
+    .action-card.high {
+        background: linear-gradient(145deg, #1e293b 0%, #0f172a 100%);
+        border-left: 4px solid #ef4444;
+    }
+
+    .action-card.medium {
+        background: linear-gradient(145deg, #1e293b 0%, #0f172a 100%);
+        border-left: 4px solid #f59e0b;
+    }
+
+    /* Data tables */
+    .dataframe {
+        border-radius: 8px !important;
+        overflow: hidden;
+    }
+
+    /* Sidebar styling */
+    .css-1d391kg {
+        background: #0f172a;
+    }
+
+    [data-testid="stSidebar"] {
+        background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
+    }
+
+    [data-testid="stSidebar"] .stRadio > label {
+        color: #f1f5f9;
+    }
+
+    /* Button styling */
+    .stButton > button {
+        background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 0.5rem 1.5rem;
+        font-weight: 600;
+        transition: all 0.2s;
+    }
+
+    .stButton > button:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+    }
+
+    /* Download button */
+    .stDownloadButton > button {
+        background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+    }
+
+    .stDownloadButton > button:hover {
+        box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4);
+    }
+
+    /* Expander styling */
+    .streamlit-expanderHeader {
+        background: #1e293b;
+        border-radius: 8px;
+    }
+
+    /* Metric styling overrides */
+    [data-testid="stMetricValue"] {
+        color: #6366f1;
+        font-weight: 700;
+    }
+
+    [data-testid="stMetricLabel"] {
+        color: #94a3b8;
+    }
+
+    /* Hide Streamlit branding */
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+
+    /* Tab styling */
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 8px;
+    }
+
+    .stTabs [data-baseweb="tab"] {
+        background: #1e293b;
+        border-radius: 8px;
+        padding: 0.5rem 1rem;
+    }
+
+    .stTabs [aria-selected="true"] {
+        background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    }
+</style>
+""", unsafe_allow_html=True)
+
 # Load environment variables from .env if present
 env_path = Path(__file__).parent / ".env"
 if env_path.exists():
@@ -197,18 +475,31 @@ def render_progress_bar(percentage: float, threshold_type: str = "sales") -> str
 
 
 # Sidebar
-st.sidebar.title("📊 Tax Dashboard")
 company = load_company_info()
-st.sidebar.markdown(f"**{company['name']}**")
-st.sidebar.markdown(f"EIN: {company['ein']}")
-st.sidebar.divider()
+
+st.sidebar.markdown("""
+<div style="text-align: center; padding: 1rem 0;">
+    <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">📊</div>
+    <h1 style="font-size: 1.5rem; font-weight: 700; margin: 0; color: #f1f5f9;">Tax Dashboard</h1>
+</div>
+""", unsafe_allow_html=True)
+
+st.sidebar.markdown(f"""
+<div style="background: linear-gradient(145deg, #1e293b, #334155); padding: 1rem; border-radius: 12px; margin: 1rem 0; border: 1px solid #475569;">
+    <div style="font-weight: 600; color: #f1f5f9; font-size: 0.9rem;">{company['name']}</div>
+    <div style="color: #94a3b8; font-size: 0.75rem; margin-top: 0.25rem;">EIN: {company['ein']}</div>
+</div>
+""", unsafe_allow_html=True)
 
 # Navigation
 page = st.sidebar.radio(
     "Navigation",
-    ["Nexus Status", "Filing Packets", "Data Explorer", "Data Audit", "Upload Data", "Settings"],
+    ["🎯 Nexus Status", "📋 Filing Packets", "📈 Data Explorer", "🔍 Data Audit", "📤 Upload Data", "⚙️ Settings"],
     label_visibility="collapsed"
 )
+
+# Clean up page name (remove emoji prefix)
+page = page.split(" ", 1)[1] if " " in page else page
 
 # Load data
 @st.cache_data(ttl=300)
@@ -223,13 +514,19 @@ orders_df, refunds_df, thresholds_config, registrations_config = get_cached_data
 
 # Page: Nexus Status
 if page == "Nexus Status":
-    st.title("Economic Nexus Status")
+    # Header
+    st.markdown("""
+    <div class="main-header">
+        <h1>🎯 Economic Nexus Status</h1>
+        <p>Monitor your sales tax obligations across all 50 states</p>
+    </div>
+    """, unsafe_allow_html=True)
 
     # Date selector
-    col1, col2 = st.columns([2, 1])
+    col1, col2, col3 = st.columns([2, 1, 1])
     with col1:
         as_of_date = st.date_input(
-            "Analysis as of",
+            "📅 Analysis as of",
             value=datetime.now(),
             max_value=datetime.now()
         )
@@ -248,24 +545,44 @@ if page == "Nexus Status":
     )
     action_items = get_action_items(nexus_status)
 
-    # Summary metrics
-    st.divider()
-
+    # Summary metrics with custom styling
     threshold_met = sum(1 for s in nexus_status.values() if s["status"] == "THRESHOLD_MET")
     approaching = sum(1 for s in nexus_status.values() if s["status"] == "APPROACHING")
     registered = sum(1 for s in nexus_status.values() if s["status"] == "REGISTERED")
 
+    st.markdown('<div class="section-header"><span class="section-icon">📊</span><h2>Overview</h2></div>', unsafe_allow_html=True)
+
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        st.metric("🚨 Registration Required", threshold_met)
+        st.markdown(f"""
+        <div class="metric-card" style="border-left: 4px solid #ef4444;">
+            <p class="metric-value" style="color: #ef4444;">{threshold_met}</p>
+            <p class="metric-label">Registration Required</p>
+        </div>
+        """, unsafe_allow_html=True)
     with col2:
-        st.metric("⚠️ Approaching Threshold", approaching)
+        st.markdown(f"""
+        <div class="metric-card" style="border-left: 4px solid #f59e0b;">
+            <p class="metric-value" style="color: #f59e0b;">{approaching}</p>
+            <p class="metric-label">Approaching Threshold</p>
+        </div>
+        """, unsafe_allow_html=True)
     with col3:
-        st.metric("✅ Registered", registered)
+        st.markdown(f"""
+        <div class="metric-card" style="border-left: 4px solid #22c55e;">
+            <p class="metric-value" style="color: #22c55e;">{registered}</p>
+            <p class="metric-label">Registered</p>
+        </div>
+        """, unsafe_allow_html=True)
     with col4:
-        st.metric("📊 Total States", len(nexus_status))
+        st.markdown(f"""
+        <div class="metric-card" style="border-left: 4px solid #6366f1;">
+            <p class="metric-value">{len(nexus_status)}</p>
+            <p class="metric-label">Total States</p>
+        </div>
+        """, unsafe_allow_html=True)
 
-    st.divider()
+    st.markdown("<br>", unsafe_allow_html=True)
 
     # Action Required Section
     if action_items:
@@ -1149,5 +1466,12 @@ elif page == "Settings":
 
 # Footer
 st.sidebar.divider()
-st.sidebar.caption("Tax Agent Dashboard v1.0")
-st.sidebar.caption(f"Data as of: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+st.sidebar.markdown("<br>" * 3, unsafe_allow_html=True)
+st.sidebar.markdown(f"""
+<div style="text-align: center; padding: 1rem; border-top: 1px solid #334155;">
+    <div style="color: #64748b; font-size: 0.7rem;">
+        Tax Agent Dashboard v2.0<br>
+        {datetime.now().strftime('%Y-%m-%d %H:%M')}
+    </div>
+</div>
+""", unsafe_allow_html=True)
