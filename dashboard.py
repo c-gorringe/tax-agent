@@ -18,6 +18,12 @@ from src.aggregate import aggregate_by_state
 from src.reconcile import detect_exceptions, summarize_exceptions
 from src.render import load_company_info
 from src.forms import generate_filing_worksheet, get_state_portal, get_state_form_name
+from src.jurisdictions import (
+    load_orders_with_tax_lines,
+    aggregate_by_jurisdiction,
+    generate_jurisdiction_summary,
+    generate_utah_worksheet_html
+)
 
 # Page config
 st.set_page_config(
@@ -493,6 +499,70 @@ elif page == "Filing Packets":
                         company_info=company,
                         registration_info=registration_info
                     )
+
+                    # Special handling for states with local jurisdiction requirements
+                    if state == "UT":
+                        st.markdown("---")
+                        st.markdown("**🏔️ Utah requires local jurisdiction breakdown**")
+
+                        if st.button(f"📊 Generate Utah Jurisdiction Breakdown", key=f"utah_jur_{period_name}"):
+                            with st.spinner("Loading jurisdiction data from Shopify orders..."):
+                                try:
+                                    # Load orders with full tax line details
+                                    ut_orders = load_orders_with_tax_lines(
+                                        state="UT",
+                                        period_start=period_start_ts,
+                                        period_end=period_end_ts,
+                                        raw_dir=str(Path(__file__).parent / "data" / "raw")
+                                    )
+
+                                    if ut_orders:
+                                        # Aggregate by jurisdiction
+                                        jur_data = aggregate_by_jurisdiction(ut_orders)
+                                        jur_summary = generate_jurisdiction_summary(jur_data)
+
+                                        # Show summary
+                                        st.success(f"Found {len(ut_orders)} Utah orders with jurisdiction data")
+
+                                        col1, col2, col3, col4, col5 = st.columns(5)
+                                        with col1:
+                                            st.metric("State Tax", f"${jur_summary['totals']['state']:,.2f}")
+                                        with col2:
+                                            st.metric("County Tax", f"${jur_summary['totals']['county']:,.2f}")
+                                        with col3:
+                                            st.metric("City Tax", f"${jur_summary['totals']['city']:,.2f}")
+                                        with col4:
+                                            st.metric("Transit Tax", f"${jur_summary['totals']['transit']:,.2f}")
+                                        with col5:
+                                            st.metric("Special", f"${jur_summary['totals']['special']:,.2f}")
+
+                                        # Generate Utah-specific worksheet
+                                        utah_worksheet = generate_utah_worksheet_html(
+                                            jurisdiction_summary=jur_summary,
+                                            period_name=period_name,
+                                            company_info=company,
+                                            registration_info=registration_info,
+                                            total_sales=state_data['total_sales'],
+                                            total_orders=state_data['order_count']
+                                        )
+
+                                        st.download_button(
+                                            "📥 Download Utah Jurisdiction Worksheet",
+                                            utah_worksheet,
+                                            file_name=f"UT_jurisdiction_worksheet_{period_name}.html",
+                                            mime="text/html",
+                                            key=f"utah_worksheet_{period_name}"
+                                        )
+
+                                        # Show preview
+                                        with st.expander("Preview Jurisdiction Breakdown"):
+                                            st.components.v1.html(utah_worksheet, height=800, scrolling=True)
+                                    else:
+                                        st.warning("No raw order data found. Run CLI extraction first to get jurisdiction details.")
+                                except Exception as e:
+                                    st.error(f"Error loading jurisdiction data: {str(e)}")
+
+                        st.markdown("---")
 
                     col1, col2, col3 = st.columns(3)
                     with col1:
