@@ -19,7 +19,6 @@ from src.reconcile import detect_exceptions, summarize_exceptions
 from src.render import load_company_info
 from src.forms import generate_filing_worksheet, get_state_portal, get_state_form_name
 from src.jurisdictions import (
-    load_orders_with_tax_lines,
     aggregate_by_jurisdiction,
     generate_jurisdiction_summary,
     generate_utah_worksheet_html,
@@ -27,6 +26,7 @@ from src.jurisdictions import (
     generate_wa_jurisdiction_summary,
     generate_wa_worksheet_html
 )
+from src.extract_jurisdictions import load_jurisdiction_orders
 
 # Page config
 st.set_page_config(
@@ -509,14 +509,14 @@ elif page == "Filing Packets":
                         st.markdown("**🏔️ Utah requires local jurisdiction breakdown**")
 
                         if st.button(f"📊 Generate Utah Jurisdiction Breakdown", key=f"utah_jur_{period_name}"):
-                            with st.spinner("Loading jurisdiction data from Shopify orders..."):
+                            with st.spinner("Loading jurisdiction data..."):
                                 try:
-                                    # Load orders with full tax line details
-                                    ut_orders = load_orders_with_tax_lines(
+                                    # Load orders with tax line details from curated jurisdiction files
+                                    ut_orders = load_jurisdiction_orders(
                                         state="UT",
                                         period_start=period_start_ts,
                                         period_end=period_end_ts,
-                                        raw_dir=str(Path(__file__).parent / "data" / "raw")
+                                        curated_dir=str(Path(__file__).parent / "data" / "curated")
                                     )
 
                                     if ut_orders:
@@ -573,13 +573,13 @@ elif page == "Filing Packets":
                         st.markdown("**🌲 Washington requires location-based tax reporting**")
 
                         if st.button(f"📊 Generate WA Location Breakdown", key=f"wa_jur_{period_name}"):
-                            with st.spinner("Loading location data from Shopify orders..."):
+                            with st.spinner("Loading location data..."):
                                 try:
-                                    wa_orders = load_orders_with_tax_lines(
+                                    wa_orders = load_jurisdiction_orders(
                                         state="WA",
                                         period_start=period_start_ts,
                                         period_end=period_end_ts,
-                                        raw_dir=str(Path(__file__).parent / "data" / "raw")
+                                        curated_dir=str(Path(__file__).parent / "data" / "curated")
                                     )
 
                                     if wa_orders:

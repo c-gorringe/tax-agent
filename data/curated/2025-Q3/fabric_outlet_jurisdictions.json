@@ -1,0 +1,4613 @@
+{
+  "store_id": "fabric_outlet",
+  "period": "2025-Q3",
+  "extracted_at": "2026-02-04T17:24:17.808396",
+  "order_count": 175,
+  "orders": [
+    {
+      "order_id": 7065847955729,
+      "order_name": "#7051",
+      "processed_at": "2025-09-30T17:04:02-06:00",
+      "state": "WA",
+      "city": "Clarkston",
+      "zip": "99403",
+      "subtotal": "23.39",
+      "total_tax": "2.54",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "1.97",
+          "rate": 0.065
+        },
+        {
+          "title": "Clarkston City Tax",
+          "price": "0.57",
+          "rate": 0.019
+        }
+      ]
+    },
+    {
+      "order_id": 7062774677777,
+      "order_name": "#7032",
+      "processed_at": "2025-09-29T10:43:21-06:00",
+      "state": "UT",
+      "city": "West Haven",
+      "zip": "84401",
+      "subtotal": "22.49",
+      "total_tax": "1.67",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.22",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.25",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.11",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.09",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7058697486609,
+      "order_name": "#6999",
+      "processed_at": "2025-09-27T11:54:02-06:00",
+      "state": "WA",
+      "city": "Bellingham",
+      "zip": "98226",
+      "subtotal": "54.46",
+      "total_tax": "5.54",
+      "tax_lines": [
+        {
+          "title": "Bellingham City Tax",
+          "price": "1.54",
+          "rate": 0.025
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.00",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7058687787281,
+      "order_name": "#6998",
+      "processed_at": "2025-09-27T11:48:35-06:00",
+      "state": "UT",
+      "city": "South Jordan",
+      "zip": "84095",
+      "subtotal": "8.80",
+      "total_tax": "0.66",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.23",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.43",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7057531175185,
+      "order_name": "#6989",
+      "processed_at": "2025-09-26T19:56:24-06:00",
+      "state": "UT",
+      "city": "Brigham City",
+      "zip": "84302",
+      "subtotal": "38.00",
+      "total_tax": "2.82",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "1.85",
+          "rate": 0.0485
+        },
+        {
+          "title": "Utah County Tax",
+          "price": "0.36",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.42",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.19",
+          "rate": 0.005
+        }
+      ]
+    },
+    {
+      "order_id": 7056871358737,
+      "order_name": "#6979",
+      "processed_at": "2025-09-26T11:45:41-06:00",
+      "state": "UT",
+      "city": "Saratoga Springs",
+      "zip": "84045",
+      "subtotal": "18.99",
+      "total_tax": "1.41",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.19",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.21",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.09",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.92",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7056764141841,
+      "order_name": "#6978",
+      "processed_at": "2025-09-26T10:38:23-06:00",
+      "state": "WA",
+      "city": "Bremerton",
+      "zip": "98311",
+      "subtotal": "56.97",
+      "total_tax": "5.88",
+      "tax_lines": [
+        {
+          "title": "Kitsap County Tax",
+          "price": "1.73",
+          "rate": 0.027
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.15",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7055616114961,
+      "order_name": "#6969",
+      "processed_at": "2025-09-25T23:36:15-06:00",
+      "state": "WA",
+      "city": "Stanwood",
+      "zip": "98292",
+      "subtotal": "36.86",
+      "total_tax": "4.08",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "2.85",
+          "rate": 0.065
+        },
+        {
+          "title": "Stanwood City Tax",
+          "price": "1.23",
+          "rate": 0.028
+        }
+      ]
+    },
+    {
+      "order_id": 7055145238801,
+      "order_name": "#6966",
+      "processed_at": "2025-09-25T15:55:20-06:00",
+      "state": "WA",
+      "city": "Camas",
+      "zip": "98607",
+      "subtotal": "18.87",
+      "total_tax": "2.22",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "1.68",
+          "rate": 0.065
+        },
+        {
+          "title": "Camas City Tax",
+          "price": "0.54",
+          "rate": 0.021
+        }
+      ]
+    },
+    {
+      "order_id": 7053231620369,
+      "order_name": "#6955",
+      "processed_at": "2025-09-24T18:53:57-06:00",
+      "state": "UT",
+      "city": "Saint George",
+      "zip": "84770",
+      "subtotal": "23.39",
+      "total_tax": "1.76",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "1.14",
+          "rate": 0.0485
+        },
+        {
+          "title": "Utah County Tax",
+          "price": "0.24",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.26",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.12",
+          "rate": 0.005
+        }
+      ]
+    },
+    {
+      "order_id": 7053057130769,
+      "order_name": "#6954",
+      "processed_at": "2025-09-24T16:08:09-06:00",
+      "state": "UT",
+      "city": "South Jordan",
+      "zip": "84095",
+      "subtotal": "16.44",
+      "total_tax": "1.25",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "0.82",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.43",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 7052187107601,
+      "order_name": "#6947",
+      "processed_at": "2025-09-24T06:33:01-06:00",
+      "state": "UT",
+      "city": "MONTICELLO",
+      "zip": "84535-9704",
+      "subtotal": "35.96",
+      "total_tax": "2.68",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.36",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.40",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.18",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.74",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7051730518289,
+      "order_name": "#6943",
+      "processed_at": "2025-09-23T23:16:35-06:00",
+      "state": "WA",
+      "city": "VANCOUVER",
+      "zip": "98683",
+      "subtotal": "13.48",
+      "total_tax": "1.80",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "1.33",
+          "rate": 0.065
+        },
+        {
+          "title": "Vancouver City Tax",
+          "price": "0.47",
+          "rate": 0.023
+        }
+      ]
+    },
+    {
+      "order_id": 7051334385937,
+      "order_name": "#6940",
+      "processed_at": "2025-09-23T16:31:18-06:00",
+      "state": "UT",
+      "city": "Eagle Mountain",
+      "zip": "84005",
+      "subtotal": "12.59",
+      "total_tax": "0.94",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "0.62",
+          "rate": 0.0485
+        },
+        {
+          "title": "Utah County Tax",
+          "price": "0.12",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.14",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.06",
+          "rate": 0.005
+        }
+      ]
+    },
+    {
+      "order_id": 7048366358801,
+      "order_name": "#6915",
+      "processed_at": "2025-09-22T08:18:04-06:00",
+      "state": "WA",
+      "city": "Ferndale",
+      "zip": "98248",
+      "subtotal": "39.59",
+      "total_tax": "4.19",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "3.03",
+          "rate": 0.065
+        },
+        {
+          "title": "Ferndale City Tax",
+          "price": "1.16",
+          "rate": 0.025
+        }
+      ]
+    },
+    {
+      "order_id": 7045671682321,
+      "order_name": "#6901",
+      "processed_at": "2025-09-20T21:07:58-06:00",
+      "state": "UT",
+      "city": "Eagle Mountain",
+      "zip": "84005",
+      "subtotal": "16.98",
+      "total_tax": "1.27",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.17",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.19",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.08",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.83",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7044360765713,
+      "order_name": "#6881",
+      "processed_at": "2025-09-20T06:53:56-06:00",
+      "state": "UT",
+      "city": "Sandy",
+      "zip": "84093",
+      "subtotal": "31.22",
+      "total_tax": "2.33",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "1.52",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.81",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 7037985718545,
+      "order_name": "#6823",
+      "processed_at": "2025-09-17T08:03:04-06:00",
+      "state": "UT",
+      "city": "West Haven",
+      "zip": "84401",
+      "subtotal": "15.49",
+      "total_tax": "1.15",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.15",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.17",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.08",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.75",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7035415101713,
+      "order_name": "#6795",
+      "processed_at": "2025-09-15T19:31:36-06:00",
+      "state": "WA",
+      "city": "Yakima",
+      "zip": "98902-3647",
+      "subtotal": "19.97",
+      "total_tax": "2.22",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "1.74",
+          "rate": 0.065
+        },
+        {
+          "title": "Yakima City Tax",
+          "price": "0.48",
+          "rate": 0.018
+        }
+      ]
+    },
+    {
+      "order_id": 7035041513745,
+      "order_name": "#6790",
+      "processed_at": "2025-09-15T14:40:55-06:00",
+      "state": "UT",
+      "city": "Salt Lake City",
+      "zip": "84124",
+      "subtotal": "47.28",
+      "total_tax": "3.53",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "2.30",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.23",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 7032406376721,
+      "order_name": "#6761",
+      "processed_at": "2025-09-14T08:30:22-06:00",
+      "state": "WA",
+      "city": "Spokane",
+      "zip": "99208",
+      "subtotal": "17.76",
+      "total_tax": "2.01",
+      "tax_lines": [
+        {
+          "title": "Spokane County Tax",
+          "price": "0.40",
+          "rate": 0.016
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.61",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7031697211665,
+      "order_name": "#6756",
+      "processed_at": "2025-09-13T22:10:53-06:00",
+      "state": "UT",
+      "city": "Holladay",
+      "zip": "84117",
+      "subtotal": "103.00",
+      "total_tax": "7.68",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "5.00",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "2.68",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 7029064958225,
+      "order_name": "#6729",
+      "processed_at": "2025-09-12T13:08:52-06:00",
+      "state": "UT",
+      "city": "Pleasant Grove",
+      "zip": "84062",
+      "subtotal": "45.82",
+      "total_tax": "3.42",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.45",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.51",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.23",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.23",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7028957315345,
+      "order_name": "#6727",
+      "processed_at": "2025-09-12T12:08:00-06:00",
+      "state": "UT",
+      "city": "Herriman",
+      "zip": "84096",
+      "subtotal": "35.98",
+      "total_tax": "2.68",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.94",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.74",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7028927922449,
+      "order_name": "#6726",
+      "processed_at": "2025-09-12T11:52:10-06:00",
+      "state": "UT",
+      "city": "Eagle Mountain",
+      "zip": "84005",
+      "subtotal": "51.92",
+      "total_tax": "3.85",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.52",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.57",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.24",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.52",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7028841283857,
+      "order_name": "#6723",
+      "processed_at": "2025-09-12T11:06:17-06:00",
+      "state": "WA",
+      "city": "OLYMPIA",
+      "zip": "98513-5692",
+      "subtotal": "67.95",
+      "total_tax": "5.63",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "4.41",
+          "rate": 0.065
+        },
+        {
+          "title": "Thurston County Tax",
+          "price": "1.22",
+          "rate": 0.018
+        }
+      ]
+    },
+    {
+      "order_id": 7028504068369,
+      "order_name": "#6713",
+      "processed_at": "2025-09-12T07:51:55-06:00",
+      "state": "WA",
+      "city": "Cathlamet",
+      "zip": "98612",
+      "subtotal": "21.15",
+      "total_tax": "2.18",
+      "tax_lines": [
+        {
+          "title": "Wahkiakum County Tax",
+          "price": "0.36",
+          "rate": 0.013
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.82",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7027832226065,
+      "order_name": "#6706",
+      "processed_at": "2025-09-11T22:37:44-06:00",
+      "state": "UT",
+      "city": "South Jordan",
+      "zip": "84095",
+      "subtotal": "25.23",
+      "total_tax": "1.87",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.66",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.21",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7027733954833,
+      "order_name": "#6705",
+      "processed_at": "2025-09-11T21:11:41-06:00",
+      "state": "UT",
+      "city": "South Jordan",
+      "zip": "84095",
+      "subtotal": "21.59",
+      "total_tax": "1.61",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.56",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.05",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7027459424529,
+      "order_name": "#6700",
+      "processed_at": "2025-09-11T17:01:25-06:00",
+      "state": "WA",
+      "city": "Spokane",
+      "zip": "99205",
+      "subtotal": "25.98",
+      "total_tax": "3.00",
+      "tax_lines": [
+        {
+          "title": "Spokane City Tax",
+          "price": "0.86",
+          "rate": 0.026
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.14",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7027017154833,
+      "order_name": "#6696",
+      "processed_at": "2025-09-11T12:26:46-06:00",
+      "state": "UT",
+      "city": "Cedar City",
+      "zip": "84721",
+      "subtotal": "53.93",
+      "total_tax": "4.00",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "2.61",
+          "rate": 0.0485
+        },
+        {
+          "title": "Utah County Tax",
+          "price": "0.53",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.59",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.27",
+          "rate": 0.005
+        }
+      ]
+    },
+    {
+      "order_id": 7026982387985,
+      "order_name": "#6695",
+      "processed_at": "2025-09-11T12:07:55-06:00",
+      "state": "UT",
+      "city": "Cedar City",
+      "zip": "84721",
+      "subtotal": "11.70",
+      "total_tax": "0.88",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "0.57",
+          "rate": 0.0485
+        },
+        {
+          "title": "Utah County Tax",
+          "price": "0.12",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.13",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.06",
+          "rate": 0.005
+        }
+      ]
+    },
+    {
+      "order_id": 7025116905745,
+      "order_name": "#6682",
+      "processed_at": "2025-09-10T19:29:15-06:00",
+      "state": "UT",
+      "city": "St.george",
+      "zip": "84790",
+      "subtotal": "30.98",
+      "total_tax": "2.30",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.30",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.34",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.16",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.50",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7024943628561,
+      "order_name": "#6680",
+      "processed_at": "2025-09-10T16:56:14-06:00",
+      "state": "UT",
+      "city": "Ogden",
+      "zip": "84414",
+      "subtotal": "25.98",
+      "total_tax": "1.94",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.26",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.29",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.13",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.26",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7023328887057,
+      "order_name": "#6666",
+      "processed_at": "2025-09-10T00:00:18-06:00",
+      "state": "WA",
+      "city": "Spokane",
+      "zip": "99203",
+      "subtotal": "55.92",
+      "total_tax": "5.69",
+      "tax_lines": [
+        {
+          "title": "Spokane City Tax",
+          "price": "1.62",
+          "rate": 0.026
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.07",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7021550010641,
+      "order_name": "#6642",
+      "processed_at": "2025-09-09T03:26:32-06:00",
+      "state": "UT",
+      "city": "LOGAN",
+      "zip": "84321-5211",
+      "subtotal": "49.90",
+      "total_tax": "3.72",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.50",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.56",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.23",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.43",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7020956451089,
+      "order_name": "#6635",
+      "processed_at": "2025-09-08T17:35:40-06:00",
+      "state": "UT",
+      "city": "St.george",
+      "zip": "84790",
+      "subtotal": "68.40",
+      "total_tax": "5.09",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.68",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.75",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.34",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.32",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7019341840657,
+      "order_name": "#6618",
+      "processed_at": "2025-09-07T22:58:40-06:00",
+      "state": "WA",
+      "city": "Onalaska",
+      "zip": "98570",
+      "subtotal": "47.69",
+      "total_tax": "4.37",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "3.55",
+          "rate": 0.065
+        },
+        {
+          "title": "Lewis County Tax",
+          "price": "0.82",
+          "rate": 0.015
+        }
+      ]
+    },
+    {
+      "order_id": 7017306423569,
+      "order_name": "#6594",
+      "processed_at": "2025-09-06T21:43:07-06:00",
+      "state": "WA",
+      "city": "Vancouver",
+      "zip": "98664",
+      "subtotal": "22.49",
+      "total_tax": "2.59",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "1.91",
+          "rate": 0.065
+        },
+        {
+          "title": "Vancouver City Tax",
+          "price": "0.68",
+          "rate": 0.023
+        }
+      ]
+    },
+    {
+      "order_id": 7016572027153,
+      "order_name": "#6585",
+      "processed_at": "2025-09-06T12:32:47-06:00",
+      "state": "UT",
+      "city": "Bountiful",
+      "zip": "84010",
+      "subtotal": "21.15",
+      "total_tax": "1.58",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "1.03",
+          "rate": 0.0485
+        },
+        {
+          "title": "Utah County Tax",
+          "price": "0.21",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.23",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.11",
+          "rate": 0.005
+        }
+      ]
+    },
+    {
+      "order_id": 7016040825105,
+      "order_name": "#6577",
+      "processed_at": "2025-09-06T08:11:30-06:00",
+      "state": "WA",
+      "city": "Concrete",
+      "zip": "98237",
+      "subtotal": "92.45",
+      "total_tax": "8.02",
+      "tax_lines": [
+        {
+          "title": "Skagit Ptba",
+          "price": "1.94",
+          "rate": 0.021
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.08",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7014766346513,
+      "order_name": "#6563",
+      "processed_at": "2025-09-05T14:56:49-06:00",
+      "state": "WA",
+      "city": "Gold Bar",
+      "zip": "98251",
+      "subtotal": "41.82",
+      "total_tax": "4.44",
+      "tax_lines": [
+        {
+          "title": "Snohomish Ptba Non Rta",
+          "price": "1.26",
+          "rate": 0.026
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.18",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7012106273041,
+      "order_name": "#6541",
+      "processed_at": "2025-09-04T15:54:06-06:00",
+      "state": "UT",
+      "city": "West Jordan",
+      "zip": "84088",
+      "subtotal": "12.99",
+      "total_tax": "0.97",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.34",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.63",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7001867256081,
+      "order_name": "#6499",
+      "processed_at": "2025-09-02T15:25:01-06:00",
+      "state": "UT",
+      "city": "Saratoga Springs",
+      "zip": "84045",
+      "subtotal": "51.96",
+      "total_tax": "3.87",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.52",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.57",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.26",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.52",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6999022567697,
+      "order_name": "#6489",
+      "processed_at": "2025-09-02T09:29:24-06:00",
+      "state": "UT",
+      "city": "West Haven",
+      "zip": "84401",
+      "subtotal": "22.49",
+      "total_tax": "1.67",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "1.09",
+          "rate": 0.0485
+        },
+        {
+          "title": "Utah County Tax",
+          "price": "0.22",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.25",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.11",
+          "rate": 0.005
+        }
+      ]
+    },
+    {
+      "order_id": 6998829859089,
+      "order_name": "#6482",
+      "processed_at": "2025-09-02T08:33:28-06:00",
+      "state": "UT",
+      "city": "FAIRVIEW",
+      "zip": "84629-9603",
+      "subtotal": "41.48",
+      "total_tax": "3.08",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.41",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.46",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.20",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.01",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6998227222801,
+      "order_name": "#6478",
+      "processed_at": "2025-09-02T05:30:22-06:00",
+      "state": "WA",
+      "city": "Lynden",
+      "zip": "98264",
+      "subtotal": "25.98",
+      "total_tax": "3.00",
+      "tax_lines": [
+        {
+          "title": "Lynden City Tax",
+          "price": "0.86",
+          "rate": 0.026
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.14",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6996157628689,
+      "order_name": "#6461",
+      "processed_at": "2025-09-01T13:23:42-06:00",
+      "state": "UT",
+      "city": "Park City",
+      "zip": "84098",
+      "subtotal": "19.53",
+      "total_tax": "1.42",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.18",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.19",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.12",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.93",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6993754423569,
+      "order_name": "#6452",
+      "processed_at": "2025-08-31T18:02:27-06:00",
+      "state": "UT",
+      "city": "Payson",
+      "zip": "84651",
+      "subtotal": "48.45",
+      "total_tax": "3.62",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.48",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.54",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.24",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.36",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6993333518609,
+      "order_name": "#6444",
+      "processed_at": "2025-08-31T13:28:06-06:00",
+      "state": "WA",
+      "city": "University Place",
+      "zip": "98466",
+      "subtotal": "94.96",
+      "total_tax": "9.59",
+      "tax_lines": [
+        {
+          "title": "University Place City Tax",
+          "price": "3.42",
+          "rate": 0.036
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.17",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6991978299665,
+      "order_name": "#6432",
+      "processed_at": "2025-08-30T20:14:16-06:00",
+      "state": "UT",
+      "city": "Sandy",
+      "zip": "84093",
+      "subtotal": "51.20",
+      "total_tax": "3.80",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "2.48",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.32",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 6991974334737,
+      "order_name": "#6431",
+      "processed_at": "2025-08-30T20:09:51-06:00",
+      "state": "UT",
+      "city": "St George",
+      "zip": "84770",
+      "subtotal": "53.02",
+      "total_tax": "3.97",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "2.59",
+          "rate": 0.0485
+        },
+        {
+          "title": "Utah County Tax",
+          "price": "0.53",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.59",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.26",
+          "rate": 0.005
+        }
+      ]
+    },
+    {
+      "order_id": 6991959687441,
+      "order_name": "#6430",
+      "processed_at": "2025-08-30T19:54:19-06:00",
+      "state": "WA",
+      "city": "Tieton",
+      "zip": "98947-9640",
+      "subtotal": "148.35",
+      "total_tax": "11.87",
+      "tax_lines": [
+        {
+          "title": "Yakima County Tax",
+          "price": "2.22",
+          "rate": 0.015
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "9.65",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6990747500817,
+      "order_name": "#6416",
+      "processed_at": "2025-08-30T08:10:02-06:00",
+      "state": "UT",
+      "city": "Salt Lake City",
+      "zip": "84106",
+      "subtotal": "22.45",
+      "total_tax": "1.67",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.58",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.09",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6989439140113,
+      "order_name": "#6398",
+      "processed_at": "2025-08-29T16:35:30-06:00",
+      "state": "UT",
+      "city": "Salt Lake City",
+      "zip": "84106-2924",
+      "subtotal": "34.19",
+      "total_tax": "2.55",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "1.66",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.89",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 6987635392785,
+      "order_name": "#6363",
+      "processed_at": "2025-08-28T20:34:50-06:00",
+      "state": "WA",
+      "city": "Selah",
+      "zip": "98942",
+      "subtotal": "18.88",
+      "total_tax": "2.14",
+      "tax_lines": [
+        {
+          "title": "Selah City Tax",
+          "price": "0.46",
+          "rate": 0.018
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.68",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6986497425681,
+      "order_name": "#6347",
+      "processed_at": "2025-08-28T09:32:31-06:00",
+      "state": "UT",
+      "city": "Bountiful",
+      "zip": "84010",
+      "subtotal": "32.46",
+      "total_tax": "2.41",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.32",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.36",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.15",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.58",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6983027130641,
+      "order_name": "#6304",
+      "processed_at": "2025-08-26T17:28:47-06:00",
+      "state": "UT",
+      "city": "Kearns",
+      "zip": "84118",
+      "subtotal": "31.37",
+      "total_tax": "2.33",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.82",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.51",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6982843498769,
+      "order_name": "#6300",
+      "processed_at": "2025-08-26T15:20:45-06:00",
+      "state": "UT",
+      "city": "Fillmore",
+      "zip": "84631",
+      "subtotal": "40.49",
+      "total_tax": "3.00",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.40",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.44",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.20",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.96",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6981340659985,
+      "order_name": "#6279",
+      "processed_at": "2025-08-25T20:50:03-06:00",
+      "state": "UT",
+      "city": "West Haven",
+      "zip": "84401",
+      "subtotal": "35.47",
+      "total_tax": "2.64",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.35",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.39",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.18",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.72",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6980893245713,
+      "order_name": "#6268",
+      "processed_at": "2025-08-25T15:16:37-06:00",
+      "state": "WA",
+      "city": "Kalama",
+      "zip": "98625",
+      "subtotal": "13.04",
+      "total_tax": "1.55",
+      "tax_lines": [
+        {
+          "title": "Cowlitz County Tax",
+          "price": "0.25",
+          "rate": 0.012
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.30",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6980413718801,
+      "order_name": "#6264",
+      "processed_at": "2025-08-25T10:30:54-06:00",
+      "state": "WA",
+      "city": "Tieton",
+      "zip": "98947-9640",
+      "subtotal": "12.00",
+      "total_tax": "1.51",
+      "tax_lines": [
+        {
+          "title": "Yakima County Tax",
+          "price": "0.28",
+          "rate": 0.015
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.23",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6980394090769,
+      "order_name": "#6263",
+      "processed_at": "2025-08-25T10:19:02-06:00",
+      "state": "WA",
+      "city": "Tieton",
+      "zip": "98947-9640",
+      "subtotal": "143.86",
+      "total_tax": "11.52",
+      "tax_lines": [
+        {
+          "title": "Yakima County Tax",
+          "price": "2.16",
+          "rate": 0.015
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "9.36",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6979350855953,
+      "order_name": "#6251",
+      "processed_at": "2025-08-24T20:00:30-06:00",
+      "state": "UT",
+      "city": "Kearns",
+      "zip": "84118",
+      "subtotal": "28.98",
+      "total_tax": "2.15",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.75",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.40",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6979337421073,
+      "order_name": "#6250",
+      "processed_at": "2025-08-24T19:47:02-06:00",
+      "state": "UT",
+      "city": "Herriman",
+      "zip": "84096",
+      "subtotal": "39.98",
+      "total_tax": "2.98",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.04",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.94",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6977497923857,
+      "order_name": "#6213",
+      "processed_at": "2025-08-23T18:16:02-06:00",
+      "state": "WA",
+      "city": "Pasco",
+      "zip": "99301",
+      "subtotal": "77.45",
+      "total_tax": "6.90",
+      "tax_lines": [
+        {
+          "title": "Pasco City Tax",
+          "price": "1.86",
+          "rate": 0.024
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "5.04",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6977281589521,
+      "order_name": "#6210",
+      "processed_at": "2025-08-23T15:13:06-06:00",
+      "state": "WA",
+      "city": "Okanogan",
+      "zip": "98840",
+      "subtotal": "19.34",
+      "total_tax": "2.23",
+      "tax_lines": [
+        {
+          "title": "Okanogan City Tax",
+          "price": "0.52",
+          "rate": 0.02
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.71",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6976472219921,
+      "order_name": "#6200",
+      "processed_at": "2025-08-23T07:31:36-06:00",
+      "state": "UT",
+      "city": "Layton",
+      "zip": "84041",
+      "subtotal": "17.10",
+      "total_tax": "1.28",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "0.83",
+          "rate": 0.0485
+        },
+        {
+          "title": "Utah County Tax",
+          "price": "0.17",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.19",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.09",
+          "rate": 0.005
+        }
+      ]
+    },
+    {
+      "order_id": 6975975489809,
+      "order_name": "#6195",
+      "processed_at": "2025-08-22T23:36:31-06:00",
+      "state": "WA",
+      "city": "Spokane",
+      "zip": "99203",
+      "subtotal": "39.14",
+      "total_tax": "4.20",
+      "tax_lines": [
+        {
+          "title": "Spokane City Tax",
+          "price": "1.19",
+          "rate": 0.026
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.01",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6975620055313,
+      "order_name": "#6183",
+      "processed_at": "2025-08-22T17:31:58-06:00",
+      "state": "UT",
+      "city": "Manti",
+      "zip": "84642",
+      "subtotal": "86.27",
+      "total_tax": "6.47",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.88",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.96",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.43",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "4.20",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6975440060689,
+      "order_name": "#6179",
+      "processed_at": "2025-08-22T15:16:24-06:00",
+      "state": "WA",
+      "city": "Gig Harbor",
+      "zip": "98335",
+      "subtotal": "37.98",
+      "total_tax": "4.07",
+      "tax_lines": [
+        {
+          "title": "Gig Harbor City Tax",
+          "price": "1.16",
+          "rate": 0.026
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.91",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6975100256529,
+      "order_name": "#6171",
+      "processed_at": "2025-08-22T11:52:18-06:00",
+      "state": "UT",
+      "city": "Bountiful",
+      "zip": "84010",
+      "subtotal": "19.79",
+      "total_tax": "1.48",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.20",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.22",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.10",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.96",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6973892296977,
+      "order_name": "#6152",
+      "processed_at": "2025-08-21T20:25:24-06:00",
+      "state": "UT",
+      "city": "Sandy",
+      "zip": "84093",
+      "subtotal": "11.97",
+      "total_tax": "0.92",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.32",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.60",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6973880828177,
+      "order_name": "#6151",
+      "processed_at": "2025-08-21T20:12:29-06:00",
+      "state": "UT",
+      "city": "SANDY",
+      "zip": "84093-6545",
+      "subtotal": "50.91",
+      "total_tax": "3.83",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "2.49",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.34",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 6965014233361,
+      "order_name": "#6113",
+      "processed_at": "2025-08-19T17:39:42-06:00",
+      "state": "UT",
+      "city": "Spanish Fork",
+      "zip": "84660",
+      "subtotal": "79.99",
+      "total_tax": "5.96",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.80",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.88",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.40",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.88",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6955570856209,
+      "order_name": "#6080",
+      "processed_at": "2025-08-18T08:40:13-06:00",
+      "state": "UT",
+      "city": "West Haven",
+      "zip": "84401",
+      "subtotal": "23.48",
+      "total_tax": "1.75",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.23",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.26",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.12",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.14",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6954447503633,
+      "order_name": "#6068",
+      "processed_at": "2025-08-17T14:20:30-06:00",
+      "state": "WA",
+      "city": "spokane",
+      "zip": "99216-2442",
+      "subtotal": "69.77",
+      "total_tax": "6.20",
+      "tax_lines": [
+        {
+          "title": "Spokane Valley City Tax",
+          "price": "1.67",
+          "rate": 0.024
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.53",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6954418077969,
+      "order_name": "#6067",
+      "processed_at": "2025-08-17T14:02:12-06:00",
+      "state": "UT",
+      "city": "Hildale",
+      "zip": "84784",
+      "subtotal": "30.98",
+      "total_tax": "2.30",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.31",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.34",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.15",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.50",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6952575598865,
+      "order_name": "#6052",
+      "processed_at": "2025-08-16T12:10:40-06:00",
+      "state": "WA",
+      "city": "Spokane Valley",
+      "zip": "99206",
+      "subtotal": "26.98",
+      "total_tax": "3.03",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "2.20",
+          "rate": 0.065
+        },
+        {
+          "title": "Spokane Valley City Tax",
+          "price": "0.83",
+          "rate": 0.024
+        }
+      ]
+    },
+    {
+      "order_id": 6952550367505,
+      "order_name": "#6051",
+      "processed_at": "2025-08-16T11:57:08-06:00",
+      "state": "WA",
+      "city": "Spokane Valley",
+      "zip": "99016",
+      "subtotal": "10.99",
+      "total_tax": "1.59",
+      "tax_lines": [
+        {
+          "title": "Spokane Valley City Tax",
+          "price": "0.43",
+          "rate": 0.024
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.16",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6951586431249,
+      "order_name": "#6047",
+      "processed_at": "2025-08-15T22:54:44-06:00",
+      "state": "UT",
+      "city": "Payson",
+      "zip": "84651",
+      "subtotal": "34.19",
+      "total_tax": "2.56",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.34",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.38",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.18",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.66",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6951178174737,
+      "order_name": "#6038",
+      "processed_at": "2025-08-15T16:01:19-06:00",
+      "state": "UT",
+      "city": "Lehi",
+      "zip": "84043-6534",
+      "subtotal": "94.96",
+      "total_tax": "7.06",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.95",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "1.05",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.46",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "4.60",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6950538903825,
+      "order_name": "#6025",
+      "processed_at": "2025-08-15T10:26:36-06:00",
+      "state": "WA",
+      "city": "Burlington",
+      "zip": "98233",
+      "subtotal": "75.98",
+      "total_tax": "6.61",
+      "tax_lines": [
+        {
+          "title": "Burlington City Tax",
+          "price": "1.67",
+          "rate": 0.022
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.94",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6949970903313,
+      "order_name": "#6009",
+      "processed_at": "2025-08-15T07:41:15-06:00",
+      "state": "UT",
+      "city": "Cedar City",
+      "zip": "84720",
+      "subtotal": "101.91",
+      "total_tax": "7.56",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "1.00",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "1.12",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.51",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "4.93",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6947690021137,
+      "order_name": "#5991",
+      "processed_at": "2025-08-14T07:30:58-06:00",
+      "state": "WA",
+      "city": "Malaga",
+      "zip": "98828",
+      "subtotal": "7.20",
+      "total_tax": "1.19",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "0.92",
+          "rate": 0.065
+        },
+        {
+          "title": "Chelan County Tax",
+          "price": "0.27",
+          "rate": 0.019
+        }
+      ]
+    },
+    {
+      "order_id": 6947076669713,
+      "order_name": "#5989",
+      "processed_at": "2025-08-14T02:00:30-06:00",
+      "state": "UT",
+      "city": "Pleasant Grove",
+      "zip": "84062",
+      "subtotal": "85.46",
+      "total_tax": "6.40",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.85",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.95",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.45",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "4.15",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6946748170513,
+      "order_name": "#5985",
+      "processed_at": "2025-08-13T19:39:12-06:00",
+      "state": "UT",
+      "city": "Kearns",
+      "zip": "84118",
+      "subtotal": "19.98",
+      "total_tax": "1.48",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.52",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.96",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6946300264721,
+      "order_name": "#5981",
+      "processed_at": "2025-08-13T13:38:57-06:00",
+      "state": "UT",
+      "city": "Orem",
+      "zip": "84097",
+      "subtotal": "98.97",
+      "total_tax": "7.37",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.99",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "1.09",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.49",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "4.80",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6944782549265,
+      "order_name": "#5972",
+      "processed_at": "2025-08-12T18:25:35-06:00",
+      "state": "UT",
+      "city": "Layton",
+      "zip": "84040-2865",
+      "subtotal": "15.98",
+      "total_tax": "1.20",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.16",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.18",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.08",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.78",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6944746045713,
+      "order_name": "#5969",
+      "processed_at": "2025-08-12T17:49:21-06:00",
+      "state": "UT",
+      "city": "Highland",
+      "zip": "84003",
+      "subtotal": "47.94",
+      "total_tax": "3.58",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.48",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.53",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.24",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.33",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6940989653265,
+      "order_name": "#5932",
+      "processed_at": "2025-08-10T17:25:56-06:00",
+      "state": "UT",
+      "city": "Herriman",
+      "zip": "84096",
+      "subtotal": "287.56",
+      "total_tax": "21.39",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "13.95",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "7.44",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 6940545548561,
+      "order_name": "#5926",
+      "processed_at": "2025-08-10T12:10:05-06:00",
+      "state": "UT",
+      "city": "Kearns",
+      "zip": "84118",
+      "subtotal": "17.99",
+      "total_tax": "1.34",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.46",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.88",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6939536982289,
+      "order_name": "#5920",
+      "processed_at": "2025-08-09T21:32:21-06:00",
+      "state": "UT",
+      "city": "West Haven",
+      "zip": "84401",
+      "subtotal": "46.47",
+      "total_tax": "3.45",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.45",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.51",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.24",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.25",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6938617774353,
+      "order_name": "#5916",
+      "processed_at": "2025-08-09T10:17:18-06:00",
+      "state": "UT",
+      "city": "Lehi",
+      "zip": "84043",
+      "subtotal": "68.45",
+      "total_tax": "5.09",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.68",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.75",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.34",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.32",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6938365133073,
+      "order_name": "#5911",
+      "processed_at": "2025-08-09T07:49:19-06:00",
+      "state": "UT",
+      "city": "Cedar City",
+      "zip": "84720",
+      "subtotal": "82.08",
+      "total_tax": "6.14",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.81",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.91",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.43",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.99",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6937321373969,
+      "order_name": "#5899",
+      "processed_at": "2025-08-08T15:28:25-06:00",
+      "state": "UT",
+      "city": "Lindon",
+      "zip": "84042",
+      "subtotal": "93.94",
+      "total_tax": "6.99",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.92",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "1.04",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.48",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "4.55",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6937226903825,
+      "order_name": "#5897",
+      "processed_at": "2025-08-08T14:28:28-06:00",
+      "state": "UT",
+      "city": "West Jordan",
+      "zip": "84088",
+      "subtotal": "12.99",
+      "total_tax": "0.97",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.34",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.63",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6936866619665,
+      "order_name": "#5895",
+      "processed_at": "2025-08-08T11:01:47-06:00",
+      "state": "WA",
+      "city": "Spokane",
+      "zip": "99224",
+      "subtotal": "36.57",
+      "total_tax": "3.96",
+      "tax_lines": [
+        {
+          "title": "Spokane City Tax",
+          "price": "1.14",
+          "rate": 0.026
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.82",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6935844225297,
+      "order_name": "#5874",
+      "processed_at": "2025-08-07T19:51:29-06:00",
+      "state": "TX",
+      "city": "West",
+      "zip": "76691",
+      "subtotal": "19.98",
+      "total_tax": "2.20",
+      "tax_lines": [
+        {
+          "title": "Mclennan County Tax",
+          "price": "0.13",
+          "rate": 0.005
+        },
+        {
+          "title": "West City Tax",
+          "price": "0.40",
+          "rate": 0.015
+        },
+        {
+          "title": "Texas State Tax",
+          "price": "1.67",
+          "rate": 0.0625
+        }
+      ]
+    },
+    {
+      "order_id": 6934940516625,
+      "order_name": "#5866",
+      "processed_at": "2025-08-07T09:44:31-06:00",
+      "state": "UT",
+      "city": "Saratoga Springs",
+      "zip": "84045",
+      "subtotal": "36.96",
+      "total_tax": "2.76",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.36",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.41",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.19",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.80",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6931460325649,
+      "order_name": "#5837",
+      "processed_at": "2025-08-05T12:04:01-06:00",
+      "state": "WA",
+      "city": "Spokane valley",
+      "zip": "99206",
+      "subtotal": "37.98",
+      "total_tax": "4.00",
+      "tax_lines": [
+        {
+          "title": "Spokane Ptba",
+          "price": "1.09",
+          "rate": 0.024
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.91",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6931131498769,
+      "order_name": "#5829",
+      "processed_at": "2025-08-05T08:54:57-06:00",
+      "state": "UT",
+      "city": "Salt Lake City",
+      "zip": "84108",
+      "subtotal": "54.97",
+      "total_tax": "4.09",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.43",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.66",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6928200368401,
+      "order_name": "#5804",
+      "processed_at": "2025-08-04T05:09:36-06:00",
+      "state": "UT",
+      "city": "Lindon",
+      "zip": "84042",
+      "subtotal": "44.96",
+      "total_tax": "3.36",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.45",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.50",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.21",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.20",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6927736504593,
+      "order_name": "#5802",
+      "processed_at": "2025-08-03T23:29:51-06:00",
+      "state": "UT",
+      "city": "Heber City",
+      "zip": "84032",
+      "subtotal": "27.99",
+      "total_tax": "2.09",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "1.36",
+          "rate": 0.0485
+        },
+        {
+          "title": "Utah County Tax",
+          "price": "0.28",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.31",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.14",
+          "rate": 0.005
+        }
+      ]
+    },
+    {
+      "order_id": 6927511847185,
+      "order_name": "#5792",
+      "processed_at": "2025-08-03T19:12:22-06:00",
+      "state": "WA",
+      "city": "Stanwood",
+      "zip": "98292",
+      "subtotal": "39.96",
+      "total_tax": "3.71",
+      "tax_lines": [
+        {
+          "title": "Snohomish County Tax",
+          "price": "0.66",
+          "rate": 0.014
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.05",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6926530511121,
+      "order_name": "#5782",
+      "processed_at": "2025-08-03T08:46:03-06:00",
+      "state": "WA",
+      "city": "Snohomish",
+      "zip": "98290",
+      "subtotal": "29.70",
+      "total_tax": "2.90",
+      "tax_lines": [
+        {
+          "title": "Snohomish County Tax",
+          "price": "0.52",
+          "rate": 0.014
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.38",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6924203065617,
+      "order_name": "#5761",
+      "processed_at": "2025-08-02T08:44:11-06:00",
+      "state": "UT",
+      "city": "Hyrum",
+      "zip": "84319",
+      "subtotal": "11.15",
+      "total_tax": "0.86",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.13",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.13",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.06",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.54",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6922389094673,
+      "order_name": "#5755",
+      "processed_at": "2025-08-01T22:07:45-06:00",
+      "state": "WA",
+      "city": "Washougal",
+      "zip": "98671",
+      "subtotal": "102.99",
+      "total_tax": "8.77",
+      "tax_lines": [
+        {
+          "title": "Washougal City Tax",
+          "price": "2.05",
+          "rate": 0.02
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.72",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6920105787665,
+      "order_name": "#5738",
+      "processed_at": "2025-08-01T09:28:01-06:00",
+      "state": "WA",
+      "city": "Concrete",
+      "zip": "98237",
+      "subtotal": "32.78",
+      "total_tax": "3.43",
+      "tax_lines": [
+        {
+          "title": "Skagit Ptba",
+          "price": "0.84",
+          "rate": 0.021
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.59",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6919861600529,
+      "order_name": "#5736",
+      "processed_at": "2025-08-01T08:21:09-06:00",
+      "state": "WA",
+      "city": "Spokane",
+      "zip": "99208",
+      "subtotal": "23.49",
+      "total_tax": "2.77",
+      "tax_lines": [
+        {
+          "title": "Spokane City Tax",
+          "price": "0.79",
+          "rate": 0.026
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.98",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6917652218129,
+      "order_name": "#5719",
+      "processed_at": "2025-07-31T09:07:41-06:00",
+      "state": "WA",
+      "city": "Kelso",
+      "zip": "98626",
+      "subtotal": "50.17",
+      "total_tax": "4.40",
+      "tax_lines": [
+        {
+          "title": "Cowlitz County Tax",
+          "price": "0.68",
+          "rate": 0.012
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.72",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6914833547537,
+      "order_name": "#5705",
+      "processed_at": "2025-07-29T23:59:33-06:00",
+      "state": "UT",
+      "city": "Salem",
+      "zip": "84653-9211",
+      "subtotal": "71.91",
+      "total_tax": "5.40",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.72",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.81",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.36",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.51",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6914754281745,
+      "order_name": "#5704",
+      "processed_at": "2025-07-29T23:21:32-06:00",
+      "state": "UT",
+      "city": "Salem",
+      "zip": "84653-9211",
+      "subtotal": "67.93",
+      "total_tax": "5.04",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.68",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.75",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.34",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.27",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6913860829457,
+      "order_name": "#5700",
+      "processed_at": "2025-07-29T14:17:44-06:00",
+      "state": "CO",
+      "city": "Centennial",
+      "zip": "80112",
+      "subtotal": "65.43",
+      "total_tax": "4.55",
+      "tax_lines": [
+        {
+          "title": "Colorado State Tax",
+          "price": "1.89",
+          "rate": 0.029
+        },
+        {
+          "title": "Centennial City Tax",
+          "price": "1.65",
+          "rate": 0.025
+        },
+        {
+          "title": "Scientific & Cultural Fac.(Cd)",
+          "price": "0.07",
+          "rate": 0.001
+        },
+        {
+          "title": "Rtd Greater Denver",
+          "price": "0.66",
+          "rate": 0.01
+        },
+        {
+          "title": "Colorado Retail Delivery Fee",
+          "price": "0.28",
+          "rate": 0.0
+        }
+      ]
+    },
+    {
+      "order_id": 6913247281425,
+      "order_name": "#5689",
+      "processed_at": "2025-07-29T08:29:47-06:00",
+      "state": "UT",
+      "city": "Enterprise",
+      "zip": "84725",
+      "subtotal": "42.27",
+      "total_tax": "3.16",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.42",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.47",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.22",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.05",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6912540213521,
+      "order_name": "#5677",
+      "processed_at": "2025-07-28T20:56:10-06:00",
+      "state": "UT",
+      "city": "Sandy",
+      "zip": "84093",
+      "subtotal": "26.98",
+      "total_tax": "2.00",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "1.30",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.70",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 6907753234705,
+      "order_name": "#5635",
+      "processed_at": "2025-07-26T10:27:06-06:00",
+      "state": "UT",
+      "city": "Salt Lake City",
+      "zip": "84108",
+      "subtotal": "48.96",
+      "total_tax": "3.63",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.27",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.36",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6906891600145,
+      "order_name": "#5629",
+      "processed_at": "2025-07-25T22:00:14-06:00",
+      "state": "UT",
+      "city": "West Haven",
+      "zip": "84401",
+      "subtotal": "61.96",
+      "total_tax": "4.60",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.60",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.68",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.32",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.00",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6906865811729,
+      "order_name": "#5627",
+      "processed_at": "2025-07-25T21:24:40-06:00",
+      "state": "UT",
+      "city": "Spanish Fork",
+      "zip": "84660",
+      "subtotal": "18.99",
+      "total_tax": "1.41",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.19",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.21",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.09",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.92",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6906857750801,
+      "order_name": "#5626",
+      "processed_at": "2025-07-25T21:12:52-06:00",
+      "state": "UT",
+      "city": "SPANISH FORK",
+      "zip": "84660-6238",
+      "subtotal": "43.18",
+      "total_tax": "3.24",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.43",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.48",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.23",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.10",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6906711245073,
+      "order_name": "#5621",
+      "processed_at": "2025-07-25T18:23:34-06:00",
+      "state": "UT",
+      "city": "Grantsville",
+      "zip": "84029",
+      "subtotal": "44.97",
+      "total_tax": "3.34",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.45",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.49",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.22",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.18",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6904769839377,
+      "order_name": "#5595",
+      "processed_at": "2025-07-24T15:38:37-06:00",
+      "state": "UT",
+      "city": "St. George",
+      "zip": "84790",
+      "subtotal": "17.10",
+      "total_tax": "1.28",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.17",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.19",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.09",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.83",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6904618549521,
+      "order_name": "#5593",
+      "processed_at": "2025-07-24T13:55:42-06:00",
+      "state": "WA",
+      "city": "Seattle",
+      "zip": "98126",
+      "subtotal": "93.43",
+      "total_tax": "9.71",
+      "tax_lines": [
+        {
+          "title": "Seattle City Tax",
+          "price": "3.62",
+          "rate": 0.0385
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.09",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6902997188881,
+      "order_name": "#5580",
+      "processed_at": "2025-07-23T15:21:05-06:00",
+      "state": "UT",
+      "city": "Orem",
+      "zip": "84057",
+      "subtotal": "44.98",
+      "total_tax": "3.34",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.45",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.49",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.22",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.18",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6901357379857,
+      "order_name": "#5565",
+      "processed_at": "2025-07-22T17:04:53-06:00",
+      "state": "WA",
+      "city": "Richland",
+      "zip": "99352",
+      "subtotal": "105.35",
+      "total_tax": "9.20",
+      "tax_lines": [
+        {
+          "title": "Richland City Tax",
+          "price": "2.35",
+          "rate": 0.022
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.85",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6900612071697,
+      "order_name": "#5557",
+      "processed_at": "2025-07-22T09:05:04-06:00",
+      "state": "TX",
+      "city": "Bedford",
+      "zip": "76021",
+      "subtotal": "44.14",
+      "total_tax": "4.21",
+      "tax_lines": [
+        {
+          "title": "TEXAS Sales and Use Tax",
+          "price": "3.19",
+          "rate": 0.0625
+        },
+        {
+          "title": "BEDFORD Local Sales and Use Tax",
+          "price": "1.02",
+          "rate": 0.02
+        }
+      ]
+    },
+    {
+      "order_id": 6899545276689,
+      "order_name": "#5545",
+      "processed_at": "2025-07-21T15:51:54-06:00",
+      "state": "UT",
+      "city": "Richfield",
+      "zip": "84701",
+      "subtotal": "7.99",
+      "total_tax": "0.60",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "0.39",
+          "rate": 0.0485
+        },
+        {
+          "title": "Utah County Tax",
+          "price": "0.08",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.09",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.04",
+          "rate": 0.005
+        }
+      ]
+    },
+    {
+      "order_id": 6899544424721,
+      "order_name": "#5544",
+      "processed_at": "2025-07-21T15:51:17-06:00",
+      "state": "UT",
+      "city": "Mapleton",
+      "zip": "84664",
+      "subtotal": "47.97",
+      "total_tax": "3.56",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "2.32",
+          "rate": 0.0485
+        },
+        {
+          "title": "Utah County Tax",
+          "price": "0.48",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.53",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.23",
+          "rate": 0.005
+        }
+      ]
+    },
+    {
+      "order_id": 6898078056721,
+      "order_name": "#5533",
+      "processed_at": "2025-07-20T20:07:49-06:00",
+      "state": "TX",
+      "city": "The Woodlands",
+      "zip": "77381",
+      "subtotal": "16.98",
+      "total_tax": "1.97",
+      "tax_lines": [
+        {
+          "title": "TEXAS Sales and Use Tax",
+          "price": "1.49",
+          "rate": 0.0625
+        },
+        {
+          "title": "THE WOODLANDS TOWNSHIP Local Sales and Use Tax",
+          "price": "0.24",
+          "rate": 0.01
+        },
+        {
+          "title": "THE WOODLANDS TOWNSHIP ECONOMICAL DEVELOPMENT ZONE Local Sales and Use Tax",
+          "price": "0.24",
+          "rate": 0.01
+        }
+      ]
+    },
+    {
+      "order_id": 6897761812753,
+      "order_name": "#5527",
+      "processed_at": "2025-07-20T14:52:29-06:00",
+      "state": "OH",
+      "city": "Vermilion",
+      "zip": "44089",
+      "subtotal": "21.92",
+      "total_tax": "1.88",
+      "tax_lines": [
+        {
+          "title": "OHIO Sales and Use Tax",
+          "price": "1.66",
+          "rate": 0.0575
+        },
+        {
+          "title": "LORAIN Local Sales and Use Tax",
+          "price": "0.22",
+          "rate": 0.0075
+        }
+      ]
+    },
+    {
+      "order_id": 6897448845585,
+      "order_name": "#5521",
+      "processed_at": "2025-07-20T11:43:17-06:00",
+      "state": "TX",
+      "city": "Kaufman",
+      "zip": "75142",
+      "subtotal": "13.16",
+      "total_tax": "1.66",
+      "tax_lines": [
+        {
+          "title": "TEXAS Sales and Use Tax",
+          "price": "1.26",
+          "rate": 0.0625
+        },
+        {
+          "title": "POST OAK BEND Local Sales and Use Tax",
+          "price": "0.40",
+          "rate": 0.02
+        }
+      ]
+    },
+    {
+      "order_id": 6895297102097,
+      "order_name": "#5500",
+      "processed_at": "2025-07-19T07:44:07-06:00",
+      "state": "WA",
+      "city": "Pasco",
+      "zip": "99301",
+      "subtotal": "101.47",
+      "total_tax": "9.00",
+      "tax_lines": [
+        {
+          "title": "Pasco City Tax",
+          "price": "2.41",
+          "rate": 0.024
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.59",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6894276804881,
+      "order_name": "#5487",
+      "processed_at": "2025-07-18T14:56:00-06:00",
+      "state": "CO",
+      "city": "Greeley",
+      "zip": "80631",
+      "subtotal": "81.11",
+      "total_tax": "2.35",
+      "tax_lines": [
+        {
+          "title": "COLORADO Sales and Use Tax",
+          "price": "2.35",
+          "rate": 0.029
+        }
+      ]
+    },
+    {
+      "order_id": 6894084096273,
+      "order_name": "#5484",
+      "processed_at": "2025-07-18T12:56:28-06:00",
+      "state": "UT",
+      "city": "Spanish Fork",
+      "zip": "84660",
+      "subtotal": "18.99",
+      "total_tax": "1.41",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.19",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.21",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.09",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.92",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6893966819601,
+      "order_name": "#5480",
+      "processed_at": "2025-07-18T11:44:00-06:00",
+      "state": "UT",
+      "city": "West Jordan",
+      "zip": "84088",
+      "subtotal": "17.09",
+      "total_tax": "1.27",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.44",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.83",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6892438225169,
+      "order_name": "#5454",
+      "processed_at": "2025-07-17T13:14:09-06:00",
+      "state": "UT",
+      "city": "Saratoga Springs",
+      "zip": "84045",
+      "subtotal": "46.29",
+      "total_tax": "3.45",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.46",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.51",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.23",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.25",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6891036901649,
+      "order_name": "#5443",
+      "processed_at": "2025-07-16T19:26:30-06:00",
+      "state": "UT",
+      "city": "Grantsville",
+      "zip": "84029",
+      "subtotal": "107.96",
+      "total_tax": "8.02",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "1.08",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "1.18",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.53",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "5.23",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6890867622161,
+      "order_name": "#5441",
+      "processed_at": "2025-07-16T16:35:53-06:00",
+      "state": "WA",
+      "city": "Sunnyside",
+      "zip": "98944",
+      "subtotal": "49.25",
+      "total_tax": "4.59",
+      "tax_lines": [
+        {
+          "title": "Sunnyside City Tax",
+          "price": "0.95",
+          "rate": 0.017
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.64",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6889872687377,
+      "order_name": "#5426",
+      "processed_at": "2025-07-16T06:41:32-06:00",
+      "state": "UT",
+      "city": "Lehi",
+      "zip": "84043-6534",
+      "subtotal": "102.43",
+      "total_tax": "7.62",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "1.02",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "1.13",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.50",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "4.97",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6888452849937,
+      "order_name": "#5411",
+      "processed_at": "2025-07-15T13:10:22-06:00",
+      "state": "WA",
+      "city": "Gig Harbor",
+      "zip": "98335",
+      "subtotal": "44.99",
+      "total_tax": "5.91",
+      "tax_lines": [
+        {
+          "title": "Gig Harbor City Tax",
+          "price": "1.69",
+          "rate": 0.026
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.22",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6886005932305,
+      "order_name": "#5382",
+      "processed_at": "2025-07-14T10:18:54-06:00",
+      "state": "WA",
+      "city": "Spokane Valley",
+      "zip": "99216",
+      "subtotal": "24.63",
+      "total_tax": "2.81",
+      "tax_lines": [
+        {
+          "title": "Spokane Valley City Tax",
+          "price": "0.76",
+          "rate": 0.024
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.05",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6885039341841,
+      "order_name": "#5377",
+      "processed_at": "2025-07-13T22:59:34-06:00",
+      "state": "UT",
+      "city": "South Jordan",
+      "zip": "84095",
+      "subtotal": "172.82",
+      "total_tax": "12.86",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "8.37",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "4.49",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 6884447748369,
+      "order_name": "#5372",
+      "processed_at": "2025-07-13T14:37:18-06:00",
+      "state": "UT",
+      "city": "Grantsville",
+      "zip": "84029",
+      "subtotal": "147.90",
+      "total_tax": "11.01",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "1.50",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "1.62",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.72",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "7.17",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6882608447761,
+      "order_name": "#5364",
+      "processed_at": "2025-07-12T16:40:34-06:00",
+      "state": "TX",
+      "city": "Groveton",
+      "zip": "75845",
+      "subtotal": "83.24",
+      "total_tax": "5.20",
+      "tax_lines": [
+        {
+          "title": "TEXAS Sales and Use Tax",
+          "price": "5.20",
+          "rate": 0.0625
+        }
+      ]
+    },
+    {
+      "order_id": 6879430279441,
+      "order_name": "#5351",
+      "processed_at": "2025-07-11T23:08:56-06:00",
+      "state": "UT",
+      "city": "St. George",
+      "zip": "84770",
+      "subtotal": "16.14",
+      "total_tax": "1.20",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.16",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.18",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.08",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.78",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6879327093009,
+      "order_name": "#5350",
+      "processed_at": "2025-07-11T22:28:14-06:00",
+      "state": "UT",
+      "city": "American Fork",
+      "zip": "84003",
+      "subtotal": "55.23",
+      "total_tax": "4.12",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.55",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.61",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.28",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.68",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6879262736657,
+      "order_name": "#5349",
+      "processed_at": "2025-07-11T22:03:21-06:00",
+      "state": "WA",
+      "city": "Vancouver",
+      "zip": "98664",
+      "subtotal": "22.49",
+      "total_tax": "2.59",
+      "tax_lines": [
+        {
+          "title": "WASHINGTON Retail Sales and Use Tax",
+          "price": "1.91",
+          "rate": 0.065
+        },
+        {
+          "title": "VANCOUVER Local Sales and Use Tax",
+          "price": "0.44",
+          "rate": 0.015
+        },
+        {
+          "title": "PUBLIC TRANSPORTATION BENEFIT AREA Local Sales and Use Tax",
+          "price": "0.21",
+          "rate": 0.007
+        },
+        {
+          "title": "VANCOUVER TRANSPORTATION BENEFIT DISTRICT Local Sales and Use Tax",
+          "price": "0.03",
+          "rate": 0.001
+        }
+      ]
+    },
+    {
+      "order_id": 6878805786897,
+      "order_name": "#5347",
+      "processed_at": "2025-07-11T19:10:14-06:00",
+      "state": "WA",
+      "city": "Mount Vernon",
+      "zip": "98274",
+      "subtotal": "33.12",
+      "total_tax": "3.29",
+      "tax_lines": [
+        {
+          "title": "WASHINGTON Retail Sales and Use Tax",
+          "price": "2.61",
+          "rate": 0.065
+        },
+        {
+          "title": "SKAGIT Local Sales and Use Tax",
+          "price": "0.68",
+          "rate": 0.017
+        }
+      ]
+    },
+    {
+      "order_id": 6873401360657,
+      "order_name": "#5327",
+      "processed_at": "2025-07-10T15:17:20-06:00",
+      "state": "WA",
+      "city": "Longview",
+      "zip": "98632",
+      "subtotal": "69.94",
+      "total_tax": "5.39",
+      "tax_lines": [
+        {
+          "title": "Cowlitz County Tax",
+          "price": "0.84",
+          "rate": 0.012
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.55",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6873228443921,
+      "order_name": "#5326",
+      "processed_at": "2025-07-10T14:36:31-06:00",
+      "state": "UT",
+      "city": "Lehi",
+      "zip": "84043-6534",
+      "subtotal": "113.94",
+      "total_tax": "8.47",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "1.12",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "1.26",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.57",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "5.52",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6872714150161,
+      "order_name": "#5323",
+      "processed_at": "2025-07-10T11:23:15-06:00",
+      "state": "UT",
+      "city": "Spanish Fork",
+      "zip": "84660",
+      "subtotal": "16.98",
+      "total_tax": "1.24",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.16",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.18",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.08",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.82",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6867358220561,
+      "order_name": "#5298",
+      "processed_at": "2025-07-08T23:40:58-06:00",
+      "state": "WA",
+      "city": "Cathlamet",
+      "zip": "98612",
+      "subtotal": "28.04",
+      "total_tax": "2.72",
+      "tax_lines": [
+        {
+          "title": "Wahkiakum County Tax",
+          "price": "0.45",
+          "rate": 0.013
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.27",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6863948120337,
+      "order_name": "#5289",
+      "processed_at": "2025-07-08T08:02:15-06:00",
+      "state": "UT",
+      "city": "Sandy",
+      "zip": "84093",
+      "subtotal": "87.45",
+      "total_tax": "6.51",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "4.24",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "2.27",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 6860662309137,
+      "order_name": "#5283",
+      "processed_at": "2025-07-07T17:12:58-06:00",
+      "state": "TX",
+      "city": "Round Rock",
+      "zip": "78681",
+      "subtotal": "70.91",
+      "total_tax": "5.85",
+      "tax_lines": [
+        {
+          "title": "Texas State Tax",
+          "price": "4.42",
+          "rate": 0.0625
+        },
+        {
+          "title": "Round Rock City Tax",
+          "price": "1.43",
+          "rate": 0.02
+        }
+      ]
+    },
+    {
+      "order_id": 6860641763601,
+      "order_name": "#5282",
+      "processed_at": "2025-07-07T17:07:51-06:00",
+      "state": "WA",
+      "city": "Spokane",
+      "zip": "99216",
+      "subtotal": "37.98",
+      "total_tax": "3.64",
+      "tax_lines": [
+        {
+          "title": "WASHINGTON Retail Sales and Use Tax",
+          "price": "2.92",
+          "rate": 0.065
+        },
+        {
+          "title": "SPOKANE Local Sales and Use Tax",
+          "price": "0.72",
+          "rate": 0.016
+        }
+      ]
+    },
+    {
+      "order_id": 6855864189201,
+      "order_name": "#5269",
+      "processed_at": "2025-07-06T13:17:58-06:00",
+      "state": "WA",
+      "city": "Vancouver",
+      "zip": "98682",
+      "subtotal": "22.49",
+      "total_tax": "2.59",
+      "tax_lines": [
+        {
+          "title": "Vancouver City Tax",
+          "price": "0.68",
+          "rate": 0.023
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.91",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6854353912081,
+      "order_name": "#5255",
+      "processed_at": "2025-07-05T14:53:57-06:00",
+      "state": "TX",
+      "city": "Clyde",
+      "zip": "79510",
+      "subtotal": "16.98",
+      "total_tax": "1.50",
+      "tax_lines": [
+        {
+          "title": "TEXAS Sales and Use Tax",
+          "price": "1.50",
+          "rate": 0.0625
+        }
+      ]
+    },
+    {
+      "order_id": 6853811175697,
+      "order_name": "#5247",
+      "processed_at": "2025-07-05T09:10:23-06:00",
+      "state": "WA",
+      "city": "Spokane Valley",
+      "zip": "99212-6014",
+      "subtotal": "59.94",
+      "total_tax": "5.96",
+      "tax_lines": [
+        {
+          "title": "Spokane Ptba",
+          "price": "1.61",
+          "rate": 0.024
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.35",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6852609278225,
+      "order_name": "#5235",
+      "processed_at": "2025-07-04T13:13:51-06:00",
+      "state": "WA",
+      "city": "Snohomish",
+      "zip": "98290",
+      "subtotal": "49.80",
+      "total_tax": "4.49",
+      "tax_lines": [
+        {
+          "title": "Snohomish County Tax",
+          "price": "0.80",
+          "rate": 0.014
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.69",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6852576674065,
+      "order_name": "#5234",
+      "processed_at": "2025-07-04T12:50:17-06:00",
+      "state": "WA",
+      "city": "Vancouver",
+      "zip": "98661",
+      "subtotal": "25.47",
+      "total_tax": "2.86",
+      "tax_lines": [
+        {
+          "title": "Vancouver City Tax",
+          "price": "0.76",
+          "rate": 0.023
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.10",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6852466311441,
+      "order_name": "#5229",
+      "processed_at": "2025-07-04T11:33:03-06:00",
+      "state": "WA",
+      "city": "SPOKANE",
+      "zip": "99208",
+      "subtotal": "24.90",
+      "total_tax": "2.90",
+      "tax_lines": [
+        {
+          "title": "Spokane City Tax",
+          "price": "0.83",
+          "rate": 0.026
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.07",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6852319838481,
+      "order_name": "#5220",
+      "processed_at": "2025-07-04T09:54:53-06:00",
+      "state": "UT",
+      "city": "Saratoga Springs",
+      "zip": "84043",
+      "subtotal": "124.84",
+      "total_tax": "9.32",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "1.25",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "1.38",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.62",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "6.07",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6852209541393,
+      "order_name": "#5215",
+      "processed_at": "2025-07-04T08:42:09-06:00",
+      "state": "WA",
+      "city": "Roy",
+      "zip": "98580",
+      "subtotal": "119.72",
+      "total_tax": "9.70",
+      "tax_lines": [
+        {
+          "title": "Pierce County Tax",
+          "price": "1.92",
+          "rate": 0.016
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "7.78",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6852112482577,
+      "order_name": "#5207",
+      "processed_at": "2025-07-04T07:27:20-06:00",
+      "state": "UT",
+      "city": "Logan",
+      "zip": "84321",
+      "subtotal": "89.95",
+      "total_tax": "6.70",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "4.36",
+          "rate": 0.0485
+        },
+        {
+          "title": "Utah County Tax",
+          "price": "0.90",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.99",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.45",
+          "rate": 0.005
+        }
+      ]
+    },
+    {
+      "order_id": 6849949401361,
+      "order_name": "#5184",
+      "processed_at": "2025-07-02T22:57:30-06:00",
+      "state": "WA",
+      "city": "Ephrata",
+      "zip": "98823",
+      "subtotal": "8.49",
+      "total_tax": "1.29",
+      "tax_lines": [
+        {
+          "title": "Ephrata City Tax",
+          "price": "0.29",
+          "rate": 0.019
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.00",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6849450410257,
+      "order_name": "#5181",
+      "processed_at": "2025-07-02T15:03:51-06:00",
+      "state": "WA",
+      "city": "Selah",
+      "zip": "98942",
+      "subtotal": "15.49",
+      "total_tax": "1.80",
+      "tax_lines": [
+        {
+          "title": "WASHINGTON Retail Sales and Use Tax",
+          "price": "1.46",
+          "rate": 0.065
+        },
+        {
+          "title": "YAKIMA Local Sales and Use Tax",
+          "price": "0.34",
+          "rate": 0.015
+        }
+      ]
+    },
+    {
+      "order_id": 6849300824337,
+      "order_name": "#5179",
+      "processed_at": "2025-07-02T13:32:42-06:00",
+      "state": "WA",
+      "city": "Burlington",
+      "zip": "98233",
+      "subtotal": "35.47",
+      "total_tax": "3.69",
+      "tax_lines": [
+        {
+          "title": "Burlington City Tax",
+          "price": "0.93",
+          "rate": 0.022
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.76",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6849292402961,
+      "order_name": "#5178",
+      "processed_at": "2025-07-02T13:27:21-06:00",
+      "state": "UT",
+      "city": "Vernal",
+      "zip": "84078",
+      "subtotal": "122.91",
+      "total_tax": "9.14",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "5.96",
+          "rate": 0.0485
+        },
+        {
+          "title": "Utah County Tax",
+          "price": "1.21",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "1.35",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.62",
+          "rate": 0.005
+        }
+      ]
+    },
+    {
+      "order_id": 6848580452625,
+      "order_name": "#5168",
+      "processed_at": "2025-07-02T07:02:11-06:00",
+      "state": "TX",
+      "city": "Lubbock",
+      "zip": "79416",
+      "subtotal": "72.95",
+      "total_tax": "6.02",
+      "tax_lines": [
+        {
+          "title": "TEXAS Sales and Use Tax",
+          "price": "4.56",
+          "rate": 0.0625
+        },
+        {
+          "title": "LUBBOCK Local Sales and Use Tax",
+          "price": "0.36",
+          "rate": 0.005
+        },
+        {
+          "title": "LUBBOCK Local Sales and Use Tax",
+          "price": "1.10",
+          "rate": 0.015
+        }
+      ]
+    },
+    {
+      "order_id": 6848294289681,
+      "order_name": "#5164",
+      "processed_at": "2025-07-02T03:19:29-06:00",
+      "state": "WA",
+      "city": "Selah",
+      "zip": "98942",
+      "subtotal": "13.16",
+      "total_tax": "1.61",
+      "tax_lines": [
+        {
+          "title": "WASHINGTON Retail Sales and Use Tax",
+          "price": "1.31",
+          "rate": 0.065
+        },
+        {
+          "title": "YAKIMA Local Sales and Use Tax",
+          "price": "0.30",
+          "rate": 0.015
+        }
+      ]
+    },
+    {
+      "order_id": 6847943049489,
+      "order_name": "#5162",
+      "processed_at": "2025-07-01T20:56:18-06:00",
+      "state": "UT",
+      "city": "Fairview",
+      "zip": "84629",
+      "subtotal": "2.99",
+      "total_tax": "0.22",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.03",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.03",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.01",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.15",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6847940264209,
+      "order_name": "#5161",
+      "processed_at": "2025-07-01T20:52:51-06:00",
+      "state": "UT",
+      "city": "Fairview",
+      "zip": "84629",
+      "subtotal": "114.89",
+      "total_tax": "8.58",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "1.15",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "1.28",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.56",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "5.59",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6847623463185,
+      "order_name": "#5153",
+      "processed_at": "2025-07-01T16:19:35-06:00",
+      "state": "UT",
+      "city": "Logan",
+      "zip": "84321",
+      "subtotal": "50.98",
+      "total_tax": "3.78",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "2.47",
+          "rate": 0.0485
+        },
+        {
+          "title": "Utah County Tax",
+          "price": "0.50",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.56",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.25",
+          "rate": 0.005
+        }
+      ]
+    },
+    {
+      "order_id": 6845972906257,
+      "order_name": "#5133",
+      "processed_at": "2025-06-30T22:27:10-06:00",
+      "state": "WA",
+      "city": "Yakima",
+      "zip": "98902",
+      "subtotal": "15.98",
+      "total_tax": "1.90",
+      "tax_lines": [
+        {
+          "title": "WASHINGTON Retail Sales and Use Tax",
+          "price": "1.49",
+          "rate": 0.065
+        },
+        {
+          "title": "YAKIMA Local Sales and Use Tax",
+          "price": "0.41",
+          "rate": 0.018
+        }
+      ]
+    },
+    {
+      "order_id": 6845949640977,
+      "order_name": "#5132",
+      "processed_at": "2025-06-30T22:16:43-06:00",
+      "state": "WA",
+      "city": "Yakima",
+      "zip": "98902",
+      "subtotal": "13.58",
+      "total_tax": "1.70",
+      "tax_lines": [
+        {
+          "title": "WASHINGTON Retail Sales and Use Tax",
+          "price": "1.33",
+          "rate": 0.065
+        },
+        {
+          "title": "YAKIMA Local Sales and Use Tax",
+          "price": "0.37",
+          "rate": 0.018
+        }
+      ]
+    }
+  ]
+}

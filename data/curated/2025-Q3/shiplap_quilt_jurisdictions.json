@@ -1,0 +1,7133 @@
+{
+  "store_id": "shiplap_quilt",
+  "period": "2025-Q3",
+  "extracted_at": "2026-02-04T17:24:19.603920",
+  "order_count": 305,
+  "orders": [
+    {
+      "order_id": 6468638277837,
+      "order_name": "#41036",
+      "processed_at": "2025-09-30T12:55:37-07:00",
+      "state": "WA",
+      "city": "Marysville",
+      "zip": "98270",
+      "subtotal": "99.95",
+      "total_tax": "9.40",
+      "tax_lines": [
+        {
+          "title": "Marysville City Tax",
+          "price": "2.90",
+          "rate": 0.029
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.50",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6468624744653,
+      "order_name": "#41033",
+      "processed_at": "2025-09-30T12:30:02-07:00",
+      "state": "UT",
+      "city": "Lehi",
+      "zip": "84043",
+      "subtotal": "53.33",
+      "total_tax": "3.97",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.53",
+          "rate": 0.01
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.58",
+          "rate": 0.0485
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.60",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.26",
+          "rate": 0.005
+        }
+      ]
+    },
+    {
+      "order_id": 6468602036429,
+      "order_name": "#41030",
+      "processed_at": "2025-09-30T11:51:24-07:00",
+      "state": "OH",
+      "city": "Westerville",
+      "zip": "43081",
+      "subtotal": "99.95",
+      "total_tax": "8.00",
+      "tax_lines": [
+        {
+          "title": "Ohio State Tax",
+          "price": "5.75",
+          "rate": 0.0575
+        },
+        {
+          "title": "Franklin County Tax",
+          "price": "1.25",
+          "rate": 0.0125
+        },
+        {
+          "title": "Central Ohio Transit Authority Tax",
+          "price": "1.00",
+          "rate": 0.01
+        }
+      ]
+    },
+    {
+      "order_id": 6467946086605,
+      "order_name": "#41019",
+      "processed_at": "2025-09-29T18:23:29-07:00",
+      "state": "WA",
+      "city": "Auburn",
+      "zip": "98092",
+      "subtotal": "44.61",
+      "total_tax": "5.72",
+      "tax_lines": [
+        {
+          "title": "Auburn/King Special Tax Dist",
+          "price": "2.11",
+          "rate": 0.038
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.61",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6467906175181,
+      "order_name": "#41017",
+      "processed_at": "2025-09-29T16:07:18-07:00",
+      "state": "WA",
+      "city": "Shoreline",
+      "zip": "98177-2359",
+      "subtotal": "111.76",
+      "total_tax": "11.64",
+      "tax_lines": [
+        {
+          "title": "Shoreline City Tax",
+          "price": "4.36",
+          "rate": 0.039
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "7.28",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6467900899533,
+      "order_name": "#41016",
+      "processed_at": "2025-09-29T15:50:34-07:00",
+      "state": "WA",
+      "city": "Yelm",
+      "zip": "98597",
+      "subtotal": "39.95",
+      "total_tax": "4.46",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "3.05",
+          "rate": 0.065
+        },
+        {
+          "title": "Yelm City Tax",
+          "price": "1.41",
+          "rate": 0.03
+        }
+      ]
+    },
+    {
+      "order_id": 6467862790349,
+      "order_name": "#41011",
+      "processed_at": "2025-09-29T13:47:16-07:00",
+      "state": "WA",
+      "city": "Kapowsin",
+      "zip": "98344",
+      "subtotal": "79.80",
+      "total_tax": "6.50",
+      "tax_lines": [
+        {
+          "title": "Pierce County Tax",
+          "price": "1.30",
+          "rate": 0.016
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "5.20",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6467730309325,
+      "order_name": "#40992",
+      "processed_at": "2025-09-29T07:55:31-07:00",
+      "state": "WA",
+      "city": "PORT ORCHARD",
+      "zip": "98366",
+      "subtotal": "11.95",
+      "total_tax": "1.75",
+      "tax_lines": [
+        {
+          "title": "Port Orchard City Tax",
+          "price": "0.52",
+          "rate": 0.028
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.23",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6467556016333,
+      "order_name": "#40982",
+      "processed_at": "2025-09-28T19:53:50-07:00",
+      "state": "UT",
+      "city": "Sandy",
+      "zip": "84094",
+      "subtotal": "68.14",
+      "total_tax": "5.08",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.77",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.31",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6467361931469,
+      "order_name": "#40969",
+      "processed_at": "2025-09-28T10:06:18-07:00",
+      "state": "WA",
+      "city": "Vancouver",
+      "zip": "98683-4310",
+      "subtotal": "124.25",
+      "total_tax": "10.95",
+      "tax_lines": [
+        {
+          "title": "Vancouver City Tax",
+          "price": "2.86",
+          "rate": 0.023
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "8.09",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6466808152269,
+      "order_name": "#40950",
+      "processed_at": "2025-09-27T14:33:44-07:00",
+      "state": "WA",
+      "city": "Spokane Valley",
+      "zip": "99206",
+      "subtotal": "10.76",
+      "total_tax": "1.58",
+      "tax_lines": [
+        {
+          "title": "Spokane Valley City Tax",
+          "price": "0.43",
+          "rate": 0.024
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.15",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6466806448333,
+      "order_name": "#40949",
+      "processed_at": "2025-09-27T14:27:36-07:00",
+      "state": "WA",
+      "city": "Snohomish",
+      "zip": "98290",
+      "subtotal": "89.96",
+      "total_tax": "8.19",
+      "tax_lines": [
+        {
+          "title": "Snohomish Ptba Non Rta",
+          "price": "2.34",
+          "rate": 0.026
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "5.85",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6466772500685,
+      "order_name": "#40933",
+      "processed_at": "2025-09-27T12:56:08-07:00",
+      "state": "OH",
+      "city": "Beavercreek",
+      "zip": "45431",
+      "subtotal": "199.44",
+      "total_tax": "13.47",
+      "tax_lines": [
+        {
+          "title": "Greene County Tax",
+          "price": "2.00",
+          "rate": 0.01
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "11.47",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6466618261709,
+      "order_name": "#40915",
+      "processed_at": "2025-09-27T07:35:41-07:00",
+      "state": "OH",
+      "city": "Westerville",
+      "zip": "43082",
+      "subtotal": "15.99",
+      "total_tax": "1.40",
+      "tax_lines": [
+        {
+          "title": "Ohio State Tax",
+          "price": "1.15",
+          "rate": 0.0575
+        },
+        {
+          "title": "Delaware County Tax",
+          "price": "0.25",
+          "rate": 0.0125
+        }
+      ]
+    },
+    {
+      "order_id": 6466497085645,
+      "order_name": "#40913",
+      "processed_at": "2025-09-26T23:53:58-07:00",
+      "state": "WA",
+      "city": "Port Orchard",
+      "zip": "98367",
+      "subtotal": "52.45",
+      "total_tax": "5.47",
+      "tax_lines": [
+        {
+          "title": "Kitsap County Tax",
+          "price": "1.61",
+          "rate": 0.027
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.86",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6466357657805,
+      "order_name": "#40903",
+      "processed_at": "2025-09-26T16:30:09-07:00",
+      "state": "WA",
+      "city": "Spokane",
+      "zip": "99223",
+      "subtotal": "44.95",
+      "total_tax": "4.62",
+      "tax_lines": [
+        {
+          "title": "Spokane Ptba",
+          "price": "1.25",
+          "rate": 0.024
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.37",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6466209611981,
+      "order_name": "#40875",
+      "processed_at": "2025-09-26T11:46:55-07:00",
+      "state": "WA",
+      "city": "Castle Rock",
+      "zip": "98611",
+      "subtotal": "41.95",
+      "total_tax": "3.76",
+      "tax_lines": [
+        {
+          "title": "Cowlitz County Tax",
+          "price": "0.58",
+          "rate": 0.012
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.18",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6465775960269,
+      "order_name": "#40863",
+      "processed_at": "2025-09-26T08:29:52-07:00",
+      "state": "WA",
+      "city": "Fircrest",
+      "zip": "98466",
+      "subtotal": "44.95",
+      "total_tax": "5.24",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "3.37",
+          "rate": 0.065
+        },
+        {
+          "title": "Fircrest City Tax",
+          "price": "1.87",
+          "rate": 0.036
+        }
+      ]
+    },
+    {
+      "order_id": 6465747583181,
+      "order_name": "#40859",
+      "processed_at": "2025-09-26T07:26:09-07:00",
+      "state": "OH",
+      "city": "Cincinnati",
+      "zip": "45215",
+      "subtotal": "47.80",
+      "total_tax": "4.26",
+      "tax_lines": [
+        {
+          "title": "Hamilton County Tax",
+          "price": "1.10",
+          "rate": 0.0205
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "3.16",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6465590460621,
+      "order_name": "#40848",
+      "processed_at": "2025-09-25T21:40:15-07:00",
+      "state": "WA",
+      "city": "Port Orchard",
+      "zip": "98367",
+      "subtotal": "59.88",
+      "total_tax": "6.16",
+      "tax_lines": [
+        {
+          "title": "Kitsap County Tax",
+          "price": "1.81",
+          "rate": 0.027
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.35",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6465505853645,
+      "order_name": "#40843",
+      "processed_at": "2025-09-25T17:33:02-07:00",
+      "state": "WA",
+      "city": "Poulsbo",
+      "zip": "98370",
+      "subtotal": "63.84",
+      "total_tax": "6.55",
+      "tax_lines": [
+        {
+          "title": "Kitsap County Tax",
+          "price": "1.94",
+          "rate": 0.027
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.61",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6465497006285,
+      "order_name": "#40842",
+      "processed_at": "2025-09-25T17:06:48-07:00",
+      "state": "UT",
+      "city": "American Fork",
+      "zip": "84003",
+      "subtotal": "113.70",
+      "total_tax": "8.47",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "1.14",
+          "rate": 0.01
+        },
+        {
+          "title": "American Fork City Tax",
+          "price": "1.25",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.57",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "5.51",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6464623739085,
+      "order_name": "#40797",
+      "processed_at": "2025-09-24T10:17:31-07:00",
+      "state": "WA",
+      "city": "Walla Walla",
+      "zip": "99362",
+      "subtotal": "16.00",
+      "total_tax": "1.99",
+      "tax_lines": [
+        {
+          "title": "Walla Walla Ptba",
+          "price": "0.50",
+          "rate": 0.022
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.49",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6463944949965,
+      "order_name": "#40765",
+      "processed_at": "2025-09-23T08:47:36-07:00",
+      "state": "OH",
+      "city": "Lucasville",
+      "zip": "45648",
+      "subtotal": "79.80",
+      "total_tax": "5.80",
+      "tax_lines": [
+        {
+          "title": "Scioto County Tax",
+          "price": "1.20",
+          "rate": 0.015
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "4.60",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6463734251725,
+      "order_name": "#40758",
+      "processed_at": "2025-09-22T19:25:05-07:00",
+      "state": "UT",
+      "city": "Minersville",
+      "zip": "84752",
+      "subtotal": "124.00",
+      "total_tax": "7.88",
+      "tax_lines": [
+        {
+          "title": "Beaver County Tax",
+          "price": "1.86",
+          "rate": 0.015
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "6.02",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6463656427725,
+      "order_name": "#40745",
+      "processed_at": "2025-09-22T15:16:18-07:00",
+      "state": "WA",
+      "city": "Puyallup",
+      "zip": "98375",
+      "subtotal": "71.70",
+      "total_tax": "7.23",
+      "tax_lines": [
+        {
+          "title": "Pierce Ptba",
+          "price": "2.58",
+          "rate": 0.036
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.65",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6463280775373,
+      "order_name": "#40695",
+      "processed_at": "2025-09-21T20:26:03-07:00",
+      "state": "WA",
+      "city": "Renton",
+      "zip": "98058",
+      "subtotal": "72.87",
+      "total_tax": "7.44",
+      "tax_lines": [
+        {
+          "title": "King Co Tr",
+          "price": "2.70",
+          "rate": 0.037
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.74",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6463198953677,
+      "order_name": "#40690",
+      "processed_at": "2025-09-21T15:38:04-07:00",
+      "state": "WA",
+      "city": "Puyallup",
+      "zip": "98373",
+      "subtotal": "51.17",
+      "total_tax": "5.87",
+      "tax_lines": [
+        {
+          "title": "Pierce Ptba",
+          "price": "2.09",
+          "rate": 0.036
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.78",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6462840635597,
+      "order_name": "#40669",
+      "processed_at": "2025-09-20T18:47:18-07:00",
+      "state": "WA",
+      "city": "Kirkland",
+      "zip": "98034",
+      "subtotal": "163.79",
+      "total_tax": "16.88",
+      "tax_lines": [
+        {
+          "title": "Kirkland City Tax",
+          "price": "6.22",
+          "rate": 0.038
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "10.66",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6462716117197,
+      "order_name": "#40651",
+      "processed_at": "2025-09-20T13:10:25-07:00",
+      "state": "WA",
+      "city": "Winlock",
+      "zip": "98596",
+      "subtotal": "56.85",
+      "total_tax": "5.10",
+      "tax_lines": [
+        {
+          "title": "Winlock City Tax",
+          "price": "0.95",
+          "rate": 0.015
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.15",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6462517346509,
+      "order_name": "#40642",
+      "processed_at": "2025-09-20T07:46:07-07:00",
+      "state": "UT",
+      "city": "Vernal",
+      "zip": "84078",
+      "subtotal": "47.70",
+      "total_tax": "3.07",
+      "tax_lines": [
+        {
+          "title": "Uintah County Tax",
+          "price": "0.76",
+          "rate": 0.016
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.31",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6462221779149,
+      "order_name": "#40627",
+      "processed_at": "2025-09-19T14:35:04-07:00",
+      "state": "WA",
+      "city": "Lacey",
+      "zip": "98516",
+      "subtotal": "71.70",
+      "total_tax": "6.96",
+      "tax_lines": [
+        {
+          "title": "Lacey City Tax",
+          "price": "2.30",
+          "rate": 0.032
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.66",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6462219518157,
+      "order_name": "#40626",
+      "processed_at": "2025-09-19T14:28:51-07:00",
+      "state": "WA",
+      "city": "LA CENTER",
+      "zip": "98629",
+      "subtotal": "74.31",
+      "total_tax": "5.80",
+      "tax_lines": [
+        {
+          "title": "Clark County Tax",
+          "price": "0.97",
+          "rate": 0.013
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.83",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6461878730957,
+      "order_name": "#40582",
+      "processed_at": "2025-09-19T09:09:50-07:00",
+      "state": "WA",
+      "city": "Maple Valley",
+      "zip": "98038",
+      "subtotal": "249.83",
+      "total_tax": "21.95",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "16.23",
+          "rate": 0.065
+        },
+        {
+          "title": "King County Tax",
+          "price": "5.72",
+          "rate": 0.023
+        }
+      ]
+    },
+    {
+      "order_id": 6461696966861,
+      "order_name": "#40564",
+      "processed_at": "2025-09-19T05:02:37-07:00",
+      "state": "OH",
+      "city": "Canal Winchester",
+      "zip": "43110",
+      "subtotal": "23.94",
+      "total_tax": "2.36",
+      "tax_lines": [
+        {
+          "title": "Fairfield County Tax",
+          "price": "0.35",
+          "rate": 0.01
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "2.01",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6461532045517,
+      "order_name": "#40561",
+      "processed_at": "2025-09-18T18:52:51-07:00",
+      "state": "UT",
+      "city": "Nibley",
+      "zip": "84321",
+      "subtotal": "31.80",
+      "total_tax": "2.32",
+      "tax_lines": [
+        {
+          "title": "Cache County Tax",
+          "price": "0.68",
+          "rate": 0.0215
+        },
+        {
+          "title": "Nibley City Tax",
+          "price": "0.10",
+          "rate": 0.003
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.54",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6461109698765,
+      "order_name": "#40532",
+      "processed_at": "2025-09-17T21:24:19-07:00",
+      "state": "UT",
+      "city": "Paradise",
+      "zip": "84328",
+      "subtotal": "129.95",
+      "total_tax": "9.09",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "6.30",
+          "rate": 0.0485
+        },
+        {
+          "title": "Cache County Tax",
+          "price": "2.79",
+          "rate": 0.0215
+        }
+      ]
+    },
+    {
+      "order_id": 6461082665165,
+      "order_name": "#40529",
+      "processed_at": "2025-09-17T19:48:59-07:00",
+      "state": "UT",
+      "city": "Hurricane",
+      "zip": "84737",
+      "subtotal": "48.75",
+      "total_tax": "3.29",
+      "tax_lines": [
+        {
+          "title": "Washington County Tax",
+          "price": "0.17",
+          "rate": 0.0035
+        },
+        {
+          "title": "Hurricane City Tax",
+          "price": "0.49",
+          "rate": 0.01
+        },
+        {
+          "title": "Hurricane Tr",
+          "price": "0.27",
+          "rate": 0.0055
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.36",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6461050421453,
+      "order_name": "#40527",
+      "processed_at": "2025-09-17T17:54:19-07:00",
+      "state": "OH",
+      "city": "Westlake",
+      "zip": "44145",
+      "subtotal": "99.95",
+      "total_tax": "8.00",
+      "tax_lines": [
+        {
+          "title": "Cuyahoga County Tax",
+          "price": "2.25",
+          "rate": 0.0225
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "5.75",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6461047505101,
+      "order_name": "#40526",
+      "processed_at": "2025-09-17T17:45:46-07:00",
+      "state": "WA",
+      "city": "Port Ludlow",
+      "zip": "98365",
+      "subtotal": "129.95",
+      "total_tax": "11.96",
+      "tax_lines": [
+        {
+          "title": "Jefferson County Tax",
+          "price": "3.51",
+          "rate": 0.027
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "8.45",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6461002744013,
+      "order_name": "#40520",
+      "processed_at": "2025-09-17T15:12:17-07:00",
+      "state": "WA",
+      "city": "Nine Mile Falls",
+      "zip": "99026",
+      "subtotal": "108.70",
+      "total_tax": "9.67",
+      "tax_lines": [
+        {
+          "title": "Spokane Ptba",
+          "price": "2.61",
+          "rate": 0.024
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "7.06",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6460823109837,
+      "order_name": "#40495",
+      "processed_at": "2025-09-17T07:33:51-07:00",
+      "state": "WA",
+      "city": "Kalama",
+      "zip": "98625",
+      "subtotal": "27.00",
+      "total_tax": "2.61",
+      "tax_lines": [
+        {
+          "title": "Cowlitz County Tax",
+          "price": "0.40",
+          "rate": 0.012
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.21",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6460526788813,
+      "order_name": "#40474",
+      "processed_at": "2025-09-16T12:18:02-07:00",
+      "state": "WA",
+      "city": "Battle Ground",
+      "zip": "98604",
+      "subtotal": "39.75",
+      "total_tax": "4.01",
+      "tax_lines": [
+        {
+          "title": "Battle Ground City Tax",
+          "price": "0.98",
+          "rate": 0.021
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.03",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6459642740941,
+      "order_name": "#40458",
+      "processed_at": "2025-09-15T16:45:53-07:00",
+      "state": "WA",
+      "city": "Granite Falls",
+      "zip": "98252",
+      "subtotal": "48.95",
+      "total_tax": "5.08",
+      "tax_lines": [
+        {
+          "title": "Granite Falls City Tax",
+          "price": "1.45",
+          "rate": 0.026
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.63",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6459642347725,
+      "order_name": "#40457",
+      "processed_at": "2025-09-15T16:44:42-07:00",
+      "state": "WA",
+      "city": "Granite Falls",
+      "zip": "98252",
+      "subtotal": "25.90",
+      "total_tax": "2.98",
+      "tax_lines": [
+        {
+          "title": "Granite Falls City Tax",
+          "price": "0.85",
+          "rate": 0.026
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.13",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6459641954509,
+      "order_name": "#40456",
+      "processed_at": "2025-09-15T16:43:42-07:00",
+      "state": "WA",
+      "city": "Granite Falls",
+      "zip": "98252",
+      "subtotal": "25.90",
+      "total_tax": "2.98",
+      "tax_lines": [
+        {
+          "title": "Granite Falls City Tax",
+          "price": "0.85",
+          "rate": 0.026
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.13",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6459501543629,
+      "order_name": "#40440",
+      "processed_at": "2025-09-15T10:19:12-07:00",
+      "state": "UT",
+      "city": "Highland",
+      "zip": "84003",
+      "subtotal": "71.82",
+      "total_tax": "5.36",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.72",
+          "rate": 0.01
+        },
+        {
+          "title": "Highland City Tax",
+          "price": "0.79",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.36",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.49",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6459479851213,
+      "order_name": "#40437",
+      "processed_at": "2025-09-15T09:28:07-07:00",
+      "state": "WA",
+      "city": "Redmond",
+      "zip": "98052",
+      "subtotal": "39.95",
+      "total_tax": "4.83",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "3.05",
+          "rate": 0.065
+        },
+        {
+          "title": "Redmond City Tax",
+          "price": "1.78",
+          "rate": 0.038
+        }
+      ]
+    },
+    {
+      "order_id": 6459478835405,
+      "order_name": "#40429",
+      "processed_at": "2025-09-15T09:26:35-07:00",
+      "state": "WA",
+      "city": "Puyallup",
+      "zip": "98375",
+      "subtotal": "39.95",
+      "total_tax": "4.46",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "3.05",
+          "rate": 0.065
+        },
+        {
+          "title": "Pierce Co Tr",
+          "price": "1.41",
+          "rate": 0.03
+        }
+      ]
+    },
+    {
+      "order_id": 6459202666701,
+      "order_name": "#40412",
+      "processed_at": "2025-09-14T21:47:45-07:00",
+      "state": "WA",
+      "city": "Everett",
+      "zip": "98203",
+      "subtotal": "190.53",
+      "total_tax": "18.88",
+      "tax_lines": [
+        {
+          "title": "Everett City Tax",
+          "price": "6.48",
+          "rate": 0.034
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "12.40",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6459117535437,
+      "order_name": "#40408",
+      "processed_at": "2025-09-14T16:27:37-07:00",
+      "state": "OH",
+      "city": "Vandalia",
+      "zip": "45377-3017",
+      "subtotal": "15.99",
+      "total_tax": "1.50",
+      "tax_lines": [
+        {
+          "title": "Montgomery County Tax",
+          "price": "0.35",
+          "rate": 0.0175
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "1.15",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6458622542029,
+      "order_name": "#40391",
+      "processed_at": "2025-09-13T15:56:53-07:00",
+      "state": "WA",
+      "city": "Vancouver",
+      "zip": "98682",
+      "subtotal": "49.90",
+      "total_tax": "4.83",
+      "tax_lines": [
+        {
+          "title": "Clark Ptba",
+          "price": "1.14",
+          "rate": 0.02
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.69",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6458465059021,
+      "order_name": "#40365",
+      "processed_at": "2025-09-13T09:41:38-07:00",
+      "state": "UT",
+      "city": "Eagle Mountain",
+      "zip": "84005",
+      "subtotal": "84.45",
+      "total_tax": "6.21",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "1.69",
+          "rate": 0.02
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.42",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "4.10",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6458384875725,
+      "order_name": "#40362",
+      "processed_at": "2025-09-13T06:51:56-07:00",
+      "state": "OH",
+      "city": "Newcomerstown",
+      "zip": "43832",
+      "subtotal": "89.96",
+      "total_tax": "6.07",
+      "tax_lines": [
+        {
+          "title": "Tuscarawas County Tax",
+          "price": "0.90",
+          "rate": 0.01
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "5.17",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6458347946189,
+      "order_name": "#40359",
+      "processed_at": "2025-09-13T04:49:24-07:00",
+      "state": "WA",
+      "city": "Battle Ground",
+      "zip": "98604",
+      "subtotal": "139.82",
+      "total_tax": "12.05",
+      "tax_lines": [
+        {
+          "title": "Battle Ground City Tax",
+          "price": "2.95",
+          "rate": 0.021
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "9.10",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6458102382797,
+      "order_name": "#40339",
+      "processed_at": "2025-09-12T13:54:55-07:00",
+      "state": "WA",
+      "city": "Richland",
+      "zip": "99352",
+      "subtotal": "55.74",
+      "total_tax": "5.79",
+      "tax_lines": [
+        {
+          "title": "Richland City Tax",
+          "price": "1.44",
+          "rate": 0.022
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.35",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6457976979661,
+      "order_name": "#40321",
+      "processed_at": "2025-09-12T09:03:26-07:00",
+      "state": "WA",
+      "city": "Maple Valley",
+      "zip": "98038",
+      "subtotal": "69.84",
+      "total_tax": "6.51",
+      "tax_lines": [
+        {
+          "title": "King County Tax",
+          "price": "1.71",
+          "rate": 0.023
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.80",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6457921142989,
+      "order_name": "#40315",
+      "processed_at": "2025-09-12T06:46:12-07:00",
+      "state": "OH",
+      "city": "Uniontown",
+      "zip": "44685",
+      "subtotal": "39.92",
+      "total_tax": "3.17",
+      "tax_lines": [
+        {
+          "title": "Summit County Tax",
+          "price": "0.47",
+          "rate": 0.01
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "2.70",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6457793675469,
+      "order_name": "#40299",
+      "processed_at": "2025-09-11T21:54:32-07:00",
+      "state": "OH",
+      "city": "Springfield",
+      "zip": "45503",
+      "subtotal": "95.21",
+      "total_tax": "6.89",
+      "tax_lines": [
+        {
+          "title": "Clark County Tax",
+          "price": "1.42",
+          "rate": 0.015
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "5.47",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6457766576333,
+      "order_name": "#40298",
+      "processed_at": "2025-09-11T20:07:51-07:00",
+      "state": "OH",
+      "city": "Dayton",
+      "zip": "45459",
+      "subtotal": "47.82",
+      "total_tax": "4.11",
+      "tax_lines": [
+        {
+          "title": "Montgomery County Tax",
+          "price": "0.96",
+          "rate": 0.0175
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "3.15",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6457685835981,
+      "order_name": "#40295",
+      "processed_at": "2025-09-11T15:25:47-07:00",
+      "state": "WA",
+      "city": "Sammamish",
+      "zip": "98074",
+      "subtotal": "43.10",
+      "total_tax": "5.15",
+      "tax_lines": [
+        {
+          "title": "Sammamish City Tax",
+          "price": "1.88",
+          "rate": 0.037
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.27",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6457559056589,
+      "order_name": "#40290",
+      "processed_at": "2025-09-11T09:45:26-07:00",
+      "state": "WA",
+      "city": "Tacoma",
+      "zip": "98404",
+      "subtotal": "66.18",
+      "total_tax": "6.82",
+      "tax_lines": [
+        {
+          "title": "Tacoma City Tax",
+          "price": "2.52",
+          "rate": 0.038
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.30",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6457304318157,
+      "order_name": "#40282",
+      "processed_at": "2025-09-10T18:28:22-07:00",
+      "state": "WA",
+      "city": "WOODINVILLE",
+      "zip": "98072",
+      "subtotal": "103.79",
+      "total_tax": "9.13",
+      "tax_lines": [
+        {
+          "title": "King County Tax",
+          "price": "2.37",
+          "rate": 0.023
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.76",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6457296060621,
+      "order_name": "#40280",
+      "processed_at": "2025-09-10T18:02:31-07:00",
+      "state": "OH",
+      "city": "Hilliard",
+      "zip": "43026",
+      "subtotal": "65.95",
+      "total_tax": "5.27",
+      "tax_lines": [
+        {
+          "title": "Franklin County Tax",
+          "price": "0.82",
+          "rate": 0.0125
+        },
+        {
+          "title": "Central Ohio Transit Authority Tax",
+          "price": "0.66",
+          "rate": 0.01
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "3.79",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6457126682829,
+      "order_name": "#40257",
+      "processed_at": "2025-09-10T10:21:29-07:00",
+      "state": "WA",
+      "city": "Buckley",
+      "zip": "98321",
+      "subtotal": "23.90",
+      "total_tax": "2.53",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "2.00",
+          "rate": 0.065
+        },
+        {
+          "title": "Buckley City Tax",
+          "price": "0.53",
+          "rate": 0.017
+        }
+      ]
+    },
+    {
+      "order_id": 6457071796429,
+      "order_name": "#40252",
+      "processed_at": "2025-09-10T08:11:14-07:00",
+      "state": "WA",
+      "city": "Maple Valley",
+      "zip": "98038",
+      "subtotal": "174.83",
+      "total_tax": "15.44",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "11.38",
+          "rate": 0.065
+        },
+        {
+          "title": "King County Tax",
+          "price": "4.06",
+          "rate": 0.023
+        }
+      ]
+    },
+    {
+      "order_id": 6456846188749,
+      "order_name": "#40242",
+      "processed_at": "2025-09-10T06:00:28-07:00",
+      "state": "OH",
+      "city": "New Albany",
+      "zip": "43054",
+      "subtotal": "65.95",
+      "total_tax": "5.27",
+      "tax_lines": [
+        {
+          "title": "Franklin County Tax",
+          "price": "0.82",
+          "rate": 0.0125
+        },
+        {
+          "title": "Central Ohio Transit Authority Tax",
+          "price": "0.66",
+          "rate": 0.01
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "3.79",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6455802364109,
+      "order_name": "#40215",
+      "processed_at": "2025-09-09T05:19:08-07:00",
+      "state": "OH",
+      "city": "Columbia Station",
+      "zip": "44028",
+      "subtotal": "39.75",
+      "total_tax": "3.04",
+      "tax_lines": [
+        {
+          "title": "Lorain County Tax",
+          "price": "0.35",
+          "rate": 0.0075
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "2.69",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6455678271693,
+      "order_name": "#40210",
+      "processed_at": "2025-09-08T21:06:41-07:00",
+      "state": "UT",
+      "city": "Roosevelt",
+      "zip": "84066",
+      "subtotal": "59.88",
+      "total_tax": "3.80",
+      "tax_lines": [
+        {
+          "title": "Duchesne County Tax",
+          "price": "0.90",
+          "rate": 0.015
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.90",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6455676895437,
+      "order_name": "#40208",
+      "processed_at": "2025-09-08T21:02:25-07:00",
+      "state": "WA",
+      "city": "Everett",
+      "zip": "98201",
+      "subtotal": "89.96",
+      "total_tax": "8.91",
+      "tax_lines": [
+        {
+          "title": "Everett City Tax",
+          "price": "3.06",
+          "rate": 0.034
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "5.85",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6454234480845,
+      "order_name": "#40135",
+      "processed_at": "2025-09-06T11:31:01-07:00",
+      "state": "WA",
+      "city": "OCEAN SHORES",
+      "zip": "98569",
+      "subtotal": "15.99",
+      "total_tax": "1.82",
+      "tax_lines": [
+        {
+          "title": "Ocean Shores City Tax",
+          "price": "0.52",
+          "rate": 0.026
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.30",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6454193914061,
+      "order_name": "#40129",
+      "processed_at": "2025-09-06T10:12:36-07:00",
+      "state": "WA",
+      "city": "ENUMCLAW",
+      "zip": "98022-2101",
+      "subtotal": "11.95",
+      "total_tax": "1.69",
+      "tax_lines": [
+        {
+          "title": "Enumclaw City Tax",
+          "price": "0.46",
+          "rate": 0.024
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.23",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6453972009165,
+      "order_name": "#40122",
+      "processed_at": "2025-09-05T21:57:19-07:00",
+      "state": "WA",
+      "city": "Gig Harbor",
+      "zip": "98332",
+      "subtotal": "54.95",
+      "total_tax": "5.01",
+      "tax_lines": [
+        {
+          "title": "Pierce County Tax",
+          "price": "0.99",
+          "rate": 0.016
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.02",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6453739651277,
+      "order_name": "#40092",
+      "processed_at": "2025-09-05T10:59:35-07:00",
+      "state": "UT",
+      "city": "St George",
+      "zip": "84770",
+      "subtotal": "8.50",
+      "total_tax": "0.58",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "0.41",
+          "rate": 0.0485
+        },
+        {
+          "title": "Washington County Tax",
+          "price": "0.03",
+          "rate": 0.0035
+        },
+        {
+          "title": "St. George City Tax",
+          "price": "0.09",
+          "rate": 0.01
+        },
+        {
+          "title": "Saint George Tr",
+          "price": "0.05",
+          "rate": 0.0055
+        }
+      ]
+    },
+    {
+      "order_id": 6453689843917,
+      "order_name": "#40081",
+      "processed_at": "2025-09-05T09:16:46-07:00",
+      "state": "WA",
+      "city": "Yelm",
+      "zip": "98597",
+      "subtotal": "79.95",
+      "total_tax": "7.60",
+      "tax_lines": [
+        {
+          "title": "Yelm City Tax",
+          "price": "2.40",
+          "rate": 0.03
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "5.20",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6453673230541,
+      "order_name": "#40078",
+      "processed_at": "2025-09-05T08:45:10-07:00",
+      "state": "WA",
+      "city": "Port Orchard",
+      "zip": "98367",
+      "subtotal": "93.83",
+      "total_tax": "8.65",
+      "tax_lines": [
+        {
+          "title": "Kitsap County Tax",
+          "price": "2.54",
+          "rate": 0.027
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.11",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6453632958669,
+      "order_name": "#40074",
+      "processed_at": "2025-09-05T07:31:57-07:00",
+      "state": "WA",
+      "city": "Richland",
+      "zip": "99352",
+      "subtotal": "14.99",
+      "total_tax": "1.90",
+      "tax_lines": [
+        {
+          "title": "Richland City Tax",
+          "price": "0.48",
+          "rate": 0.022
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.42",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6452613349581,
+      "order_name": "#40043",
+      "processed_at": "2025-09-03T16:39:30-07:00",
+      "state": "WA",
+      "city": "Hartline",
+      "zip": "99135",
+      "subtotal": "47.80",
+      "total_tax": "4.49",
+      "tax_lines": [
+        {
+          "title": "Grant County Tax",
+          "price": "0.93",
+          "rate": 0.017
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.56",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6452597457101,
+      "order_name": "#40041",
+      "processed_at": "2025-09-03T15:57:47-07:00",
+      "state": "WA",
+      "city": "Salkum",
+      "zip": "98582",
+      "subtotal": "67.96",
+      "total_tax": "5.44",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "4.41",
+          "rate": 0.065
+        },
+        {
+          "title": "Lewis County Tax",
+          "price": "1.03",
+          "rate": 0.015
+        }
+      ]
+    },
+    {
+      "order_id": 6452347797709,
+      "order_name": "#40018",
+      "processed_at": "2025-09-03T08:31:35-07:00",
+      "state": "UT",
+      "city": "Santaquin",
+      "zip": "84655",
+      "subtotal": "12.95",
+      "total_tax": "0.97",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.23",
+          "rate": 0.0175
+        },
+        {
+          "title": "Santaquin City Tax",
+          "price": "0.05",
+          "rate": 0.0035
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.06",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.63",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6452343374029,
+      "order_name": "#40017",
+      "processed_at": "2025-09-03T08:21:02-07:00",
+      "state": "UT",
+      "city": "Saratoga Springs",
+      "zip": "84045",
+      "subtotal": "103.83",
+      "total_tax": "7.74",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "2.08",
+          "rate": 0.02
+        },
+        {
+          "title": "Saratoga Springs City Tax",
+          "price": "0.10",
+          "rate": 0.001
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.51",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "5.05",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6452151615693,
+      "order_name": "#40001",
+      "processed_at": "2025-09-02T20:47:29-07:00",
+      "state": "WA",
+      "city": "Maple Valley",
+      "zip": "98038",
+      "subtotal": "269.51",
+      "total_tax": "23.76",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "17.54",
+          "rate": 0.065
+        },
+        {
+          "title": "King County Tax",
+          "price": "6.22",
+          "rate": 0.023
+        }
+      ]
+    },
+    {
+      "order_id": 6452147355853,
+      "order_name": "#40000",
+      "processed_at": "2025-09-02T20:34:25-07:00",
+      "state": "WA",
+      "city": "Selah",
+      "zip": "98942",
+      "subtotal": "71.95",
+      "total_tax": "5.76",
+      "tax_lines": [
+        {
+          "title": "Yakima County Tax",
+          "price": "1.08",
+          "rate": 0.015
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.68",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6450785845453,
+      "order_name": "#39966",
+      "processed_at": "2025-09-01T15:47:38-07:00",
+      "state": "WA",
+      "city": "Sequim",
+      "zip": "98382",
+      "subtotal": "43.94",
+      "total_tax": "4.39",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "3.31",
+          "rate": 0.065
+        },
+        {
+          "title": "Clallam County Tax",
+          "price": "1.08",
+          "rate": 0.021
+        }
+      ]
+    },
+    {
+      "order_id": 6450637603021,
+      "order_name": "#39952",
+      "processed_at": "2025-09-01T09:42:38-07:00",
+      "state": "WA",
+      "city": "Spokane",
+      "zip": "99201-2973",
+      "subtotal": "79.96",
+      "total_tax": "7.28",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "5.20",
+          "rate": 0.065
+        },
+        {
+          "title": "Spokane City Tax",
+          "price": "2.08",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 6450631770317,
+      "order_name": "#39949",
+      "processed_at": "2025-09-01T09:28:02-07:00",
+      "state": "WA",
+      "city": "Tukwila",
+      "zip": "98168",
+      "subtotal": "39.95",
+      "total_tax": "4.79",
+      "tax_lines": [
+        {
+          "title": "Tukwila City Tax",
+          "price": "1.74",
+          "rate": 0.037
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.05",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6449427513549,
+      "order_name": "#39905",
+      "processed_at": "2025-08-30T11:29:52-07:00",
+      "state": "WA",
+      "city": "Snohomish",
+      "zip": "98296",
+      "subtotal": "16.96",
+      "total_tax": "1.89",
+      "tax_lines": [
+        {
+          "title": "Snohomish County Tax",
+          "price": "0.34",
+          "rate": 0.014
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.55",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6448925278413,
+      "order_name": "#39891",
+      "processed_at": "2025-08-30T06:18:12-07:00",
+      "state": "UT",
+      "city": "Cedar City",
+      "zip": "84720",
+      "subtotal": "143.21",
+      "total_tax": "9.67",
+      "tax_lines": [
+        {
+          "title": "Iron County Tax",
+          "price": "2.58",
+          "rate": 0.018
+        },
+        {
+          "title": "Cedar City City Tax",
+          "price": "0.14",
+          "rate": 0.001
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "6.95",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6448734732493,
+      "order_name": "#39885",
+      "processed_at": "2025-08-29T18:58:52-07:00",
+      "state": "WA",
+      "city": "Oak Harbor",
+      "zip": "98277",
+      "subtotal": "19.99",
+      "total_tax": "2.42",
+      "tax_lines": [
+        {
+          "title": "Oak Harbor City Tax",
+          "price": "0.67",
+          "rate": 0.025
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.75",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6448720380109,
+      "order_name": "#39883",
+      "processed_at": "2025-08-29T18:20:12-07:00",
+      "state": "WA",
+      "city": "Kent",
+      "zip": "98031",
+      "subtotal": "103.46",
+      "total_tax": "10.55",
+      "tax_lines": [
+        {
+          "title": "Kent City Tax",
+          "price": "3.83",
+          "rate": 0.037
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.72",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6448535208141,
+      "order_name": "#39860",
+      "processed_at": "2025-08-29T10:59:13-07:00",
+      "state": "WA",
+      "city": "Ridgefield",
+      "zip": "98642",
+      "subtotal": "39.60",
+      "total_tax": "4.04",
+      "tax_lines": [
+        {
+          "title": "Ridgefield City Tax",
+          "price": "1.03",
+          "rate": 0.022
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.01",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6448470393037,
+      "order_name": "#39853",
+      "processed_at": "2025-08-29T08:33:02-07:00",
+      "state": "WA",
+      "city": "ravensdale",
+      "zip": "98051",
+      "subtotal": "39.98",
+      "total_tax": "4.13",
+      "tax_lines": [
+        {
+          "title": "King County Tax",
+          "price": "1.08",
+          "rate": 0.023
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.05",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6448446374093,
+      "order_name": "#39849",
+      "processed_at": "2025-08-29T07:37:51-07:00",
+      "state": "WA",
+      "city": "West Richland",
+      "zip": "99353",
+      "subtotal": "19.99",
+      "total_tax": "2.34",
+      "tax_lines": [
+        {
+          "title": "West Richland City Tax",
+          "price": "0.59",
+          "rate": 0.022
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.75",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6448128721101,
+      "order_name": "#39826",
+      "processed_at": "2025-08-28T14:59:59-07:00",
+      "state": "WA",
+      "city": "seattle",
+      "zip": "98103",
+      "subtotal": "9.12",
+      "total_tax": "1.66",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "1.04",
+          "rate": 0.065
+        },
+        {
+          "title": "Seattle City Tax",
+          "price": "0.62",
+          "rate": 0.0385
+        }
+      ]
+    },
+    {
+      "order_id": 6448128327885,
+      "order_name": "#39825",
+      "processed_at": "2025-08-28T14:58:43-07:00",
+      "state": "WA",
+      "city": "WARDEN",
+      "zip": "98857",
+      "subtotal": "39.95",
+      "total_tax": "3.85",
+      "tax_lines": [
+        {
+          "title": "Grant County Tax",
+          "price": "0.80",
+          "rate": 0.017
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.05",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6447681437901,
+      "order_name": "#39795",
+      "processed_at": "2025-08-27T19:35:01-07:00",
+      "state": "WA",
+      "city": "Bremerton",
+      "zip": "98311",
+      "subtotal": "56.66",
+      "total_tax": "5.85",
+      "tax_lines": [
+        {
+          "title": "Kitsap County Tax",
+          "price": "1.72",
+          "rate": 0.027
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.13",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6447004549325,
+      "order_name": "#39738",
+      "processed_at": "2025-08-26T13:40:47-07:00",
+      "state": "WA",
+      "city": "Ocean Shores",
+      "zip": "98569",
+      "subtotal": "79.80",
+      "total_tax": "7.26",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "5.20",
+          "rate": 0.065
+        },
+        {
+          "title": "Ocean Shores City Tax",
+          "price": "2.06",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 6446937309389,
+      "order_name": "#39730",
+      "processed_at": "2025-08-26T11:07:39-07:00",
+      "state": "OH",
+      "city": "Cincinnati",
+      "zip": "45241-2902",
+      "subtotal": "89.82",
+      "total_tax": "6.93",
+      "tax_lines": [
+        {
+          "title": "Hamilton County Tax",
+          "price": "1.80",
+          "rate": 0.0205
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "5.13",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6446919844045,
+      "order_name": "#39725",
+      "processed_at": "2025-08-26T10:34:07-07:00",
+      "state": "OH",
+      "city": "Medina",
+      "zip": "44256",
+      "subtotal": "13.00",
+      "total_tax": "1.35",
+      "tax_lines": [
+        {
+          "title": "Medina County Tax",
+          "price": "0.20",
+          "rate": 0.01
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "1.15",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6446437499085,
+      "order_name": "#39714",
+      "processed_at": "2025-08-25T18:28:00-07:00",
+      "state": "WA",
+      "city": "University Place",
+      "zip": "98467",
+      "subtotal": "435.73",
+      "total_tax": "44.02",
+      "tax_lines": [
+        {
+          "title": "University Place City Tax",
+          "price": "15.68",
+          "rate": 0.036
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "28.34",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6446299349197,
+      "order_name": "#39690",
+      "processed_at": "2025-08-25T12:05:32-07:00",
+      "state": "WA",
+      "city": "Davenport",
+      "zip": "99122",
+      "subtotal": "116.96",
+      "total_tax": "9.35",
+      "tax_lines": [
+        {
+          "title": "Davenport City Tax",
+          "price": "1.75",
+          "rate": 0.015
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "7.60",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6446242857165,
+      "order_name": "#39680",
+      "processed_at": "2025-08-25T09:41:51-07:00",
+      "state": "WA",
+      "city": "Bellingham",
+      "zip": "98225-5358",
+      "subtotal": "111.72",
+      "total_tax": "10.08",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "7.28",
+          "rate": 0.065
+        },
+        {
+          "title": "Bellingham City Tax",
+          "price": "2.80",
+          "rate": 0.025
+        }
+      ]
+    },
+    {
+      "order_id": 6446214054093,
+      "order_name": "#39674",
+      "processed_at": "2025-08-25T08:29:07-07:00",
+      "state": "OH",
+      "city": "Vandalia",
+      "zip": "45377",
+      "subtotal": "87.78",
+      "total_tax": "6.59",
+      "tax_lines": [
+        {
+          "title": "Montgomery County Tax",
+          "price": "1.54",
+          "rate": 0.0175
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "5.05",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6446204518605,
+      "order_name": "#39673",
+      "processed_at": "2025-08-25T08:02:06-07:00",
+      "state": "WA",
+      "city": "Ravensdale",
+      "zip": "98051",
+      "subtotal": "31.92",
+      "total_tax": "3.41",
+      "tax_lines": [
+        {
+          "title": "King County Tax",
+          "price": "0.89",
+          "rate": 0.023
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.52",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6445971964109,
+      "order_name": "#39653",
+      "processed_at": "2025-08-24T17:07:26-07:00",
+      "state": "OH",
+      "city": "mount cory",
+      "zip": "45868",
+      "subtotal": "15.00",
+      "total_tax": "1.48",
+      "tax_lines": [
+        {
+          "title": "Hancock County Tax",
+          "price": "0.22",
+          "rate": 0.01
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "1.26",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6445902725325,
+      "order_name": "#39650",
+      "processed_at": "2025-08-24T13:43:40-07:00",
+      "state": "UT",
+      "city": "Saratoga Springs",
+      "zip": "84045",
+      "subtotal": "103.74",
+      "total_tax": "7.74",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "2.08",
+          "rate": 0.02
+        },
+        {
+          "title": "Saratoga Springs City Tax",
+          "price": "0.13",
+          "rate": 0.001
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.52",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "5.01",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6445884211405,
+      "order_name": "#39648",
+      "processed_at": "2025-08-24T12:55:20-07:00",
+      "state": "WA",
+      "city": "Puyallup",
+      "zip": "98375",
+      "subtotal": "52.86",
+      "total_tax": "5.67",
+      "tax_lines": [
+        {
+          "title": "Pierce Co Tr",
+          "price": "1.78",
+          "rate": 0.03
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.89",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6445847740621,
+      "order_name": "#39646",
+      "processed_at": "2025-08-24T11:26:31-07:00",
+      "state": "WA",
+      "city": "Ocean Shores",
+      "zip": "98569",
+      "subtotal": "15.99",
+      "total_tax": "1.82",
+      "tax_lines": [
+        {
+          "title": "Ocean Shores City Tax",
+          "price": "0.52",
+          "rate": 0.026
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.30",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6445736198349,
+      "order_name": "#39640",
+      "processed_at": "2025-08-24T06:43:40-07:00",
+      "state": "OH",
+      "city": "Kent",
+      "zip": "44240",
+      "subtotal": "51.88",
+      "total_tax": "4.11",
+      "tax_lines": [
+        {
+          "title": "Portage County Tax",
+          "price": "0.73",
+          "rate": 0.0125
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "3.38",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6445725253837,
+      "order_name": "#39637",
+      "processed_at": "2025-08-24T06:06:48-07:00",
+      "state": "OH",
+      "city": "Dublin",
+      "zip": "43017",
+      "subtotal": "99.70",
+      "total_tax": "7.99",
+      "tax_lines": [
+        {
+          "title": "Ohio State Tax",
+          "price": "5.74",
+          "rate": 0.0575
+        },
+        {
+          "title": "Franklin County Tax",
+          "price": "1.25",
+          "rate": 0.0125
+        },
+        {
+          "title": "Central Ohio Transit Authority Tax",
+          "price": "1.00",
+          "rate": 0.01
+        }
+      ]
+    },
+    {
+      "order_id": 6445228458189,
+      "order_name": "#39601",
+      "processed_at": "2025-08-23T04:57:32-07:00",
+      "state": "OH",
+      "city": "Dayton",
+      "zip": "45414",
+      "subtotal": "45.00",
+      "total_tax": "3.90",
+      "tax_lines": [
+        {
+          "title": "Montgomery County Tax",
+          "price": "0.91",
+          "rate": 0.0175
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "2.99",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6445160923341,
+      "order_name": "#39596",
+      "processed_at": "2025-08-23T00:02:24-07:00",
+      "state": "WA",
+      "city": "Cathlamet",
+      "zip": "98612",
+      "subtotal": "133.83",
+      "total_tax": "10.44",
+      "tax_lines": [
+        {
+          "title": "Wahkiakum County Tax",
+          "price": "1.74",
+          "rate": 0.013
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "8.70",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6445026902221,
+      "order_name": "#39587",
+      "processed_at": "2025-08-22T16:27:26-07:00",
+      "state": "WA",
+      "city": "Bremerton",
+      "zip": "98312",
+      "subtotal": "47.90",
+      "total_tax": "5.05",
+      "tax_lines": [
+        {
+          "title": "Kitsap County Tax",
+          "price": "1.48",
+          "rate": 0.027
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.57",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6445010714829,
+      "order_name": "#39586",
+      "processed_at": "2025-08-22T15:40:52-07:00",
+      "state": "WA",
+      "city": "Winlock",
+      "zip": "98596",
+      "subtotal": "19.96",
+      "total_tax": "2.15",
+      "tax_lines": [
+        {
+          "title": "Winlock City Tax",
+          "price": "0.40",
+          "rate": 0.015
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.75",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6444972310733,
+      "order_name": "#39577",
+      "processed_at": "2025-08-22T13:56:48-07:00",
+      "state": "UT",
+      "city": "SPRINGVILLE",
+      "zip": "84663-1519",
+      "subtotal": "104.75",
+      "total_tax": "7.81",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "1.05",
+          "rate": 0.01
+        },
+        {
+          "title": "Springville City Tax",
+          "price": "1.15",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.53",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "5.08",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6444963889357,
+      "order_name": "#39575",
+      "processed_at": "2025-08-22T13:36:56-07:00",
+      "state": "WA",
+      "city": "LA CENTER",
+      "zip": "98629",
+      "subtotal": "72.86",
+      "total_tax": "5.69",
+      "tax_lines": [
+        {
+          "title": "Clark County Tax",
+          "price": "0.95",
+          "rate": 0.013
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.74",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6444890095821,
+      "order_name": "#39553",
+      "processed_at": "2025-08-22T10:44:33-07:00",
+      "state": "UT",
+      "city": "Mapleton",
+      "zip": "84664-3714",
+      "subtotal": "45.00",
+      "total_tax": "3.36",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.45",
+          "rate": 0.01
+        },
+        {
+          "title": "Mapleton City Tax",
+          "price": "0.50",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.23",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.18",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6444844056781,
+      "order_name": "#39545",
+      "processed_at": "2025-08-22T09:39:01-07:00",
+      "state": "WA",
+      "city": "Tacoma",
+      "zip": "98405",
+      "subtotal": "87.85",
+      "total_tax": "9.05",
+      "tax_lines": [
+        {
+          "title": "Tacoma City Tax",
+          "price": "3.34",
+          "rate": 0.038
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "5.71",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6444843630797,
+      "order_name": "#39544",
+      "processed_at": "2025-08-22T09:38:16-07:00",
+      "state": "UT",
+      "city": "Farmington",
+      "zip": "84025",
+      "subtotal": "51.88",
+      "total_tax": "3.77",
+      "tax_lines": [
+        {
+          "title": "Davis County Tax",
+          "price": "0.94",
+          "rate": 0.018
+        },
+        {
+          "title": "Farmington City Tax",
+          "price": "0.06",
+          "rate": 0.001
+        },
+        {
+          "title": "Davis Co Tr",
+          "price": "0.26",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.51",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6444800278733,
+      "order_name": "#39538",
+      "processed_at": "2025-08-22T08:14:31-07:00",
+      "state": "OH",
+      "city": "Rockford",
+      "zip": "45882",
+      "subtotal": "69.77",
+      "total_tax": "5.07",
+      "tax_lines": [
+        {
+          "title": "Mercer County Tax",
+          "price": "1.05",
+          "rate": 0.015
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "4.02",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6444800016589,
+      "order_name": "#39537",
+      "processed_at": "2025-08-22T08:13:54-07:00",
+      "state": "WA",
+      "city": "Bonney Lake",
+      "zip": "98391",
+      "subtotal": "15.99",
+      "total_tax": "1.90",
+      "tax_lines": [
+        {
+          "title": "Pierce Co Tr",
+          "price": "0.60",
+          "rate": 0.03
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.30",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6444797591757,
+      "order_name": "#39536",
+      "processed_at": "2025-08-22T08:08:33-07:00",
+      "state": "WA",
+      "city": "Yakima",
+      "zip": "98908",
+      "subtotal": "25.97",
+      "total_tax": "3.07",
+      "tax_lines": [
+        {
+          "title": "Yakima City Tax",
+          "price": "0.67",
+          "rate": 0.018
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.40",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6444744999117,
+      "order_name": "#39525",
+      "processed_at": "2025-08-22T05:45:46-07:00",
+      "state": "WA",
+      "city": "Aberdeen",
+      "zip": "98520",
+      "subtotal": "45.00",
+      "total_tax": "4.63",
+      "tax_lines": [
+        {
+          "title": "Grays Harbor County Tax",
+          "price": "1.25",
+          "rate": 0.024
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.38",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6444629622989,
+      "order_name": "#39516",
+      "processed_at": "2025-08-21T21:56:48-07:00",
+      "state": "WA",
+      "city": "Lake Stevens",
+      "zip": "98258",
+      "subtotal": "99.95",
+      "total_tax": "9.10",
+      "tax_lines": [
+        {
+          "title": "Snohomish Ptba Non Rta",
+          "price": "2.60",
+          "rate": 0.026
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.50",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6444625854669,
+      "order_name": "#39515",
+      "processed_at": "2025-08-21T21:42:19-07:00",
+      "state": "WA",
+      "city": "Steilacoom",
+      "zip": "98388",
+      "subtotal": "161.96",
+      "total_tax": "16.36",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "10.53",
+          "rate": 0.065
+        },
+        {
+          "title": "Steilacoom City Tax",
+          "price": "5.83",
+          "rate": 0.036
+        }
+      ]
+    },
+    {
+      "order_id": 6444532957389,
+      "order_name": "#39509",
+      "processed_at": "2025-08-21T17:02:34-07:00",
+      "state": "WA",
+      "city": "PORT ORCHARD",
+      "zip": "98366-7129",
+      "subtotal": "89.96",
+      "total_tax": "8.28",
+      "tax_lines": [
+        {
+          "title": "Kitsap County Tax",
+          "price": "2.43",
+          "rate": 0.027
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "5.85",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6444480233677,
+      "order_name": "#39497",
+      "processed_at": "2025-08-21T14:42:08-07:00",
+      "state": "WA",
+      "city": "Yelm",
+      "zip": "98597",
+      "subtotal": "44.95",
+      "total_tax": "4.93",
+      "tax_lines": [
+        {
+          "title": "Yelm City Tax",
+          "price": "1.56",
+          "rate": 0.03
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.37",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6444292866253,
+      "order_name": "#39483",
+      "processed_at": "2025-08-21T09:20:40-07:00",
+      "state": "WA",
+      "city": "Longview",
+      "zip": "98632",
+      "subtotal": "99.95",
+      "total_tax": "8.20",
+      "tax_lines": [
+        {
+          "title": "Longview City Tax",
+          "price": "1.70",
+          "rate": 0.017
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.50",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6444172050637,
+      "order_name": "#39481",
+      "processed_at": "2025-08-21T08:07:01-07:00",
+      "state": "WA",
+      "city": "Yakima",
+      "zip": "98908",
+      "subtotal": "97.48",
+      "total_tax": "8.11",
+      "tax_lines": [
+        {
+          "title": "Yakima City Tax",
+          "price": "1.78",
+          "rate": 0.018
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.33",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6443952177357,
+      "order_name": "#39479",
+      "processed_at": "2025-08-20T17:51:56-07:00",
+      "state": "WA",
+      "city": "Bellingham",
+      "zip": "98229",
+      "subtotal": "25.99",
+      "total_tax": "2.90",
+      "tax_lines": [
+        {
+          "title": "Whatcom Ptba",
+          "price": "0.76",
+          "rate": 0.023
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.14",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6443522719949,
+      "order_name": "#39449",
+      "processed_at": "2025-08-19T20:12:42-07:00",
+      "state": "OH",
+      "city": "Hartville",
+      "zip": "44632",
+      "subtotal": "62.96",
+      "total_tax": "4.54",
+      "tax_lines": [
+        {
+          "title": "Stark County Tax",
+          "price": "0.52",
+          "rate": 0.0075
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "4.02",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6443448271053,
+      "order_name": "#39445",
+      "processed_at": "2025-08-19T16:41:45-07:00",
+      "state": "OH",
+      "city": "Waverly",
+      "zip": "45690",
+      "subtotal": "126.95",
+      "total_tax": "9.21",
+      "tax_lines": [
+        {
+          "title": "Pike County Tax",
+          "price": "1.91",
+          "rate": 0.015
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "7.30",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6443426742477,
+      "order_name": "#39442",
+      "processed_at": "2025-08-19T15:45:39-07:00",
+      "state": "WA",
+      "city": "Sequim",
+      "zip": "98382",
+      "subtotal": "34.97",
+      "total_tax": "3.60",
+      "tax_lines": [
+        {
+          "title": "Clallam County Tax",
+          "price": "0.87",
+          "rate": 0.021
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.73",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6443312709837,
+      "order_name": "#39434",
+      "processed_at": "2025-08-19T11:46:48-07:00",
+      "state": "WA",
+      "city": "Allyn",
+      "zip": "98524",
+      "subtotal": "83.70",
+      "total_tax": "7.20",
+      "tax_lines": [
+        {
+          "title": "Mason County Tax",
+          "price": "1.76",
+          "rate": 0.021
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "5.44",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6442428530893,
+      "order_name": "#39426",
+      "processed_at": "2025-08-19T09:39:31-07:00",
+      "state": "WA",
+      "city": "Kirkland",
+      "zip": "98033",
+      "subtotal": "107.55",
+      "total_tax": "11.07",
+      "tax_lines": [
+        {
+          "title": "Kirkland City Tax",
+          "price": "4.08",
+          "rate": 0.038
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.99",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6442339172557,
+      "order_name": "#39425",
+      "processed_at": "2025-08-19T09:10:10-07:00",
+      "state": "WA",
+      "city": "Tacoma",
+      "zip": "98407",
+      "subtotal": "83.90",
+      "total_tax": "8.65",
+      "tax_lines": [
+        {
+          "title": "Tacoma City Tax",
+          "price": "3.19",
+          "rate": 0.038
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "5.46",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6441816588493,
+      "order_name": "#39418",
+      "processed_at": "2025-08-19T00:27:30-07:00",
+      "state": "OH",
+      "city": "CLEVELAND",
+      "zip": "44102-1534",
+      "subtotal": "83.33",
+      "total_tax": "6.60",
+      "tax_lines": [
+        {
+          "title": "Cuyahoga County Tax",
+          "price": "1.84",
+          "rate": 0.0225
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "4.76",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6441785753805,
+      "order_name": "#39417",
+      "processed_at": "2025-08-18T22:18:02-07:00",
+      "state": "WA",
+      "city": "Oak Harbor",
+      "zip": "98277",
+      "subtotal": "35.85",
+      "total_tax": "3.76",
+      "tax_lines": [
+        {
+          "title": "Island County Tax",
+          "price": "0.97",
+          "rate": 0.023
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.79",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6441724412109,
+      "order_name": "#39414",
+      "processed_at": "2025-08-18T18:31:19-07:00",
+      "state": "OH",
+      "city": "Richfield",
+      "zip": "44286",
+      "subtotal": "56.58",
+      "total_tax": "4.29",
+      "tax_lines": [
+        {
+          "title": "Summit County Tax",
+          "price": "0.63",
+          "rate": 0.01
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "3.66",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6441627943117,
+      "order_name": "#39398",
+      "processed_at": "2025-08-18T13:42:12-07:00",
+      "state": "WA",
+      "city": "EVERETT",
+      "zip": "98201",
+      "subtotal": "23.94",
+      "total_tax": "3.06",
+      "tax_lines": [
+        {
+          "title": "Everett City Tax",
+          "price": "1.05",
+          "rate": 0.034
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.01",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6441503850701,
+      "order_name": "#39379",
+      "processed_at": "2025-08-18T09:02:46-07:00",
+      "state": "WA",
+      "city": "Friday Harbor",
+      "zip": "98250",
+      "subtotal": "50.00",
+      "total_tax": "4.92",
+      "tax_lines": [
+        {
+          "title": "Friday Harbor City Tax",
+          "price": "1.23",
+          "rate": 0.0215
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.69",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6441054404813,
+      "order_name": "#39351",
+      "processed_at": "2025-08-17T07:08:15-07:00",
+      "state": "OH",
+      "city": "Upper Sandusky",
+      "zip": "43351",
+      "subtotal": "39.90",
+      "total_tax": "3.40",
+      "tax_lines": [
+        {
+          "title": "Wyandot County Tax",
+          "price": "0.70",
+          "rate": 0.015
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "2.70",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6440580579533,
+      "order_name": "#39329",
+      "processed_at": "2025-08-16T14:01:21-07:00",
+      "state": "WA",
+      "city": "Port Orchard",
+      "zip": "98367",
+      "subtotal": "10.76",
+      "total_tax": "1.63",
+      "tax_lines": [
+        {
+          "title": "Kitsap County Tax",
+          "price": "0.48",
+          "rate": 0.027
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.15",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6440167833805,
+      "order_name": "#39291",
+      "processed_at": "2025-08-15T15:34:22-07:00",
+      "state": "UT",
+      "city": "Cedar City",
+      "zip": "84721",
+      "subtotal": "62.50",
+      "total_tax": "4.16",
+      "tax_lines": [
+        {
+          "title": "Iron County Tax",
+          "price": "1.13",
+          "rate": 0.018
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.03",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6439926464717,
+      "order_name": "#39256",
+      "processed_at": "2025-08-15T06:53:30-07:00",
+      "state": "UT",
+      "city": "SALT LAKE CITY",
+      "zip": "84116",
+      "subtotal": "39.99",
+      "total_tax": "3.38",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.04",
+          "rate": 0.026
+        },
+        {
+          "title": "Salt Lake City City Tax",
+          "price": "0.40",
+          "rate": 0.01
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.94",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6439918174413,
+      "order_name": "#39251",
+      "processed_at": "2025-08-15T06:31:07-07:00",
+      "state": "UT",
+      "city": "Cedar City",
+      "zip": "84720",
+      "subtotal": "151.29",
+      "total_tax": "10.22",
+      "tax_lines": [
+        {
+          "title": "Iron County Tax",
+          "price": "2.74",
+          "rate": 0.018
+        },
+        {
+          "title": "Cedar City City Tax",
+          "price": "0.14",
+          "rate": 0.001
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "7.34",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6439767933133,
+      "order_name": "#39223",
+      "processed_at": "2025-08-15T00:06:34-07:00",
+      "state": "WA",
+      "city": "Puyallup",
+      "zip": "98375",
+      "subtotal": "39.95",
+      "total_tax": "4.46",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "3.05",
+          "rate": 0.065
+        },
+        {
+          "title": "Pierce Co Tr",
+          "price": "1.41",
+          "rate": 0.03
+        }
+      ]
+    },
+    {
+      "order_id": 6439767736525,
+      "order_name": "#39218",
+      "processed_at": "2025-08-15T00:06:30-07:00",
+      "state": "WA",
+      "city": "Redmond",
+      "zip": "98052",
+      "subtotal": "39.95",
+      "total_tax": "4.83",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "3.05",
+          "rate": 0.065
+        },
+        {
+          "title": "Redmond City Tax",
+          "price": "1.78",
+          "rate": 0.038
+        }
+      ]
+    },
+    {
+      "order_id": 6439430422733,
+      "order_name": "#39205",
+      "processed_at": "2025-08-14T15:40:52-07:00",
+      "state": "UT",
+      "city": "provo",
+      "zip": "84604",
+      "subtotal": "134.82",
+      "total_tax": "10.05",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "1.35",
+          "rate": 0.01
+        },
+        {
+          "title": "Provo City Tax",
+          "price": "1.49",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.67",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "6.54",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6438789578957,
+      "order_name": "#39173",
+      "processed_at": "2025-08-13T15:53:48-07:00",
+      "state": "WA",
+      "city": "OLYMPIA",
+      "zip": "98506",
+      "subtotal": "77.82",
+      "total_tax": "6.46",
+      "tax_lines": [
+        {
+          "title": "Thurston County Tax",
+          "price": "1.39",
+          "rate": 0.018
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "5.07",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6438355927245,
+      "order_name": "#39141",
+      "processed_at": "2025-08-13T06:48:29-07:00",
+      "state": "UT",
+      "city": "Roy",
+      "zip": "84067",
+      "subtotal": "47.88",
+      "total_tax": "3.47",
+      "tax_lines": [
+        {
+          "title": "Weber County Tax",
+          "price": "0.78",
+          "rate": 0.0165
+        },
+        {
+          "title": "Weber Co Tr",
+          "price": "0.36",
+          "rate": 0.0075
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.33",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6438082773197,
+      "order_name": "#39131",
+      "processed_at": "2025-08-12T15:16:58-07:00",
+      "state": "UT",
+      "city": "EAGLE MOUNTAIN",
+      "zip": "84005",
+      "subtotal": "34.44",
+      "total_tax": "2.53",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.69",
+          "rate": 0.02
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.17",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.67",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6438007275725,
+      "order_name": "#39116",
+      "processed_at": "2025-08-12T12:38:00-07:00",
+      "state": "WA",
+      "city": "Olga",
+      "zip": "98279",
+      "subtotal": "22.00",
+      "total_tax": "2.42",
+      "tax_lines": [
+        {
+          "title": "San Juan County Tax",
+          "price": "0.54",
+          "rate": 0.0185
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.88",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6437950292173,
+      "order_name": "#39111",
+      "processed_at": "2025-08-12T11:09:03-07:00",
+      "state": "UT",
+      "city": "Roosevelt",
+      "zip": "84066",
+      "subtotal": "20.00",
+      "total_tax": "1.28",
+      "tax_lines": [
+        {
+          "title": "Duchesne County Tax",
+          "price": "0.30",
+          "rate": 0.015
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.98",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6437439635661,
+      "order_name": "#39103",
+      "processed_at": "2025-08-12T06:21:11-07:00",
+      "state": "TX",
+      "city": "Abilene",
+      "zip": "79606",
+      "subtotal": "7.95",
+      "total_tax": "1.23",
+      "tax_lines": [
+        {
+          "title": "Abilene City Tax",
+          "price": "0.30",
+          "rate": 0.02
+        },
+        {
+          "title": "Texas State Tax",
+          "price": "0.93",
+          "rate": 0.0625
+        }
+      ]
+    },
+    {
+      "order_id": 6436781424845,
+      "order_name": "#39052",
+      "processed_at": "2025-08-10T17:18:23-07:00",
+      "state": "WA",
+      "city": "Malaga",
+      "zip": "98828-4501",
+      "subtotal": "47.70",
+      "total_tax": "4.59",
+      "tax_lines": [
+        {
+          "title": "Chelan County Tax",
+          "price": "1.04",
+          "rate": 0.019
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.55",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6436084580557,
+      "order_name": "#39035",
+      "processed_at": "2025-08-09T16:26:00-07:00",
+      "state": "WA",
+      "city": "Goldendale",
+      "zip": "98620",
+      "subtotal": "15.90",
+      "total_tax": "1.71",
+      "tax_lines": [
+        {
+          "title": "Klickitat County Tax",
+          "price": "0.23",
+          "rate": 0.01
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.48",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6435283632333,
+      "order_name": "#39003",
+      "processed_at": "2025-08-08T17:48:06-07:00",
+      "state": "WA",
+      "city": "Cle Elum",
+      "zip": "98922",
+      "subtotal": "64.40",
+      "total_tax": "5.93",
+      "tax_lines": [
+        {
+          "title": "Kittitas County Tax",
+          "price": "1.29",
+          "rate": 0.018
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.64",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6435280093389,
+      "order_name": "#39002",
+      "processed_at": "2025-08-08T17:38:16-07:00",
+      "state": "WA",
+      "city": "Cle Elum",
+      "zip": "98922",
+      "subtotal": "53.88",
+      "total_tax": "5.06",
+      "tax_lines": [
+        {
+          "title": "Kittitas County Tax",
+          "price": "1.10",
+          "rate": 0.018
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.96",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6435138863309,
+      "order_name": "#38984",
+      "processed_at": "2025-08-08T11:41:36-07:00",
+      "state": "WA",
+      "city": "Port Orchard",
+      "zip": "98367",
+      "subtotal": "19.99",
+      "total_tax": "2.48",
+      "tax_lines": [
+        {
+          "title": "Kitsap County Tax",
+          "price": "0.73",
+          "rate": 0.027
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.75",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6435031384269,
+      "order_name": "#38968",
+      "processed_at": "2025-08-08T07:48:14-07:00",
+      "state": "WA",
+      "city": "West Richland",
+      "zip": "99353",
+      "subtotal": "19.99",
+      "total_tax": "2.34",
+      "tax_lines": [
+        {
+          "title": "West Richland City Tax",
+          "price": "0.59",
+          "rate": 0.022
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.75",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6435026075853,
+      "order_name": "#38963",
+      "processed_at": "2025-08-08T07:34:41-07:00",
+      "state": "UT",
+      "city": "South Jordan",
+      "zip": "84009",
+      "subtotal": "19.99",
+      "total_tax": "1.49",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.52",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.97",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6434927411405,
+      "order_name": "#38947",
+      "processed_at": "2025-08-08T01:21:53-07:00",
+      "state": "WA",
+      "city": "Cathlamet",
+      "zip": "98612",
+      "subtotal": "44.41",
+      "total_tax": "4.01",
+      "tax_lines": [
+        {
+          "title": "Wahkiakum County Tax",
+          "price": "0.67",
+          "rate": 0.013
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.34",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6434917482701,
+      "order_name": "#38946",
+      "processed_at": "2025-08-08T00:37:42-07:00",
+      "state": "WA",
+      "city": "Poulsbo",
+      "zip": "98370",
+      "subtotal": "39.98",
+      "total_tax": "4.32",
+      "tax_lines": [
+        {
+          "title": "Kitsap County Tax",
+          "price": "1.27",
+          "rate": 0.027
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.05",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6434564505805,
+      "order_name": "#38945",
+      "processed_at": "2025-08-07T22:38:37-07:00",
+      "state": "UT",
+      "city": "Farmington",
+      "zip": "84025",
+      "subtotal": "82.63",
+      "total_tax": "5.96",
+      "tax_lines": [
+        {
+          "title": "Davis County Tax",
+          "price": "1.48",
+          "rate": 0.018
+        },
+        {
+          "title": "Farmington City Tax",
+          "price": "0.08",
+          "rate": 0.001
+        },
+        {
+          "title": "Davis Co Tr",
+          "price": "0.39",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "4.01",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6434434908365,
+      "order_name": "#38942",
+      "processed_at": "2025-08-07T17:43:38-07:00",
+      "state": "WA",
+      "city": "Wenatchee",
+      "zip": "98801-4221",
+      "subtotal": "29.97",
+      "total_tax": "3.25",
+      "tax_lines": [
+        {
+          "title": "Wenatchee City Tax",
+          "price": "0.85",
+          "rate": 0.023
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.40",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6434056929485,
+      "order_name": "#38919",
+      "processed_at": "2025-08-07T07:27:14-07:00",
+      "state": "UT",
+      "city": "Cedar City",
+      "zip": "84721",
+      "subtotal": "116.75",
+      "total_tax": "7.89",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "5.67",
+          "rate": 0.0485
+        },
+        {
+          "title": "Iron County Tax",
+          "price": "2.11",
+          "rate": 0.018
+        },
+        {
+          "title": "Cedar City City Tax",
+          "price": "0.11",
+          "rate": 0.001
+        }
+      ]
+    },
+    {
+      "order_id": 6433687011533,
+      "order_name": "#38898",
+      "processed_at": "2025-08-06T11:46:28-07:00",
+      "state": "UT",
+      "city": "PAYSON",
+      "zip": "84651",
+      "subtotal": "83.65",
+      "total_tax": "6.24",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.84",
+          "rate": 0.01
+        },
+        {
+          "title": "Payson City Tax",
+          "price": "0.92",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.42",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "4.06",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6433625800909,
+      "order_name": "#38889",
+      "processed_at": "2025-08-06T09:48:10-07:00",
+      "state": "WA",
+      "city": "Lakewood",
+      "zip": "98499",
+      "subtotal": "23.90",
+      "total_tax": "3.11",
+      "tax_lines": [
+        {
+          "title": "Lakewood City Tax",
+          "price": "1.11",
+          "rate": 0.036
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.00",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6433471004877,
+      "order_name": "#38871",
+      "processed_at": "2025-08-06T04:06:18-07:00",
+      "state": "UT",
+      "city": "St. George",
+      "zip": "84770",
+      "subtotal": "39.95",
+      "total_tax": "2.70",
+      "tax_lines": [
+        {
+          "title": "Washington County Tax",
+          "price": "0.14",
+          "rate": 0.0035
+        },
+        {
+          "title": "St. George City Tax",
+          "price": "0.40",
+          "rate": 0.01
+        },
+        {
+          "title": "Saint George Tr",
+          "price": "0.22",
+          "rate": 0.0055
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.94",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6433216430285,
+      "order_name": "#38860",
+      "processed_at": "2025-08-05T13:48:34-07:00",
+      "state": "WA",
+      "city": "Kalama",
+      "zip": "98625",
+      "subtotal": "39.80",
+      "total_tax": "3.59",
+      "tax_lines": [
+        {
+          "title": "Cowlitz County Tax",
+          "price": "0.56",
+          "rate": 0.012
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.03",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6433165246669,
+      "order_name": "#38853",
+      "processed_at": "2025-08-05T12:07:30-07:00",
+      "state": "UT",
+      "city": "Riverside",
+      "zip": "84334",
+      "subtotal": "70.00",
+      "total_tax": "4.66",
+      "tax_lines": [
+        {
+          "title": "Box Elder County Tax",
+          "price": "1.26",
+          "rate": 0.018
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.40",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6433049444557,
+      "order_name": "#38847",
+      "processed_at": "2025-08-05T09:40:13-07:00",
+      "state": "WA",
+      "city": "Centralia",
+      "zip": "98531",
+      "subtotal": "99.80",
+      "total_tax": "8.39",
+      "tax_lines": [
+        {
+          "title": "Centralia City Tax",
+          "price": "1.90",
+          "rate": 0.019
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.49",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6432604192973,
+      "order_name": "#38839",
+      "processed_at": "2025-08-04T21:34:37-07:00",
+      "state": "WA",
+      "city": "Sultan",
+      "zip": "98294-9624",
+      "subtotal": "31.88",
+      "total_tax": "3.54",
+      "tax_lines": [
+        {
+          "title": "Sultan City Tax",
+          "price": "1.01",
+          "rate": 0.026
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.53",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6432055296205,
+      "order_name": "#38784",
+      "processed_at": "2025-08-03T17:59:16-07:00",
+      "state": "WA",
+      "city": "Milton",
+      "zip": "98354",
+      "subtotal": "12.95",
+      "total_tax": "2.01",
+      "tax_lines": [
+        {
+          "title": "Milton/Pierce Special Tax Dist City Tax",
+          "price": "0.72",
+          "rate": 0.036
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.29",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6431236489421,
+      "order_name": "#38767",
+      "processed_at": "2025-08-02T17:02:50-07:00",
+      "state": "WA",
+      "city": "Yakima",
+      "zip": "98908",
+      "subtotal": "56.85",
+      "total_tax": "5.30",
+      "tax_lines": [
+        {
+          "title": "Yakima City Tax",
+          "price": "1.15",
+          "rate": 0.018
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.15",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6431086084301,
+      "order_name": "#38736",
+      "processed_at": "2025-08-02T11:13:25-07:00",
+      "state": "UT",
+      "city": "Delta",
+      "zip": "84624",
+      "subtotal": "2.00",
+      "total_tax": "0.13",
+      "tax_lines": [
+        {
+          "title": "Millard County Tax",
+          "price": "0.03",
+          "rate": 0.015
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.10",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6430600954061,
+      "order_name": "#38706",
+      "processed_at": "2025-08-01T13:37:58-07:00",
+      "state": "UT",
+      "city": "Roosevelt",
+      "zip": "84066",
+      "subtotal": "89.82",
+      "total_tax": "5.70",
+      "tax_lines": [
+        {
+          "title": "Duchesne County Tax",
+          "price": "1.35",
+          "rate": 0.015
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "4.35",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6430555832525,
+      "order_name": "#38701",
+      "processed_at": "2025-08-01T12:18:33-07:00",
+      "state": "UT",
+      "city": "Washington",
+      "zip": "84780",
+      "subtotal": "15.95",
+      "total_tax": "1.08",
+      "tax_lines": [
+        {
+          "title": "Washington County Tax",
+          "price": "0.06",
+          "rate": 0.0035
+        },
+        {
+          "title": "Washington City Tax",
+          "price": "0.16",
+          "rate": 0.01
+        },
+        {
+          "title": "Washington Tr",
+          "price": "0.09",
+          "rate": 0.0055
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.77",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6430503403725,
+      "order_name": "#38694",
+      "processed_at": "2025-08-01T10:55:33-07:00",
+      "state": "UT",
+      "city": "Lehi",
+      "zip": "84043",
+      "subtotal": "66.01",
+      "total_tax": "4.90",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.66",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.73",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.31",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.20",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6430183981261,
+      "order_name": "#38677",
+      "processed_at": "2025-07-31T22:44:07-07:00",
+      "state": "WA",
+      "city": "Concrete",
+      "zip": "98237",
+      "subtotal": "161.24",
+      "total_tax": "13.86",
+      "tax_lines": [
+        {
+          "title": "Skagit Ptba",
+          "price": "3.38",
+          "rate": 0.021
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "10.48",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6429732733133,
+      "order_name": "#38642",
+      "processed_at": "2025-07-31T10:38:54-07:00",
+      "state": "UT",
+      "city": "South Jordan",
+      "zip": "84095",
+      "subtotal": "99.80",
+      "total_tax": "7.44",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "2.60",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "4.84",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6429531832525,
+      "order_name": "#38636",
+      "processed_at": "2025-07-31T08:53:37-07:00",
+      "state": "UT",
+      "city": "Roosevelt",
+      "zip": "84066",
+      "subtotal": "79.71",
+      "total_tax": "5.07",
+      "tax_lines": [
+        {
+          "title": "Duchesne County Tax",
+          "price": "1.20",
+          "rate": 0.015
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.87",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6429511024845,
+      "order_name": "#38634",
+      "processed_at": "2025-07-31T08:10:14-07:00",
+      "state": "WA",
+      "city": "Port Angeles",
+      "zip": "98362",
+      "subtotal": "45.85",
+      "total_tax": "4.71",
+      "tax_lines": [
+        {
+          "title": "Port Angeles City Tax",
+          "price": "1.27",
+          "rate": 0.024
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.44",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6429158899917,
+      "order_name": "#38607",
+      "processed_at": "2025-07-30T12:48:03-07:00",
+      "state": "OH",
+      "city": "Wooster",
+      "zip": "44691",
+      "subtotal": "81.38",
+      "total_tax": "5.29",
+      "tax_lines": [
+        {
+          "title": "Wayne County Tax",
+          "price": "0.61",
+          "rate": 0.0075
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "4.68",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6429131210957,
+      "order_name": "#38603",
+      "processed_at": "2025-07-30T11:44:40-07:00",
+      "state": "OH",
+      "city": "Brunswick",
+      "zip": "44212",
+      "subtotal": "51.85",
+      "total_tax": "3.98",
+      "tax_lines": [
+        {
+          "title": "Medina County Tax",
+          "price": "0.59",
+          "rate": 0.01
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "3.39",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6429107880141,
+      "order_name": "#38598",
+      "processed_at": "2025-07-30T10:57:19-07:00",
+      "state": "WA",
+      "city": "Vancouver",
+      "zip": "98682",
+      "subtotal": "95.60",
+      "total_tax": "8.13",
+      "tax_lines": [
+        {
+          "title": "Clark Ptba",
+          "price": "1.92",
+          "rate": 0.02
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.21",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6429099983053,
+      "order_name": "#38595",
+      "processed_at": "2025-07-30T10:41:52-07:00",
+      "state": "UT",
+      "city": "Highland",
+      "zip": "84003",
+      "subtotal": "12.00",
+      "total_tax": "0.89",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.12",
+          "rate": 0.01
+        },
+        {
+          "title": "Highland City Tax",
+          "price": "0.13",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.06",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.58",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6429067968717,
+      "order_name": "#38588",
+      "processed_at": "2025-07-30T09:41:47-07:00",
+      "state": "UT",
+      "city": "Holladay",
+      "zip": "84117",
+      "subtotal": "170.55",
+      "total_tax": "12.70",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "4.43",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "8.27",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6428096331981,
+      "order_name": "#38579",
+      "processed_at": "2025-07-29T19:54:13-07:00",
+      "state": "OH",
+      "city": "Huron",
+      "zip": "44839",
+      "subtotal": "17.96",
+      "total_tax": "1.68",
+      "tax_lines": [
+        {
+          "title": "Ohio State Tax",
+          "price": "1.43",
+          "rate": 0.0575
+        },
+        {
+          "title": "Erie County Tax",
+          "price": "0.25",
+          "rate": 0.01
+        }
+      ]
+    },
+    {
+      "order_id": 6428009169101,
+      "order_name": "#38565",
+      "processed_at": "2025-07-29T14:44:48-07:00",
+      "state": "WA",
+      "city": "Tonasket",
+      "zip": "98855",
+      "subtotal": "114.75",
+      "total_tax": "9.77",
+      "tax_lines": [
+        {
+          "title": "Tonasket City Tax",
+          "price": "2.30",
+          "rate": 0.02
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "7.47",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6427924562125,
+      "order_name": "#38547",
+      "processed_at": "2025-07-29T11:20:54-07:00",
+      "state": "WA",
+      "city": "Pasco",
+      "zip": "99301",
+      "subtotal": "75.00",
+      "total_tax": "6.66",
+      "tax_lines": [
+        {
+          "title": "Pasco City Tax",
+          "price": "1.80",
+          "rate": 0.024
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.86",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6427660878029,
+      "order_name": "#38529",
+      "processed_at": "2025-07-28T19:12:02-07:00",
+      "state": "OH",
+      "city": "Ashville",
+      "zip": "43103",
+      "subtotal": "29.26",
+      "total_tax": "2.63",
+      "tax_lines": [
+        {
+          "title": "Pickaway County Tax",
+          "price": "0.54",
+          "rate": 0.015
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "2.09",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6427570995405,
+      "order_name": "#38517",
+      "processed_at": "2025-07-28T14:02:26-07:00",
+      "state": "WA",
+      "city": "Olympia",
+      "zip": "98513",
+      "subtotal": "117.70",
+      "total_tax": "9.78",
+      "tax_lines": [
+        {
+          "title": "Thurston County Tax",
+          "price": "2.12",
+          "rate": 0.018
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "7.66",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6427508768973,
+      "order_name": "#38504",
+      "processed_at": "2025-07-28T11:17:14-07:00",
+      "state": "WA",
+      "city": "Ocean Shores",
+      "zip": "98569-9713",
+      "subtotal": "69.31",
+      "total_tax": "6.32",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "4.50",
+          "rate": 0.065
+        },
+        {
+          "title": "Ocean Shores City Tax",
+          "price": "1.82",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 6427422195917,
+      "order_name": "#38496",
+      "processed_at": "2025-07-28T07:59:29-07:00",
+      "state": "WA",
+      "city": "Olympia",
+      "zip": "98513",
+      "subtotal": "12.95",
+      "total_tax": "1.89",
+      "tax_lines": [
+        {
+          "title": "Thurston Ptba",
+          "price": "0.60",
+          "rate": 0.03
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.29",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6427401519309,
+      "order_name": "#38493",
+      "processed_at": "2025-07-28T06:55:52-07:00",
+      "state": "UT",
+      "city": "Roy",
+      "zip": "84067",
+      "subtotal": "9.98",
+      "total_tax": "0.71",
+      "tax_lines": [
+        {
+          "title": "Weber County Tax",
+          "price": "0.16",
+          "rate": 0.0165
+        },
+        {
+          "title": "Weber Co Tr",
+          "price": "0.07",
+          "rate": 0.0075
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.48",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6427382743245,
+      "order_name": "#38492",
+      "processed_at": "2025-07-28T06:31:21-07:00",
+      "state": "UT",
+      "city": "Saratoga Springs",
+      "zip": "84045",
+      "subtotal": "62.50",
+      "total_tax": "4.65",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "1.25",
+          "rate": 0.02
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.05",
+          "rate": 0.0485
+        },
+        {
+          "title": "Saratoga Springs City Tax",
+          "price": "0.05",
+          "rate": 0.001
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.30",
+          "rate": 0.005
+        }
+      ]
+    },
+    {
+      "order_id": 6427206713549,
+      "order_name": "#38482",
+      "processed_at": "2025-07-27T17:33:17-07:00",
+      "state": "WA",
+      "city": "Maple Valley",
+      "zip": "98038",
+      "subtotal": "35.96",
+      "total_tax": "3.78",
+      "tax_lines": [
+        {
+          "title": "King County Tax",
+          "price": "0.99",
+          "rate": 0.023
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.79",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6427183612109,
+      "order_name": "#38479",
+      "processed_at": "2025-07-27T16:11:10-07:00",
+      "state": "WA",
+      "city": "Graham",
+      "zip": "98338-6423",
+      "subtotal": "185.90",
+      "total_tax": "17.67",
+      "tax_lines": [
+        {
+          "title": "Pierce Co Tr",
+          "price": "5.58",
+          "rate": 0.03
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "12.09",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6427123056845,
+      "order_name": "#38474",
+      "processed_at": "2025-07-27T12:54:17-07:00",
+      "state": "WA",
+      "city": "Selah",
+      "zip": "98942-8643",
+      "subtotal": "128.10",
+      "total_tax": "10.28",
+      "tax_lines": [
+        {
+          "title": "Yakima County Tax",
+          "price": "1.93",
+          "rate": 0.015
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "8.35",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6427119091917,
+      "order_name": "#38473",
+      "processed_at": "2025-07-27T12:44:49-07:00",
+      "state": "WA",
+      "city": "Woodland",
+      "zip": "98674",
+      "subtotal": "31.05",
+      "total_tax": "2.99",
+      "tax_lines": [
+        {
+          "title": "Woodland City Tax",
+          "price": "0.53",
+          "rate": 0.014
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.46",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6426949746893,
+      "order_name": "#38464",
+      "processed_at": "2025-07-27T04:24:25-07:00",
+      "state": "OH",
+      "city": "Lakewood",
+      "zip": "44107",
+      "subtotal": "85.84",
+      "total_tax": "6.89",
+      "tax_lines": [
+        {
+          "title": "Cuyahoga County Tax",
+          "price": "1.94",
+          "rate": 0.0225
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "4.95",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6426849968333,
+      "order_name": "#38461",
+      "processed_at": "2025-07-26T20:40:23-07:00",
+      "state": "WA",
+      "city": "Wenatchee",
+      "zip": "98801-4221",
+      "subtotal": "69.87",
+      "total_tax": "6.16",
+      "tax_lines": [
+        {
+          "title": "Wenatchee City Tax",
+          "price": "1.61",
+          "rate": 0.023
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.55",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6426780860621,
+      "order_name": "#38458",
+      "processed_at": "2025-07-26T16:53:03-07:00",
+      "state": "WA",
+      "city": "Pasco",
+      "zip": "99301",
+      "subtotal": "19.96",
+      "total_tax": "2.18",
+      "tax_lines": [
+        {
+          "title": "Franklin County Tax",
+          "price": "0.43",
+          "rate": 0.016
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.75",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6426744553677,
+      "order_name": "#38455",
+      "processed_at": "2025-07-26T15:08:19-07:00",
+      "state": "WA",
+      "city": "Selah",
+      "zip": "98942",
+      "subtotal": "99.95",
+      "total_tax": "8.00",
+      "tax_lines": [
+        {
+          "title": "Yakima County Tax",
+          "price": "1.50",
+          "rate": 0.015
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.50",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6426590118093,
+      "order_name": "#38434",
+      "processed_at": "2025-07-26T09:28:37-07:00",
+      "state": "WA",
+      "city": "Longview",
+      "zip": "98632",
+      "subtotal": "29.43",
+      "total_tax": "3.00",
+      "tax_lines": [
+        {
+          "title": "Longview City Tax",
+          "price": "0.63",
+          "rate": 0.017
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.37",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6426405077197,
+      "order_name": "#38428",
+      "processed_at": "2025-07-25T23:26:25-07:00",
+      "state": "WA",
+      "city": "Bonney Lake",
+      "zip": "98391",
+      "subtotal": "16.92",
+      "total_tax": "2.26",
+      "tax_lines": [
+        {
+          "title": "Pierce Co Tr",
+          "price": "0.71",
+          "rate": 0.03
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.55",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6426388660429,
+      "order_name": "#38426",
+      "processed_at": "2025-07-25T22:14:03-07:00",
+      "state": "WA",
+      "city": "Eatonville",
+      "zip": "98328",
+      "subtotal": "151.29",
+      "total_tax": "12.27",
+      "tax_lines": [
+        {
+          "title": "Eatonville City Tax",
+          "price": "2.43",
+          "rate": 0.016
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "9.84",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6426311098573,
+      "order_name": "#38424",
+      "processed_at": "2025-07-25T18:21:13-07:00",
+      "state": "OH",
+      "city": "MAINEVILLE",
+      "zip": "45039-7567",
+      "subtotal": "149.95",
+      "total_tax": "10.12",
+      "tax_lines": [
+        {
+          "title": "Warren County Tax",
+          "price": "1.50",
+          "rate": 0.01
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "8.62",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6425996624077,
+      "order_name": "#38393",
+      "processed_at": "2025-07-25T09:55:34-07:00",
+      "state": "WA",
+      "city": "Centralia",
+      "zip": "98531",
+      "subtotal": "70.00",
+      "total_tax": "5.60",
+      "tax_lines": [
+        {
+          "title": "Lewis County Tax",
+          "price": "1.05",
+          "rate": 0.015
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.55",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6425831112909,
+      "order_name": "#38370",
+      "processed_at": "2025-07-25T01:17:26-07:00",
+      "state": "WA",
+      "city": "LAKE STEVENS",
+      "zip": "98258",
+      "subtotal": "304.92",
+      "total_tax": "24.06",
+      "tax_lines": [
+        {
+          "title": "Snohomish County Tax",
+          "price": "4.26",
+          "rate": 0.014
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "19.80",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6425785303245,
+      "order_name": "#38369",
+      "processed_at": "2025-07-24T21:54:00-07:00",
+      "state": "WA",
+      "city": "OLYMPIA",
+      "zip": "98502",
+      "subtotal": "29.94",
+      "total_tax": "3.51",
+      "tax_lines": [
+        {
+          "title": "Thurston Ptba",
+          "price": "1.11",
+          "rate": 0.03
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.40",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6425727697101,
+      "order_name": "#38364",
+      "processed_at": "2025-07-24T18:45:51-07:00",
+      "state": "WA",
+      "city": "SeaTac",
+      "zip": "98188",
+      "subtotal": "48.50",
+      "total_tax": "5.65",
+      "tax_lines": [
+        {
+          "title": "Seatac City Tax",
+          "price": "2.05",
+          "rate": 0.037
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.60",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6425669632205,
+      "order_name": "#38358",
+      "processed_at": "2025-07-24T15:59:20-07:00",
+      "state": "OH",
+      "city": "Brunswick",
+      "zip": "44212-5634",
+      "subtotal": "14.00",
+      "total_tax": "1.42",
+      "tax_lines": [
+        {
+          "title": "Medina County Tax",
+          "price": "0.21",
+          "rate": 0.01
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "1.21",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6425561432269,
+      "order_name": "#38344",
+      "processed_at": "2025-07-24T11:56:20-07:00",
+      "state": "WA",
+      "city": "WASHOUGAL",
+      "zip": "98671-4900",
+      "subtotal": "51.00",
+      "total_tax": "4.94",
+      "tax_lines": [
+        {
+          "title": "Washougal City Tax",
+          "price": "1.17",
+          "rate": 0.02
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.77",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6424157126861,
+      "order_name": "#38332",
+      "processed_at": "2025-07-24T07:40:43-07:00",
+      "state": "OH",
+      "city": "Vandalia",
+      "zip": "45377",
+      "subtotal": "275.00",
+      "total_tax": "20.66",
+      "tax_lines": [
+        {
+          "title": "Montgomery County Tax",
+          "price": "4.83",
+          "rate": 0.0175
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "15.83",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6423734976717,
+      "order_name": "#38286",
+      "processed_at": "2025-07-23T08:36:49-07:00",
+      "state": "WA",
+      "city": "Rainier",
+      "zip": "98576",
+      "subtotal": "79.90",
+      "total_tax": "6.64",
+      "tax_lines": [
+        {
+          "title": "Thurston County Tax",
+          "price": "1.44",
+          "rate": 0.018
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "5.20",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6423729668301,
+      "order_name": "#38284",
+      "processed_at": "2025-07-23T08:21:38-07:00",
+      "state": "WA",
+      "city": "Anacortes",
+      "zip": "98221",
+      "subtotal": "12.97",
+      "total_tax": "1.74",
+      "tax_lines": [
+        {
+          "title": "Anacortes City Tax",
+          "price": "0.45",
+          "rate": 0.023
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.29",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6423683104973,
+      "order_name": "#38276",
+      "processed_at": "2025-07-23T05:57:19-07:00",
+      "state": "UT",
+      "city": "Erda",
+      "zip": "84074",
+      "subtotal": "106.65",
+      "total_tax": "7.46",
+      "tax_lines": [
+        {
+          "title": "Tooele County Tax",
+          "price": "0.54",
+          "rate": 0.005
+        },
+        {
+          "title": "Grantsville City Tax",
+          "price": "1.17",
+          "rate": 0.011
+        },
+        {
+          "title": "Grantsville Tr",
+          "price": "0.58",
+          "rate": 0.0055
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "5.17",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6423549313229,
+      "order_name": "#38273",
+      "processed_at": "2025-07-22T21:16:33-07:00",
+      "state": "WA",
+      "city": "Toutle",
+      "zip": "98649",
+      "subtotal": "68.90",
+      "total_tax": "5.30",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "4.48",
+          "rate": 0.065
+        },
+        {
+          "title": "Cowlitz County Tax",
+          "price": "0.82",
+          "rate": 0.012
+        }
+      ]
+    },
+    {
+      "order_id": 6423533748429,
+      "order_name": "#38271",
+      "processed_at": "2025-07-22T20:25:31-07:00",
+      "state": "WA",
+      "city": "Kirkland",
+      "zip": "98034",
+      "subtotal": "170.49",
+      "total_tax": "17.56",
+      "tax_lines": [
+        {
+          "title": "Kirkland City Tax",
+          "price": "6.47",
+          "rate": 0.038
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "11.09",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6423500980429,
+      "order_name": "#38269",
+      "processed_at": "2025-07-22T18:36:56-07:00",
+      "state": "WA",
+      "city": "Sequim",
+      "zip": "98382",
+      "subtotal": "88.92",
+      "total_tax": "7.65",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "5.79",
+          "rate": 0.065
+        },
+        {
+          "title": "Clallam County Tax",
+          "price": "1.86",
+          "rate": 0.021
+        }
+      ]
+    },
+    {
+      "order_id": 6423417618637,
+      "order_name": "#38262",
+      "processed_at": "2025-07-22T14:11:28-07:00",
+      "state": "UT",
+      "city": "Cedar Hills",
+      "zip": "84062",
+      "subtotal": "89.96",
+      "total_tax": "6.70",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.90",
+          "rate": 0.01
+        },
+        {
+          "title": "Cedar Hills City Tax",
+          "price": "0.99",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.45",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "4.36",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6423311515853,
+      "order_name": "#38243",
+      "processed_at": "2025-07-22T09:59:20-07:00",
+      "state": "WA",
+      "city": "Maple Valley",
+      "zip": "98038",
+      "subtotal": "124.98",
+      "total_tax": "11.12",
+      "tax_lines": [
+        {
+          "title": "Maple Valley City Tax",
+          "price": "3.00",
+          "rate": 0.024
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "8.12",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6423103340749,
+      "order_name": "#38233",
+      "processed_at": "2025-07-21T20:53:44-07:00",
+      "state": "WA",
+      "city": "Montesano",
+      "zip": "98563",
+      "subtotal": "158.55",
+      "total_tax": "14.10",
+      "tax_lines": [
+        {
+          "title": "Grays Harbor County Tax",
+          "price": "3.80",
+          "rate": 0.024
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "10.30",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6422592127181,
+      "order_name": "#38184",
+      "processed_at": "2025-07-21T02:16:19-07:00",
+      "state": "WA",
+      "city": "Lake Stevens",
+      "zip": "98258",
+      "subtotal": "170.40",
+      "total_tax": "13.44",
+      "tax_lines": [
+        {
+          "title": "Snohomish County Tax",
+          "price": "2.37",
+          "rate": 0.014
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "11.07",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6422544580813,
+      "order_name": "#38182",
+      "processed_at": "2025-07-20T22:47:59-07:00",
+      "state": "UT",
+      "city": "South Jordan",
+      "zip": "84095",
+      "subtotal": "214.36",
+      "total_tax": "15.95",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "10.39",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "5.56",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 6422509912269,
+      "order_name": "#38181",
+      "processed_at": "2025-07-20T20:39:58-07:00",
+      "state": "WA",
+      "city": "Mount Vernon",
+      "zip": "98273",
+      "subtotal": "71.70",
+      "total_tax": "6.17",
+      "tax_lines": [
+        {
+          "title": "Skagit Ptba",
+          "price": "1.51",
+          "rate": 0.021
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.66",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6422506078413,
+      "order_name": "#38180",
+      "processed_at": "2025-07-20T20:24:22-07:00",
+      "state": "UT",
+      "city": "St George",
+      "zip": "84770",
+      "subtotal": "7.98",
+      "total_tax": "0.54",
+      "tax_lines": [
+        {
+          "title": "Washington County Tax",
+          "price": "0.03",
+          "rate": 0.0035
+        },
+        {
+          "title": "St. George City Tax",
+          "price": "0.08",
+          "rate": 0.01
+        },
+        {
+          "title": "Saint George Tr",
+          "price": "0.04",
+          "rate": 0.0055
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.39",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6422459187405,
+      "order_name": "#38178",
+      "processed_at": "2025-07-20T17:50:29-07:00",
+      "state": "WA",
+      "city": "CUSTER",
+      "zip": "98240",
+      "subtotal": "29.94",
+      "total_tax": "3.25",
+      "tax_lines": [
+        {
+          "title": "Whatcom Ptba",
+          "price": "0.85",
+          "rate": 0.023
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.40",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6422428319949,
+      "order_name": "#38173",
+      "processed_at": "2025-07-20T16:15:27-07:00",
+      "state": "UT",
+      "city": "Spanish Fork",
+      "zip": "84660",
+      "subtotal": "71.82",
+      "total_tax": "5.38",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.72",
+          "rate": 0.01
+        },
+        {
+          "title": "Spanish Fork City City Tax",
+          "price": "0.80",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.36",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.50",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6422372122829,
+      "order_name": "#38167",
+      "processed_at": "2025-07-20T13:24:19-07:00",
+      "state": "UT",
+      "city": "Saratoga Springs",
+      "zip": "84045",
+      "subtotal": "17.95",
+      "total_tax": "1.34",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.36",
+          "rate": 0.02
+        },
+        {
+          "title": "Saratoga Springs City Tax",
+          "price": "0.02",
+          "rate": 0.001
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.09",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.87",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6422265135309,
+      "order_name": "#38163",
+      "processed_at": "2025-07-20T08:52:55-07:00",
+      "state": "WA",
+      "city": "Silverdale",
+      "zip": "98383",
+      "subtotal": "37.90",
+      "total_tax": "4.12",
+      "tax_lines": [
+        {
+          "title": "Kitsap County Tax",
+          "price": "1.21",
+          "rate": 0.027
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.91",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6421855699149,
+      "order_name": "#38132",
+      "processed_at": "2025-07-19T10:22:31-07:00",
+      "state": "WA",
+      "city": "Rochester",
+      "zip": "98579-9272",
+      "subtotal": "25.90",
+      "total_tax": "2.73",
+      "tax_lines": [
+        {
+          "title": "Thurston County Tax",
+          "price": "0.60",
+          "rate": 0.018
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.13",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6421552693453,
+      "order_name": "#38110",
+      "processed_at": "2025-07-18T18:02:14-07:00",
+      "state": "WA",
+      "city": "Seabeck",
+      "zip": "98380",
+      "subtotal": "69.95",
+      "total_tax": "6.44",
+      "tax_lines": [
+        {
+          "title": "Kitsap County Tax",
+          "price": "1.89",
+          "rate": 0.027
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.55",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6421533884621,
+      "order_name": "#38108",
+      "processed_at": "2025-07-18T17:03:14-07:00",
+      "state": "UT",
+      "city": "Saratoga Springs",
+      "zip": "84045",
+      "subtotal": "62.83",
+      "total_tax": "4.68",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "1.26",
+          "rate": 0.02
+        },
+        {
+          "title": "Saratoga Springs City Tax",
+          "price": "0.06",
+          "rate": 0.001
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.31",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.05",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6421377515725,
+      "order_name": "#38076",
+      "processed_at": "2025-07-18T11:12:32-07:00",
+      "state": "UT",
+      "city": "Vernal",
+      "zip": "84078",
+      "subtotal": "100.79",
+      "total_tax": "7.03",
+      "tax_lines": [
+        {
+          "title": "Uintah County Tax",
+          "price": "1.62",
+          "rate": 0.016
+        },
+        {
+          "title": "Vernal City Tax",
+          "price": "0.22",
+          "rate": 0.002
+        },
+        {
+          "title": "Vernal Tr",
+          "price": "0.29",
+          "rate": 0.003
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "4.90",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6421359526093,
+      "order_name": "#38072",
+      "processed_at": "2025-07-18T10:42:48-07:00",
+      "state": "TX",
+      "city": "Jacksonville",
+      "zip": "75766",
+      "subtotal": "127.74",
+      "total_tax": "10.50",
+      "tax_lines": [
+        {
+          "title": "Cherokee County Tax",
+          "price": "0.64",
+          "rate": 0.005
+        },
+        {
+          "title": "Jacksonville City Tax",
+          "price": "1.92",
+          "rate": 0.015
+        },
+        {
+          "title": "Texas State Tax",
+          "price": "7.94",
+          "rate": 0.0625
+        }
+      ]
+    },
+    {
+      "order_id": 6421281997005,
+      "order_name": "#38068",
+      "processed_at": "2025-07-18T09:20:11-07:00",
+      "state": "OH",
+      "city": "Reynoldsburg",
+      "zip": "43068",
+      "subtotal": "11.95",
+      "total_tax": "1.56",
+      "tax_lines": [
+        {
+          "title": "Licking County Tax",
+          "price": "0.28",
+          "rate": 0.015
+        },
+        {
+          "title": "Central Ohio Transit Authority Tax",
+          "price": "0.19",
+          "rate": 0.01
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "1.09",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6421103771853,
+      "order_name": "#38060",
+      "processed_at": "2025-07-18T08:26:53-07:00",
+      "state": "UT",
+      "city": "Midvale",
+      "zip": "84047",
+      "subtotal": "49.39",
+      "total_tax": "3.68",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.28",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.40",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6421087748301,
+      "order_name": "#38054",
+      "processed_at": "2025-07-18T07:39:31-07:00",
+      "state": "WA",
+      "city": "Kelso",
+      "zip": "98626",
+      "subtotal": "19.99",
+      "total_tax": "2.07",
+      "tax_lines": [
+        {
+          "title": "Cowlitz County Tax",
+          "price": "0.32",
+          "rate": 0.012
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.75",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6421024538829,
+      "order_name": "#38033",
+      "processed_at": "2025-07-18T03:53:50-07:00",
+      "state": "WA",
+      "city": "Poulsbo",
+      "zip": "98370",
+      "subtotal": "39.98",
+      "total_tax": "4.32",
+      "tax_lines": [
+        {
+          "title": "Kitsap County Tax",
+          "price": "1.27",
+          "rate": 0.027
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.05",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6420855685325,
+      "order_name": "#38030",
+      "processed_at": "2025-07-17T16:31:37-07:00",
+      "state": "WA",
+      "city": "Kingston",
+      "zip": "98346",
+      "subtotal": "99.95",
+      "total_tax": "9.20",
+      "tax_lines": [
+        {
+          "title": "Kitsap County Tax",
+          "price": "2.70",
+          "rate": 0.027
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.50",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6420834287821,
+      "order_name": "#38027",
+      "processed_at": "2025-07-17T15:21:04-07:00",
+      "state": "OH",
+      "city": "westlake",
+      "zip": "44145",
+      "subtotal": "52.99",
+      "total_tax": "4.80",
+      "tax_lines": [
+        {
+          "title": "Cuyahoga County Tax",
+          "price": "1.34",
+          "rate": 0.0225
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "3.46",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6420387758285,
+      "order_name": "#37990",
+      "processed_at": "2025-07-16T14:14:26-07:00",
+      "state": "OH",
+      "city": "Toledo",
+      "zip": "43615",
+      "subtotal": "44.09",
+      "total_tax": "3.95",
+      "tax_lines": [
+        {
+          "title": "Lucas County Tax",
+          "price": "0.77",
+          "rate": 0.015
+        },
+        {
+          "title": "Toledo Area Regional Transit Authority",
+          "price": "0.25",
+          "rate": 0.005
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "2.93",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6420383596749,
+      "order_name": "#37989",
+      "processed_at": "2025-07-16T14:00:35-07:00",
+      "state": "WA",
+      "city": "Rochester",
+      "zip": "98579-9571",
+      "subtotal": "18.00",
+      "total_tax": "2.08",
+      "tax_lines": [
+        {
+          "title": "Thurston County Tax",
+          "price": "0.45",
+          "rate": 0.018
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.63",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6420304462029,
+      "order_name": "#37970",
+      "processed_at": "2025-07-16T10:23:36-07:00",
+      "state": "OH",
+      "city": "Wilmington",
+      "zip": "45177",
+      "subtotal": "108.64",
+      "total_tax": "7.88",
+      "tax_lines": [
+        {
+          "title": "Ohio State Tax",
+          "price": "6.25",
+          "rate": 0.0575
+        },
+        {
+          "title": "Clinton County Tax",
+          "price": "1.63",
+          "rate": 0.015
+        }
+      ]
+    },
+    {
+      "order_id": 6420226769101,
+      "order_name": "#37959",
+      "processed_at": "2025-07-16T06:56:47-07:00",
+      "state": "UT",
+      "city": "CEDAR CITY",
+      "zip": "84720",
+      "subtotal": "231.60",
+      "total_tax": "15.64",
+      "tax_lines": [
+        {
+          "title": "Iron County Tax",
+          "price": "4.17",
+          "rate": 0.018
+        },
+        {
+          "title": "Cedar City City Tax",
+          "price": "0.23",
+          "rate": 0.001
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "11.24",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6419989201101,
+      "order_name": "#37938",
+      "processed_at": "2025-07-15T14:40:54-07:00",
+      "state": "WA",
+      "city": "Port Orchard",
+      "zip": "98366",
+      "subtotal": "201.90",
+      "total_tax": "18.58",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "13.13",
+          "rate": 0.065
+        },
+        {
+          "title": "Kitsap County Tax",
+          "price": "5.45",
+          "rate": 0.027
+        }
+      ]
+    },
+    {
+      "order_id": 6419186417869,
+      "order_name": "#37909",
+      "processed_at": "2025-07-15T00:14:05-07:00",
+      "state": "WA",
+      "city": "Winlock",
+      "zip": "98596-9119",
+      "subtotal": "73.87",
+      "total_tax": "5.91",
+      "tax_lines": [
+        {
+          "title": "Lewis County Tax",
+          "price": "1.11",
+          "rate": 0.015
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.80",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6419184419021,
+      "order_name": "#37905",
+      "processed_at": "2025-07-15T00:06:58-07:00",
+      "state": "WA",
+      "city": "Redmond",
+      "zip": "98052",
+      "subtotal": "39.95",
+      "total_tax": "4.83",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "3.05",
+          "rate": 0.065
+        },
+        {
+          "title": "Redmond City Tax",
+          "price": "1.78",
+          "rate": 0.038
+        }
+      ]
+    },
+    {
+      "order_id": 6419184287949,
+      "order_name": "#37901",
+      "processed_at": "2025-07-15T00:06:55-07:00",
+      "state": "WA",
+      "city": "Puyallup",
+      "zip": "98375",
+      "subtotal": "39.95",
+      "total_tax": "4.46",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "3.05",
+          "rate": 0.065
+        },
+        {
+          "title": "Pierce Co Tr",
+          "price": "1.41",
+          "rate": 0.03
+        }
+      ]
+    },
+    {
+      "order_id": 6419156009165,
+      "order_name": "#37892",
+      "processed_at": "2025-07-14T21:53:01-07:00",
+      "state": "UT",
+      "city": "Oak City",
+      "zip": "84649",
+      "subtotal": "127.73",
+      "total_tax": "8.10",
+      "tax_lines": [
+        {
+          "title": "Millard County Tax",
+          "price": "1.92",
+          "rate": 0.015
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "6.18",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6419123536077,
+      "order_name": "#37891",
+      "processed_at": "2025-07-14T19:48:16-07:00",
+      "state": "WA",
+      "city": "PORT ORCHARD",
+      "zip": "98366-0419",
+      "subtotal": "39.95",
+      "total_tax": "4.32",
+      "tax_lines": [
+        {
+          "title": "Kitsap County Tax",
+          "price": "1.27",
+          "rate": 0.027
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.05",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6418968740045,
+      "order_name": "#37865",
+      "processed_at": "2025-07-14T11:21:43-07:00",
+      "state": "OH",
+      "city": "Findlay",
+      "zip": "45840",
+      "subtotal": "9.95",
+      "total_tax": "1.14",
+      "tax_lines": [
+        {
+          "title": "Hancock County Tax",
+          "price": "0.17",
+          "rate": 0.01
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "0.97",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6418941477069,
+      "order_name": "#37861",
+      "processed_at": "2025-07-14T10:33:18-07:00",
+      "state": "WA",
+      "city": "OLYMPIA",
+      "zip": "98506",
+      "subtotal": "44.32",
+      "total_tax": "4.27",
+      "tax_lines": [
+        {
+          "title": "Thurston County Tax",
+          "price": "0.93",
+          "rate": 0.018
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.34",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6418895208653,
+      "order_name": "#37854",
+      "processed_at": "2025-07-14T08:32:47-07:00",
+      "state": "OH",
+      "city": "Swanton",
+      "zip": "43558",
+      "subtotal": "11.95",
+      "total_tax": "1.37",
+      "tax_lines": [
+        {
+          "title": "Fulton County Tax",
+          "price": "0.28",
+          "rate": 0.015
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "1.09",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6418886787277,
+      "order_name": "#37853",
+      "processed_at": "2025-07-14T08:10:06-07:00",
+      "state": "UT",
+      "city": "West Jordan",
+      "zip": "84081-1851",
+      "subtotal": "129.95",
+      "total_tax": "9.68",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "3.38",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "6.30",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6418873974989,
+      "order_name": "#37849",
+      "processed_at": "2025-07-14T07:46:33-07:00",
+      "state": "WA",
+      "city": "Yakima",
+      "zip": "98908",
+      "subtotal": "76.84",
+      "total_tax": "6.38",
+      "tax_lines": [
+        {
+          "title": "Yakima City Tax",
+          "price": "1.40",
+          "rate": 0.018
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.98",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6418727665869,
+      "order_name": "#37839",
+      "processed_at": "2025-07-14T05:10:24-07:00",
+      "state": "OH",
+      "city": "Stow",
+      "zip": "44224",
+      "subtotal": "17.96",
+      "total_tax": "1.68",
+      "tax_lines": [
+        {
+          "title": "Summit County Tax",
+          "price": "0.25",
+          "rate": 0.01
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "1.43",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6418486198477,
+      "order_name": "#37836",
+      "processed_at": "2025-07-13T20:26:06-07:00",
+      "state": "WA",
+      "city": "Liberty Lake",
+      "zip": "99019",
+      "subtotal": "119.85",
+      "total_tax": "10.79",
+      "tax_lines": [
+        {
+          "title": "Liberty Lake City Tax",
+          "price": "3.00",
+          "rate": 0.025
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "7.79",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6418299027661,
+      "order_name": "#37829",
+      "processed_at": "2025-07-13T15:31:21-07:00",
+      "state": "UT",
+      "city": "Cedar City",
+      "zip": "84721",
+      "subtotal": "119.90",
+      "total_tax": "8.10",
+      "tax_lines": [
+        {
+          "title": "Iron County Tax",
+          "price": "2.16",
+          "rate": 0.018
+        },
+        {
+          "title": "Cedar City City Tax",
+          "price": "0.12",
+          "rate": 0.001
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "5.82",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6418260918477,
+      "order_name": "#37820",
+      "processed_at": "2025-07-13T14:01:11-07:00",
+      "state": "WA",
+      "city": "Yakima",
+      "zip": "98902",
+      "subtotal": "39.90",
+      "total_tax": "3.89",
+      "tax_lines": [
+        {
+          "title": "Yakima City Tax",
+          "price": "0.85",
+          "rate": 0.018
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.04",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6418216681677,
+      "order_name": "#37817",
+      "processed_at": "2025-07-13T12:06:48-07:00",
+      "state": "UT",
+      "city": "Salt Lake City",
+      "zip": "84123-3381",
+      "subtotal": "13.00",
+      "total_tax": "0.97",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.34",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.63",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6418182471885,
+      "order_name": "#37815",
+      "processed_at": "2025-07-13T10:42:39-07:00",
+      "state": "WA",
+      "city": "Langley",
+      "zip": "98260-8518",
+      "subtotal": "55.00",
+      "total_tax": "5.46",
+      "tax_lines": [
+        {
+          "title": "Island County Tax",
+          "price": "1.43",
+          "rate": 0.023
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.03",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6418112839885,
+      "order_name": "#37809",
+      "processed_at": "2025-07-13T08:01:33-07:00",
+      "state": "UT",
+      "city": "Saratoga Springs",
+      "zip": "84045",
+      "subtotal": "79.90",
+      "total_tax": "5.96",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "1.60",
+          "rate": 0.02
+        },
+        {
+          "title": "Saratoga Springs City Tax",
+          "price": "0.08",
+          "rate": 0.001
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.40",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.88",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6418087182541,
+      "order_name": "#37808",
+      "processed_at": "2025-07-13T06:51:03-07:00",
+      "state": "WA",
+      "city": "Gig Harbor",
+      "zip": "98335",
+      "subtotal": "74.95",
+      "total_tax": "6.82",
+      "tax_lines": [
+        {
+          "title": "Gig Harbor City Tax",
+          "price": "1.95",
+          "rate": 0.026
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.87",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6417410031821,
+      "order_name": "#37772",
+      "processed_at": "2025-07-12T08:21:03-07:00",
+      "state": "OH",
+      "city": "Bucyrus",
+      "zip": "44820",
+      "subtotal": "14.22",
+      "total_tax": "1.53",
+      "tax_lines": [
+        {
+          "title": "Crawford County Tax",
+          "price": "0.31",
+          "rate": 0.015
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "1.22",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6417202643149,
+      "order_name": "#37762",
+      "processed_at": "2025-07-11T19:19:47-07:00",
+      "state": "WA",
+      "city": "DEER PARK",
+      "zip": "99006",
+      "subtotal": "4.56",
+      "total_tax": "0.93",
+      "tax_lines": [
+        {
+          "title": "Spokane County Tax",
+          "price": "0.18",
+          "rate": 0.016
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "0.75",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6417161617613,
+      "order_name": "#37760",
+      "processed_at": "2025-07-11T17:26:11-07:00",
+      "state": "WA",
+      "city": "Spokane Valley",
+      "zip": "99206",
+      "subtotal": "84.56",
+      "total_tax": "7.53",
+      "tax_lines": [
+        {
+          "title": "Spokane Ptba",
+          "price": "2.03",
+          "rate": 0.024
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "5.50",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6417123344589,
+      "order_name": "#37752",
+      "processed_at": "2025-07-11T15:40:40-07:00",
+      "state": "UT",
+      "city": "Lehi",
+      "zip": "84043",
+      "subtotal": "79.80",
+      "total_tax": "5.95",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.80",
+          "rate": 0.01
+        },
+        {
+          "title": "Lehi City Tax",
+          "price": "0.88",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.40",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.87",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6417072816333,
+      "order_name": "#37742",
+      "processed_at": "2025-07-11T13:43:22-07:00",
+      "state": "WA",
+      "city": "Kenmore",
+      "zip": "98028",
+      "subtotal": "128.36",
+      "total_tax": "13.11",
+      "tax_lines": [
+        {
+          "title": "Kenmore City Tax",
+          "price": "4.76",
+          "rate": 0.037
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "8.35",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6416906944717,
+      "order_name": "#37730",
+      "processed_at": "2025-07-11T11:07:14-07:00",
+      "state": "WA",
+      "city": "Bellingham",
+      "zip": "98225-5358",
+      "subtotal": "66.87",
+      "total_tax": "6.03",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "4.34",
+          "rate": 0.065
+        },
+        {
+          "title": "Bellingham City Tax",
+          "price": "1.69",
+          "rate": 0.025
+        }
+      ]
+    },
+    {
+      "order_id": 6416869228749,
+      "order_name": "#37720",
+      "processed_at": "2025-07-11T09:58:20-07:00",
+      "state": "WA",
+      "city": "Bothell",
+      "zip": "98011",
+      "subtotal": "47.11",
+      "total_tax": "5.51",
+      "tax_lines": [
+        {
+          "title": "Bothell/King Special Tax Dist",
+          "price": "2.00",
+          "rate": 0.037
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.51",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6416801333453,
+      "order_name": "#37711",
+      "processed_at": "2025-07-11T08:33:25-07:00",
+      "state": "WA",
+      "city": "Seattle",
+      "zip": "98125",
+      "subtotal": "97.11",
+      "total_tax": "10.05",
+      "tax_lines": [
+        {
+          "title": "Seattle City Tax",
+          "price": "3.74",
+          "rate": 0.0385
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.31",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6415901491405,
+      "order_name": "#37645",
+      "processed_at": "2025-07-09T17:19:37-07:00",
+      "state": "WA",
+      "city": "Stanwood",
+      "zip": "98292",
+      "subtotal": "7.98",
+      "total_tax": "1.18",
+      "tax_lines": [
+        {
+          "title": "Snohomish County Tax",
+          "price": "0.21",
+          "rate": 0.014
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "0.97",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6415877865677,
+      "order_name": "#37643",
+      "processed_at": "2025-07-09T16:09:59-07:00",
+      "state": "WA",
+      "city": "Richland",
+      "zip": "99354",
+      "subtotal": "27.13",
+      "total_tax": "2.96",
+      "tax_lines": [
+        {
+          "title": "Richland City Tax",
+          "price": "0.75",
+          "rate": 0.022
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.21",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6415874031821,
+      "order_name": "#37642",
+      "processed_at": "2025-07-09T16:00:00-07:00",
+      "state": "WA",
+      "city": "MONTESANO",
+      "zip": "98563",
+      "subtotal": "34.00",
+      "total_tax": "3.65",
+      "tax_lines": [
+        {
+          "title": "Grays Harbor County Tax",
+          "price": "0.99",
+          "rate": 0.024
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.66",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6415668707533,
+      "order_name": "#37611",
+      "processed_at": "2025-07-09T09:11:22-07:00",
+      "state": "WA",
+      "city": "Auburn",
+      "zip": "98092-4823",
+      "subtotal": "629.20",
+      "total_tax": "64.81",
+      "tax_lines": [
+        {
+          "title": "Auburn/King Special Tax Dist",
+          "price": "23.91",
+          "rate": 0.038
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "40.90",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6415256387789,
+      "order_name": "#37592",
+      "processed_at": "2025-07-08T15:37:50-07:00",
+      "state": "UT",
+      "city": "Saratoga Springs",
+      "zip": "84045",
+      "subtotal": "35.85",
+      "total_tax": "2.67",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.72",
+          "rate": 0.02
+        },
+        {
+          "title": "Saratoga Springs City Tax",
+          "price": "0.03",
+          "rate": 0.001
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.18",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.74",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6415219851469,
+      "order_name": "#37591",
+      "processed_at": "2025-07-08T15:27:04-07:00",
+      "state": "WA",
+      "city": "Vancouver",
+      "zip": "98662-1701",
+      "subtotal": "72.83",
+      "total_tax": "6.41",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "4.74",
+          "rate": 0.065
+        },
+        {
+          "title": "Vancouver City Tax",
+          "price": "1.67",
+          "rate": 0.023
+        }
+      ]
+    },
+    {
+      "order_id": 6415126888653,
+      "order_name": "#37581",
+      "processed_at": "2025-07-08T12:57:33-07:00",
+      "state": "WA",
+      "city": "Fircrest",
+      "zip": "98466",
+      "subtotal": "70.00",
+      "total_tax": "7.07",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "4.55",
+          "rate": 0.065
+        },
+        {
+          "title": "University Place City Tax",
+          "price": "2.52",
+          "rate": 0.036
+        }
+      ]
+    },
+    {
+      "order_id": 6415085830349,
+      "order_name": "#37577",
+      "processed_at": "2025-07-08T12:07:48-07:00",
+      "state": "UT",
+      "city": "CLEARFIELD",
+      "zip": "84015",
+      "subtotal": "67.84",
+      "total_tax": "4.93",
+      "tax_lines": [
+        {
+          "title": "Davis County Tax",
+          "price": "1.23",
+          "rate": 0.018
+        },
+        {
+          "title": "Clearfield City Tax",
+          "price": "0.08",
+          "rate": 0.001
+        },
+        {
+          "title": "Davis Co Tr",
+          "price": "0.34",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.28",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6414208368845,
+      "order_name": "#37560",
+      "processed_at": "2025-07-07T16:26:19-07:00",
+      "state": "WA",
+      "city": "Lakewood",
+      "zip": "98499",
+      "subtotal": "13.00",
+      "total_tax": "2.02",
+      "tax_lines": [
+        {
+          "title": "Lakewood City Tax",
+          "price": "0.72",
+          "rate": 0.036
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.30",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6414030110925,
+      "order_name": "#37532",
+      "processed_at": "2025-07-07T09:17:48-07:00",
+      "state": "WA",
+      "city": "Kelso",
+      "zip": "98626",
+      "subtotal": "99.80",
+      "total_tax": "7.70",
+      "tax_lines": [
+        {
+          "title": "Cowlitz County Tax",
+          "price": "1.21",
+          "rate": 0.012
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.49",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6413999734989,
+      "order_name": "#37530",
+      "processed_at": "2025-07-07T07:53:18-07:00",
+      "state": "UT",
+      "city": "Highland",
+      "zip": "84003",
+      "subtotal": "10.00",
+      "total_tax": "0.75",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.10",
+          "rate": 0.01
+        },
+        {
+          "title": "Highland City Tax",
+          "price": "0.11",
+          "rate": 0.011
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.05",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.49",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6413545144525,
+      "order_name": "#37517",
+      "processed_at": "2025-07-06T15:48:48-07:00",
+      "state": "WA",
+      "city": "Issaquah",
+      "zip": "98027",
+      "subtotal": "99.95",
+      "total_tax": "8.80",
+      "tax_lines": [
+        {
+          "title": "King County Tax",
+          "price": "2.30",
+          "rate": 0.023
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.50",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6412853641421,
+      "order_name": "#37488",
+      "processed_at": "2025-07-05T13:44:06-07:00",
+      "state": "WA",
+      "city": "Richland",
+      "zip": "99354",
+      "subtotal": "39.92",
+      "total_tax": "4.08",
+      "tax_lines": [
+        {
+          "title": "Richland City Tax",
+          "price": "1.03",
+          "rate": 0.022
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.05",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6412757598413,
+      "order_name": "#37476",
+      "processed_at": "2025-07-05T09:35:34-07:00",
+      "state": "WA",
+      "city": "Pateros",
+      "zip": "98846",
+      "subtotal": "98.32",
+      "total_tax": "8.46",
+      "tax_lines": [
+        {
+          "title": "Pateros City Tax",
+          "price": "2.07",
+          "rate": 0.021
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.39",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6412718473421,
+      "order_name": "#37472",
+      "processed_at": "2025-07-05T08:01:48-07:00",
+      "state": "UT",
+      "city": "Salt Lake City",
+      "zip": "84106-3119",
+      "subtotal": "9.56",
+      "total_tax": "0.81",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.25",
+          "rate": 0.026
+        },
+        {
+          "title": "Salt Lake City City Tax",
+          "price": "0.10",
+          "rate": 0.01
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.46",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6412692652237,
+      "order_name": "#37470",
+      "processed_at": "2025-07-05T06:51:21-07:00",
+      "state": "WA",
+      "city": "Sequim",
+      "zip": "98382",
+      "subtotal": "17.96",
+      "total_tax": "2.15",
+      "tax_lines": [
+        {
+          "title": "Clallam County Tax",
+          "price": "0.53",
+          "rate": 0.021
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.62",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6412577571021,
+      "order_name": "#37468",
+      "processed_at": "2025-07-04T23:02:40-07:00",
+      "state": "WA",
+      "city": "Olympia",
+      "zip": "98506-7013",
+      "subtotal": "67.94",
+      "total_tax": "6.65",
+      "tax_lines": [
+        {
+          "title": "Olympia City Tax",
+          "price": "2.23",
+          "rate": 0.033
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "4.42",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6412510920909,
+      "order_name": "#37464",
+      "processed_at": "2025-07-04T19:23:24-07:00",
+      "state": "WA",
+      "city": "Sequim",
+      "zip": "98382",
+      "subtotal": "99.95",
+      "total_tax": "8.60",
+      "tax_lines": [
+        {
+          "title": "Clallam County Tax",
+          "price": "2.10",
+          "rate": 0.021
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "6.50",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6412413370573,
+      "order_name": "#37460",
+      "processed_at": "2025-07-04T13:43:17-07:00",
+      "state": "WA",
+      "city": "BURLINGTON",
+      "zip": "98233-1415",
+      "subtotal": "91.63",
+      "total_tax": "7.96",
+      "tax_lines": [
+        {
+          "title": "Burlington City Tax",
+          "price": "2.01",
+          "rate": 0.022
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "5.95",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6412357271757,
+      "order_name": "#37455",
+      "processed_at": "2025-07-04T11:01:35-07:00",
+      "state": "UT",
+      "city": "Saratoga Springs",
+      "zip": "84045",
+      "subtotal": "9.95",
+      "total_tax": "0.74",
+      "tax_lines": [
+        {
+          "title": "Utah County Tax",
+          "price": "0.20",
+          "rate": 0.02
+        },
+        {
+          "title": "Saratoga Springs City Tax",
+          "price": "0.01",
+          "rate": 0.001
+        },
+        {
+          "title": "Utah Co Tr",
+          "price": "0.05",
+          "rate": 0.005
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.48",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 6412291866829,
+      "order_name": "#37449",
+      "processed_at": "2025-07-04T07:59:16-07:00",
+      "state": "WA",
+      "city": "LA CENTER",
+      "zip": "98629",
+      "subtotal": "19.95",
+      "total_tax": "2.10",
+      "tax_lines": [
+        {
+          "title": "Clark County Tax",
+          "price": "0.35",
+          "rate": 0.013
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.75",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6412287443149,
+      "order_name": "#37447",
+      "processed_at": "2025-07-04T07:45:19-07:00",
+      "state": "WA",
+      "city": "Ridgefield",
+      "zip": "98642-7027",
+      "subtotal": "19.95",
+      "total_tax": "2.34",
+      "tax_lines": [
+        {
+          "title": "Ridgefield City Tax",
+          "price": "0.59",
+          "rate": 0.022
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.75",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6411779506381,
+      "order_name": "#37412",
+      "processed_at": "2025-07-03T06:28:51-07:00",
+      "state": "OH",
+      "city": "Kingston",
+      "zip": "45644",
+      "subtotal": "6.27",
+      "total_tax": "0.95",
+      "tax_lines": [
+        {
+          "title": "Pickaway County Tax",
+          "price": "0.19",
+          "rate": 0.015
+        },
+        {
+          "title": "Ohio State Tax",
+          "price": "0.76",
+          "rate": 0.0575
+        }
+      ]
+    },
+    {
+      "order_id": 6410858496205,
+      "order_name": "#37382",
+      "processed_at": "2025-07-02T08:18:38-07:00",
+      "state": "WA",
+      "city": "Longview",
+      "zip": "98632",
+      "subtotal": "20.07",
+      "total_tax": "2.22",
+      "tax_lines": [
+        {
+          "title": "Longview City Tax",
+          "price": "0.47",
+          "rate": 0.017
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.75",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6410717298893,
+      "order_name": "#37373",
+      "processed_at": "2025-07-01T23:32:52-07:00",
+      "state": "WA",
+      "city": "Kirkland",
+      "zip": "98034",
+      "subtotal": "89.84",
+      "total_tax": "9.27",
+      "tax_lines": [
+        {
+          "title": "Kirkland City Tax",
+          "price": "3.42",
+          "rate": 0.038
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "5.85",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6410523803853,
+      "order_name": "#37365",
+      "processed_at": "2025-07-01T14:03:37-07:00",
+      "state": "WA",
+      "city": "Kent",
+      "zip": "98031",
+      "subtotal": "15.96",
+      "total_tax": "2.34",
+      "tax_lines": [
+        {
+          "title": "Kent City Tax",
+          "price": "0.85",
+          "rate": 0.037
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.49",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6409792717005,
+      "order_name": "#37350",
+      "processed_at": "2025-07-01T07:56:50-07:00",
+      "state": "WA",
+      "city": "Bonney Lake",
+      "zip": "98391",
+      "subtotal": "9.98",
+      "total_tax": "1.61",
+      "tax_lines": [
+        {
+          "title": "Pierce Co Tr",
+          "price": "0.51",
+          "rate": 0.03
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.10",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6409653911757,
+      "order_name": "#37343",
+      "processed_at": "2025-06-30T22:57:55-07:00",
+      "state": "WA",
+      "city": "Lake Stevens",
+      "zip": "98258",
+      "subtotal": "53.76",
+      "total_tax": "4.79",
+      "tax_lines": [
+        {
+          "title": "Snohomish County Tax",
+          "price": "0.85",
+          "rate": 0.014
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.94",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 6409559998669,
+      "order_name": "#37339",
+      "processed_at": "2025-06-30T18:57:30-07:00",
+      "state": "WA",
+      "city": "Gig Harbor",
+      "zip": "98335-1426",
+      "subtotal": "30.46",
+      "total_tax": "3.02",
+      "tax_lines": [
+        {
+          "title": "Pierce County Tax",
+          "price": "0.59",
+          "rate": 0.016
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.43",
+          "rate": 0.065
+        }
+      ]
+    }
+  ]
+}

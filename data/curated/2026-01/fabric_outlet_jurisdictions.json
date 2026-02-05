@@ -1,0 +1,1372 @@
+{
+  "store_id": "fabric_outlet",
+  "period": "2026-01",
+  "extracted_at": "2026-02-04T17:24:18.689148",
+  "order_count": 62,
+  "orders": [
+    {
+      "order_id": 7325883433233,
+      "order_name": "#9933",
+      "processed_at": "2026-01-30T16:14:28-07:00",
+      "state": "UT",
+      "city": "Herriman",
+      "zip": "84096",
+      "subtotal": "19.99",
+      "total_tax": "1.49",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.52",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.97",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7325587669265,
+      "order_name": "#9925",
+      "processed_at": "2026-01-30T13:19:55-07:00",
+      "state": "UT",
+      "city": "Saratoga Springs",
+      "zip": "84045",
+      "subtotal": "101.51",
+      "total_tax": "7.55",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "4.92",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "2.63",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 7323922497809,
+      "order_name": "#9888",
+      "processed_at": "2026-01-29T16:17:22-07:00",
+      "state": "UT",
+      "city": "St. George",
+      "zip": "84770",
+      "subtotal": "69.98",
+      "total_tax": "5.21",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.82",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.39",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7323803451665,
+      "order_name": "#9885",
+      "processed_at": "2026-01-29T14:57:31-07:00",
+      "state": "OH",
+      "city": "West Milton",
+      "zip": "45383",
+      "subtotal": "69.95",
+      "total_tax": "4.89",
+      "tax_lines": [
+        {
+          "title": "Ohio State Tax",
+          "price": "4.02",
+          "rate": 0.0575
+        },
+        {
+          "title": "Miami County Tax",
+          "price": "0.87",
+          "rate": 0.0125
+        }
+      ]
+    },
+    {
+      "order_id": 7321746440465,
+      "order_name": "#9855",
+      "processed_at": "2026-01-28T14:30:25-07:00",
+      "state": "UT",
+      "city": "Payson",
+      "zip": "84651",
+      "subtotal": "21.70",
+      "total_tax": "1.60",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.56",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.04",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7319929815313,
+      "order_name": "#9831",
+      "processed_at": "2026-01-27T16:21:05-07:00",
+      "state": "UT",
+      "city": "Liberty",
+      "zip": "84310",
+      "subtotal": "59.14",
+      "total_tax": "3.07",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.07",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.00",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7319167566097,
+      "order_name": "#9815",
+      "processed_at": "2026-01-27T08:53:02-07:00",
+      "state": "UT",
+      "city": "Springville",
+      "zip": "84663",
+      "subtotal": "20.92",
+      "total_tax": "1.55",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.52",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.03",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7317470183697,
+      "order_name": "#9775",
+      "processed_at": "2026-01-26T11:14:29-07:00",
+      "state": "UT",
+      "city": "Centerville",
+      "zip": "84014-1836",
+      "subtotal": "41.86",
+      "total_tax": "3.15",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.12",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.03",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7316220182801,
+      "order_name": "#9756",
+      "processed_at": "2026-01-25T17:46:52-07:00",
+      "state": "UT",
+      "city": "Midvale",
+      "zip": "84047",
+      "subtotal": "2.99",
+      "total_tax": "0.23",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.08",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.15",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7315932872977,
+      "order_name": "#9748",
+      "processed_at": "2026-01-25T14:11:29-07:00",
+      "state": "WA",
+      "city": "Shoreline",
+      "zip": "98133",
+      "subtotal": "25.48",
+      "total_tax": "3.40",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "2.10",
+          "rate": 0.065
+        },
+        {
+          "title": "Shoreline City Tax",
+          "price": "1.30",
+          "rate": 0.04
+        }
+      ]
+    },
+    {
+      "order_id": 7314139939089,
+      "order_name": "#9706",
+      "processed_at": "2026-01-24T14:54:52-07:00",
+      "state": "WA",
+      "city": "Sedro Woolley",
+      "zip": "98284-7437",
+      "subtotal": "17.99",
+      "total_tax": "2.15",
+      "tax_lines": [
+        {
+          "title": "Sedro Woolley City Tax",
+          "price": "0.53",
+          "rate": 0.021
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.62",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7312317284625,
+      "order_name": "#9670",
+      "processed_at": "2026-01-23T15:43:53-07:00",
+      "state": "UT",
+      "city": "Herriman",
+      "zip": "84096",
+      "subtotal": "41.97",
+      "total_tax": "3.13",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.09",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.04",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7311981084945,
+      "order_name": "#9661",
+      "processed_at": "2026-01-23T12:27:41-07:00",
+      "state": "UT",
+      "city": "Spanish Fork",
+      "zip": "84660",
+      "subtotal": "79.92",
+      "total_tax": "5.95",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "2.08",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.87",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7311904178449,
+      "order_name": "#9658",
+      "processed_at": "2026-01-23T11:42:33-07:00",
+      "state": "WA",
+      "city": "West Richland",
+      "zip": "99353",
+      "subtotal": "29.97",
+      "total_tax": "3.21",
+      "tax_lines": [
+        {
+          "title": "West Richland City Tax",
+          "price": "0.81",
+          "rate": 0.022
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.40",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7311692071185,
+      "order_name": "#9653",
+      "processed_at": "2026-01-23T09:43:03-07:00",
+      "state": "UT",
+      "city": "Cedar City",
+      "zip": "84721",
+      "subtotal": "13.98",
+      "total_tax": "1.04",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "0.68",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.36",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 7311604220177,
+      "order_name": "#9644",
+      "processed_at": "2026-01-23T08:54:02-07:00",
+      "state": "UT",
+      "city": "SALT LAKE CITY",
+      "zip": "84121",
+      "subtotal": "69.95",
+      "total_tax": "5.20",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.82",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.38",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7311528395025,
+      "order_name": "#9640",
+      "processed_at": "2026-01-23T08:09:00-07:00",
+      "state": "WA",
+      "city": "Marlin",
+      "zip": "98832",
+      "subtotal": "29.48",
+      "total_tax": "2.99",
+      "tax_lines": [
+        {
+          "title": "Grant County Tax",
+          "price": "0.62",
+          "rate": 0.017
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.37",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7310368440593,
+      "order_name": "#9626",
+      "processed_at": "2026-01-22T17:00:17-07:00",
+      "state": "CO",
+      "city": "Morrison",
+      "zip": "80465",
+      "subtotal": "22.49",
+      "total_tax": "2.67",
+      "tax_lines": [
+        {
+          "title": "Bellingham City Tax",
+          "price": "0.76",
+          "rate": 0.026
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.91",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7309977059601,
+      "order_name": "#9619",
+      "processed_at": "2026-01-22T13:31:06-07:00",
+      "state": "UT",
+      "city": "provo",
+      "zip": "84604",
+      "subtotal": "72.72",
+      "total_tax": "5.42",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.89",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.53",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7309760659729,
+      "order_name": "#9616",
+      "processed_at": "2026-01-22T11:46:38-07:00",
+      "state": "UT",
+      "city": "South Jordan",
+      "zip": "84095",
+      "subtotal": "29.19",
+      "total_tax": "2.17",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.76",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.41",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7309575684369,
+      "order_name": "#9613",
+      "processed_at": "2026-01-22T10:20:23-07:00",
+      "state": "WA",
+      "city": "Puyallup",
+      "zip": "98375",
+      "subtotal": "23.99",
+      "total_tax": "2.94",
+      "tax_lines": [
+        {
+          "title": "Pierce Co Tr",
+          "price": "0.93",
+          "rate": 0.03
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.01",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7309356400913,
+      "order_name": "#9610",
+      "processed_at": "2026-01-22T08:37:06-07:00",
+      "state": "UT",
+      "city": "Providence",
+      "zip": "84332",
+      "subtotal": "88.44",
+      "total_tax": "6.60",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "2.30",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "4.30",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7309212025105,
+      "order_name": "#9609",
+      "processed_at": "2026-01-22T07:11:58-07:00",
+      "state": "UT",
+      "city": "Holladay",
+      "zip": "84121",
+      "subtotal": "36.36",
+      "total_tax": "2.07",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.72",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.35",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7308403638545,
+      "order_name": "#9603",
+      "processed_at": "2026-01-21T20:31:11-07:00",
+      "state": "UT",
+      "city": "West Haven",
+      "zip": "84401",
+      "subtotal": "29.98",
+      "total_tax": "2.23",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.77",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.46",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7308033261841,
+      "order_name": "#9598",
+      "processed_at": "2026-01-21T15:54:30-07:00",
+      "state": "UT",
+      "city": "Provo",
+      "zip": "84604",
+      "subtotal": "33.72",
+      "total_tax": "2.52",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.88",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.64",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7308024938769,
+      "order_name": "#9597",
+      "processed_at": "2026-01-21T15:48:55-07:00",
+      "state": "UT",
+      "city": "Cedar City",
+      "zip": "84721",
+      "subtotal": "13.98",
+      "total_tax": "1.04",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.36",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.68",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7305913336081,
+      "order_name": "#9571",
+      "processed_at": "2026-01-20T13:39:33-07:00",
+      "state": "UT",
+      "city": "South Jordan",
+      "zip": "84095",
+      "subtotal": "1.40",
+      "total_tax": "0.11",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "0.07",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.04",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 7304767734033,
+      "order_name": "#9551",
+      "processed_at": "2026-01-19T22:58:32-07:00",
+      "state": "WA",
+      "city": "Prosser",
+      "zip": "99350",
+      "subtotal": "53.98",
+      "total_tax": "4.94",
+      "tax_lines": [
+        {
+          "title": "Benton County Tax",
+          "price": "0.98",
+          "rate": 0.016
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.96",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7302120538385,
+      "order_name": "#9513",
+      "processed_at": "2026-01-18T12:25:54-07:00",
+      "state": "UT",
+      "city": "Salt Lake City",
+      "zip": "84105",
+      "subtotal": "26.98",
+      "total_tax": "2.01",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "1.32",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.69",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 7300935942417,
+      "order_name": "#9485",
+      "processed_at": "2026-01-17T20:35:35-07:00",
+      "state": "WA",
+      "city": "Winlock",
+      "zip": "98596-9313",
+      "subtotal": "29.97",
+      "total_tax": "2.95",
+      "tax_lines": [
+        {
+          "title": "Lewis County Tax",
+          "price": "0.55",
+          "rate": 0.015
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.40",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7300066541841,
+      "order_name": "#9458",
+      "processed_at": "2026-01-17T10:48:08-07:00",
+      "state": "UT",
+      "city": "Centerville",
+      "zip": "84014",
+      "subtotal": "85.43",
+      "total_tax": "6.37",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "2.21",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "4.16",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7300045865233,
+      "order_name": "#9457",
+      "processed_at": "2026-01-17T10:36:40-07:00",
+      "state": "UT",
+      "city": "Spanish Fork",
+      "zip": "84660",
+      "subtotal": "18.00",
+      "total_tax": "1.34",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.47",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.87",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7300010737937,
+      "order_name": "#9456",
+      "processed_at": "2026-01-17T10:17:45-07:00",
+      "state": "WA",
+      "city": "Moxee",
+      "zip": "98936",
+      "subtotal": "25.17",
+      "total_tax": "2.64",
+      "tax_lines": [
+        {
+          "title": "Moxee City Tax",
+          "price": "0.55",
+          "rate": 0.017
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.09",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7299006759185,
+      "order_name": "#9444",
+      "processed_at": "2026-01-16T19:34:11-07:00",
+      "state": "UT",
+      "city": "Spanish Fork",
+      "zip": "84660",
+      "subtotal": "62.94",
+      "total_tax": "4.69",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "3.08",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.61",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 7298822078737,
+      "order_name": "#9438",
+      "processed_at": "2026-01-16T16:52:33-07:00",
+      "state": "WA",
+      "city": "Bremerton",
+      "zip": "98311",
+      "subtotal": "41.47",
+      "total_tax": "4.44",
+      "tax_lines": [
+        {
+          "title": "Kitsap County Tax",
+          "price": "1.30",
+          "rate": 0.027
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.14",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7298745270545,
+      "order_name": "#9436",
+      "processed_at": "2026-01-16T15:53:39-07:00",
+      "state": "UT",
+      "city": "Saratoga Springs",
+      "zip": "84045",
+      "subtotal": "34.99",
+      "total_tax": "2.61",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.91",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.70",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7298476245265,
+      "order_name": "#9433",
+      "processed_at": "2026-01-16T13:10:53-07:00",
+      "state": "UT",
+      "city": "Fillmore",
+      "zip": "84631",
+      "subtotal": "61.46",
+      "total_tax": "4.58",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "2.98",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.60",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 7296881525009,
+      "order_name": "#9408",
+      "processed_at": "2026-01-15T17:17:01-07:00",
+      "state": "WA",
+      "city": "Moses Lake",
+      "zip": "98837",
+      "subtotal": "58.45",
+      "total_tax": "5.56",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "4.26",
+          "rate": 0.065
+        },
+        {
+          "title": "Moses Lake City Tax",
+          "price": "1.30",
+          "rate": 0.02
+        }
+      ]
+    },
+    {
+      "order_id": 7294856036625,
+      "order_name": "#9383",
+      "processed_at": "2026-01-14T15:18:57-07:00",
+      "state": "UT",
+      "city": "Pleasant Grove",
+      "zip": "84062",
+      "subtotal": "28.00",
+      "total_tax": "2.09",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "1.36",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.73",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 7293257744657,
+      "order_name": "#9364",
+      "processed_at": "2026-01-13T17:49:11-07:00",
+      "state": "UT",
+      "city": "Millcreek",
+      "zip": "84124",
+      "subtotal": "14.85",
+      "total_tax": "1.10",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.38",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.72",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7293067526417,
+      "order_name": "#9357",
+      "processed_at": "2026-01-13T15:16:16-07:00",
+      "state": "WA",
+      "city": "West Richland",
+      "zip": "99353",
+      "subtotal": "44.97",
+      "total_tax": "4.52",
+      "tax_lines": [
+        {
+          "title": "West Richland City Tax",
+          "price": "1.15",
+          "rate": 0.022
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "3.37",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7292686434577,
+      "order_name": "#9347",
+      "processed_at": "2026-01-13T11:31:53-07:00",
+      "state": "UT",
+      "city": "Price",
+      "zip": "84501-2266",
+      "subtotal": "34.99",
+      "total_tax": "2.61",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.91",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.70",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7292350464273,
+      "order_name": "#9341",
+      "processed_at": "2026-01-13T08:21:45-07:00",
+      "state": "UT",
+      "city": "Hyrum",
+      "zip": "84319",
+      "subtotal": "76.44",
+      "total_tax": "5.70",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.98",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.72",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7292341846289,
+      "order_name": "#9340",
+      "processed_at": "2026-01-13T08:15:33-07:00",
+      "state": "UT",
+      "city": "South Jordan",
+      "zip": "84095",
+      "subtotal": "23.49",
+      "total_tax": "1.75",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "1.14",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.61",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 7291373551889,
+      "order_name": "#9329",
+      "processed_at": "2026-01-12T17:53:51-07:00",
+      "state": "UT",
+      "city": "Herriman",
+      "zip": "84096",
+      "subtotal": "39.97",
+      "total_tax": "2.98",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.04",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.94",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7291062190353,
+      "order_name": "#9321",
+      "processed_at": "2026-01-12T14:12:07-07:00",
+      "state": "UT",
+      "city": "Lehi",
+      "zip": "84043",
+      "subtotal": "98.92",
+      "total_tax": "7.38",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "2.56",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "4.82",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7287432315153,
+      "order_name": "#9272",
+      "processed_at": "2026-01-10T14:46:08-07:00",
+      "state": "WA",
+      "city": "Spokane Valley",
+      "zip": "99216",
+      "subtotal": "19.99",
+      "total_tax": "2.42",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "1.75",
+          "rate": 0.065
+        },
+        {
+          "title": "Spokane Valley City Tax",
+          "price": "0.67",
+          "rate": 0.025
+        }
+      ]
+    },
+    {
+      "order_id": 7287025565969,
+      "order_name": "#9266",
+      "processed_at": "2026-01-10T11:05:18-07:00",
+      "state": "UT",
+      "city": "Lehi",
+      "zip": "84043-6534",
+      "subtotal": "66.21",
+      "total_tax": "3.52",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.23",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.29",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7286070083857,
+      "order_name": "#9258",
+      "processed_at": "2026-01-09T23:45:56-07:00",
+      "state": "WA",
+      "city": "Kalama",
+      "zip": "98625",
+      "subtotal": "30.97",
+      "total_tax": "2.91",
+      "tax_lines": [
+        {
+          "title": "Cowlitz County Tax",
+          "price": "0.45",
+          "rate": 0.012
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.46",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7285618082065,
+      "order_name": "#9251",
+      "processed_at": "2026-01-09T16:26:00-07:00",
+      "state": "WA",
+      "city": "Yelm",
+      "zip": "98597",
+      "subtotal": "24.70",
+      "total_tax": "3.00",
+      "tax_lines": [
+        {
+          "title": "Washington State Tax",
+          "price": "2.05",
+          "rate": 0.065
+        },
+        {
+          "title": "Yelm City Tax",
+          "price": "0.95",
+          "rate": 0.03
+        }
+      ]
+    },
+    {
+      "order_id": 7283787825425,
+      "order_name": "#9217",
+      "processed_at": "2026-01-08T17:34:41-07:00",
+      "state": "WA",
+      "city": "Cheney",
+      "zip": "99004",
+      "subtotal": "9.43",
+      "total_tax": "1.46",
+      "tax_lines": [
+        {
+          "title": "Cheney City Tax",
+          "price": "0.40",
+          "rate": 0.024
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.06",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7280922231057,
+      "order_name": "#9174",
+      "processed_at": "2026-01-07T07:28:35-07:00",
+      "state": "UT",
+      "city": "SPRINGVILLE",
+      "zip": "84663-2729",
+      "subtotal": "78.40",
+      "total_tax": "5.88",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "2.04",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.84",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7279177924881,
+      "order_name": "#9153",
+      "processed_at": "2026-01-06T08:37:28-07:00",
+      "state": "UT",
+      "city": "Stansbury Pk",
+      "zip": "84074",
+      "subtotal": "12.00",
+      "total_tax": "0.89",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.31",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "0.58",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7278528659729,
+      "order_name": "#9147",
+      "processed_at": "2026-01-05T22:46:43-07:00",
+      "state": "OH",
+      "city": "Miamisburg",
+      "zip": "45342",
+      "subtotal": "50.46",
+      "total_tax": "4.30",
+      "tax_lines": [
+        {
+          "title": "Ohio State Tax",
+          "price": "3.30",
+          "rate": 0.0575
+        },
+        {
+          "title": "Montgomery County Tax",
+          "price": "1.00",
+          "rate": 0.0175
+        }
+      ]
+    },
+    {
+      "order_id": 7278523678993,
+      "order_name": "#9146",
+      "processed_at": "2026-01-05T22:39:52-07:00",
+      "state": "UT",
+      "city": "Hooper",
+      "zip": "84315",
+      "subtotal": "7.65",
+      "total_tax": "0.57",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "0.37",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.20",
+          "rate": 0.026
+        }
+      ]
+    },
+    {
+      "order_id": 7275359797521,
+      "order_name": "#9097",
+      "processed_at": "2026-01-04T06:29:33-07:00",
+      "state": "UT",
+      "city": "Lehi",
+      "zip": "84043-6534",
+      "subtotal": "76.46",
+      "total_tax": "5.69",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.98",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "3.71",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7274708435217,
+      "order_name": "#9092",
+      "processed_at": "2026-01-03T18:40:22-07:00",
+      "state": "WA",
+      "city": "Renton",
+      "zip": "98055",
+      "subtotal": "16.49",
+      "total_tax": "2.46",
+      "tax_lines": [
+        {
+          "title": "Renton City Tax",
+          "price": "0.94",
+          "rate": 0.04
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "1.52",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7274101440785,
+      "order_name": "#9075",
+      "processed_at": "2026-01-03T11:49:59-07:00",
+      "state": "WA",
+      "city": "Veradale",
+      "zip": "99037",
+      "subtotal": "30.57",
+      "total_tax": "3.35",
+      "tax_lines": [
+        {
+          "title": "Spokane Ptba",
+          "price": "0.92",
+          "rate": 0.024
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.43",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7272175567121,
+      "order_name": "#9045",
+      "processed_at": "2026-01-02T10:58:08-07:00",
+      "state": "WA",
+      "city": "Lakewood",
+      "zip": "98499-4756",
+      "subtotal": "24.76",
+      "total_tax": "3.20",
+      "tax_lines": [
+        {
+          "title": "Lakewood City Tax",
+          "price": "1.14",
+          "rate": 0.036
+        },
+        {
+          "title": "Washington State Tax",
+          "price": "2.06",
+          "rate": 0.065
+        }
+      ]
+    },
+    {
+      "order_id": 7271864369425,
+      "order_name": "#9033",
+      "processed_at": "2026-01-02T07:59:23-07:00",
+      "state": "UT",
+      "city": "Herriman",
+      "zip": "84096",
+      "subtotal": "59.75",
+      "total_tax": "4.45",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.55",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "2.90",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7271816397073,
+      "order_name": "#9030",
+      "processed_at": "2026-01-02T07:25:49-07:00",
+      "state": "UT",
+      "city": "Tropic",
+      "zip": "84776-0013",
+      "subtotal": "24.76",
+      "total_tax": "1.84",
+      "tax_lines": [
+        {
+          "title": "Salt Lake County Tax",
+          "price": "0.64",
+          "rate": 0.026
+        },
+        {
+          "title": "Utah State Tax",
+          "price": "1.20",
+          "rate": 0.0485
+        }
+      ]
+    },
+    {
+      "order_id": 7269394022673,
+      "order_name": "#9006",
+      "processed_at": "2025-12-31T17:58:54-07:00",
+      "state": "UT",
+      "city": "West Jordan",
+      "zip": "84084",
+      "subtotal": "49.97",
+      "total_tax": "3.72",
+      "tax_lines": [
+        {
+          "title": "Utah State Tax",
+          "price": "2.42",
+          "rate": 0.0485
+        },
+        {
+          "title": "Salt Lake County Tax",
+          "price": "1.30",
+          "rate": 0.026
+        }
+      ]
+    }
+  ]
+}
