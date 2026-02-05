@@ -22,7 +22,10 @@ from src.jurisdictions import (
     load_orders_with_tax_lines,
     aggregate_by_jurisdiction,
     generate_jurisdiction_summary,
-    generate_utah_worksheet_html
+    generate_utah_worksheet_html,
+    aggregate_wa_by_jurisdiction,
+    generate_wa_jurisdiction_summary,
+    generate_wa_worksheet_html
 )
 
 # Page config
@@ -203,7 +206,7 @@ st.sidebar.divider()
 # Navigation
 page = st.sidebar.radio(
     "Navigation",
-    ["Nexus Status", "Filing Packets", "Data Explorer", "Upload Data", "Settings"],
+    ["Nexus Status", "Filing Packets", "Data Explorer", "Data Audit", "Upload Data", "Settings"],
     label_visibility="collapsed"
 )
 
@@ -564,6 +567,65 @@ elif page == "Filing Packets":
 
                         st.markdown("---")
 
+                    # Washington jurisdiction breakdown
+                    if state == "WA":
+                        st.markdown("---")
+                        st.markdown("**🌲 Washington requires location-based tax reporting**")
+
+                        if st.button(f"📊 Generate WA Location Breakdown", key=f"wa_jur_{period_name}"):
+                            with st.spinner("Loading location data from Shopify orders..."):
+                                try:
+                                    wa_orders = load_orders_with_tax_lines(
+                                        state="WA",
+                                        period_start=period_start_ts,
+                                        period_end=period_end_ts,
+                                        raw_dir=str(Path(__file__).parent / "data" / "raw")
+                                    )
+
+                                    if wa_orders:
+                                        jur_data = aggregate_wa_by_jurisdiction(wa_orders)
+                                        jur_summary = generate_wa_jurisdiction_summary(jur_data)
+
+                                        st.success(f"Found {len(wa_orders)} Washington orders with location data")
+
+                                        col1, col2, col3, col4, col5 = st.columns(5)
+                                        with col1:
+                                            st.metric("State Tax", f"${jur_summary['totals']['state']:,.2f}")
+                                        with col2:
+                                            st.metric("County Tax", f"${jur_summary['totals']['county']:,.2f}")
+                                        with col3:
+                                            st.metric("City Tax", f"${jur_summary['totals']['city']:,.2f}")
+                                        with col4:
+                                            st.metric("Local Tax", f"${jur_summary['totals']['local']:,.2f}")
+                                        with col5:
+                                            st.metric("Transit", f"${jur_summary['totals']['transit']:,.2f}")
+
+                                        wa_worksheet = generate_wa_worksheet_html(
+                                            jurisdiction_summary=jur_summary,
+                                            period_name=period_name,
+                                            company_info=company,
+                                            registration_info=registration_info,
+                                            total_sales=state_data['total_sales'],
+                                            total_orders=state_data['order_count']
+                                        )
+
+                                        st.download_button(
+                                            "📥 Download WA Location Worksheet",
+                                            wa_worksheet,
+                                            file_name=f"WA_location_worksheet_{period_name}.html",
+                                            mime="text/html",
+                                            key=f"wa_worksheet_{period_name}"
+                                        )
+
+                                        with st.expander("Preview Location Breakdown"):
+                                            st.components.v1.html(wa_worksheet, height=800, scrolling=True)
+                                    else:
+                                        st.warning("No raw order data found. Run CLI extraction first.")
+                                except Exception as e:
+                                    st.error(f"Error loading location data: {str(e)}")
+
+                        st.markdown("---")
+
                     col1, col2, col3 = st.columns(3)
                     with col1:
                         # Download worksheet
@@ -683,6 +745,182 @@ elif page == "Data Explorer":
         month_summary["Total Sales"] = month_summary["total_sales"].apply(lambda x: f"${x:,.2f}")
         month_summary["Tax Collected"] = month_summary["tax_collected"].apply(lambda x: f"${x:,.2f}")
         st.dataframe(month_summary[["Orders", "Total Sales", "Tax Collected"]], use_container_width=True)
+
+# Page: Data Audit
+elif page == "Data Audit":
+    st.title("Data Audit & Validation")
+
+    st.markdown("""
+    Verify data completeness and integrity across both Shopify stores.
+    This ensures you're filing with accurate, complete data.
+    """)
+
+    st.divider()
+
+    # Load raw data info
+    import json
+    raw_dir = Path(__file__).parent / "data" / "raw"
+    curated_dir = Path(__file__).parent / "data" / "curated"
+
+    # Raw data by store
+    st.subheader("📦 Raw Data (from Shopify API)")
+
+    raw_data_info = []
+    for store_dir in sorted(raw_dir.glob("*")):
+        if not store_dir.is_dir() or store_dir.name == ".gitkeep":
+            continue
+
+        for period_dir in sorted(store_dir.glob("*")):
+            orders_file = period_dir / "orders.json"
+            if orders_file.exists():
+                with open(orders_file) as f:
+                    data = json.load(f)
+
+                raw_data_info.append({
+                    "Store": store_dir.name,
+                    "Period": period_dir.name,
+                    "Orders": data.get("order_count", len(data.get("orders", []))),
+                    "Start Date": data.get("start_date", "unknown")[:10],
+                    "End Date": data.get("end_date", "unknown")[:10],
+                    "Extracted": data.get("extracted_at", "unknown")[:10] if data.get("extracted_at") else "unknown"
+                })
+
+    if raw_data_info:
+        raw_df = pd.DataFrame(raw_data_info)
+        st.dataframe(raw_df, use_container_width=True, hide_index=True)
+
+        # Summary by store
+        col1, col2 = st.columns(2)
+        for i, store in enumerate(raw_df["Store"].unique()):
+            store_data = raw_df[raw_df["Store"] == store]
+            total_orders = store_data["Orders"].sum()
+            with col1 if i == 0 else col2:
+                st.metric(f"{store}", f"{total_orders:,} orders")
+    else:
+        st.warning("No raw data found. Run the CLI to extract data from Shopify.")
+
+    st.divider()
+
+    # Curated data validation
+    st.subheader("📊 Curated Data Validation")
+
+    if not orders_df.empty:
+        col1, col2, col3, col4 = st.columns(4)
+
+        with col1:
+            st.metric("Total Orders", f"{len(orders_df):,}")
+        with col2:
+            stores = orders_df["store_id"].nunique()
+            st.metric("Stores", stores)
+        with col3:
+            date_range = (orders_df["processed_at"].max() - orders_df["processed_at"].min()).days
+            st.metric("Date Range", f"{date_range} days")
+        with col4:
+            st.metric("Total Sales", f"${orders_df['total_sales'].sum():,.2f}")
+
+        # Store breakdown
+        st.markdown("**Orders by Store:**")
+        store_summary = orders_df.groupby("store_id").agg({
+            "order_id": "count",
+            "total_sales": "sum",
+            "tax_collected": "sum"
+        }).rename(columns={"order_id": "Orders"})
+        store_summary["% of Total"] = (store_summary["Orders"] / store_summary["Orders"].sum() * 100).round(1).astype(str) + "%"
+        store_summary["Total Sales"] = store_summary["total_sales"].apply(lambda x: f"${x:,.2f}")
+        store_summary["Tax Collected"] = store_summary["tax_collected"].apply(lambda x: f"${x:,.2f}")
+        st.dataframe(store_summary[["Orders", "% of Total", "Total Sales", "Tax Collected"]], use_container_width=True)
+
+        st.divider()
+
+        # Data quality checks
+        st.subheader("✅ Data Quality Checks")
+
+        checks_passed = 0
+        total_checks = 5
+
+        # Check 1: Duplicate orders
+        duplicates = orders_df.duplicated(subset=["order_id", "store_id"]).sum()
+        if duplicates == 0:
+            st.success("✅ No duplicate orders found")
+            checks_passed += 1
+        else:
+            st.error(f"❌ Found {duplicates} duplicate orders!")
+
+        # Check 2: Missing states
+        missing_states = orders_df[orders_df["state"].isna() | (orders_df["state"] == "")].shape[0]
+        us_orders = orders_df[orders_df["country"] == "US"]
+        missing_pct = (missing_states / len(us_orders) * 100) if len(us_orders) > 0 else 0
+        if missing_pct < 1:
+            st.success(f"✅ Missing state data: {missing_states} orders ({missing_pct:.2f}%)")
+            checks_passed += 1
+        else:
+            st.warning(f"⚠️ Missing state data: {missing_states} orders ({missing_pct:.2f}%)")
+
+        # Check 3: Both stores present
+        store_count = orders_df["store_id"].nunique()
+        stores_config = load_config("stores.yaml")
+        expected_stores = len(stores_config.get("stores", {}))
+        if store_count >= expected_stores:
+            st.success(f"✅ All {store_count} stores have data")
+            checks_passed += 1
+        else:
+            st.error(f"❌ Only {store_count} of {expected_stores} stores have data!")
+
+        # Check 4: Tax collected validation
+        zero_tax_taxable = orders_df[(orders_df["taxable_sales"] > 0) & (orders_df["tax_collected"] == 0)]
+        zero_tax_pct = (len(zero_tax_taxable) / len(orders_df) * 100) if len(orders_df) > 0 else 0
+        if zero_tax_pct < 5:
+            st.success(f"✅ Tax collection looks normal ({len(zero_tax_taxable)} taxable orders with $0 tax)")
+            checks_passed += 1
+        else:
+            st.warning(f"⚠️ {len(zero_tax_taxable)} taxable orders ({zero_tax_pct:.1f}%) have $0 tax collected")
+
+        # Check 5: Date continuity
+        orders_df_sorted = orders_df.sort_values("processed_at")
+        date_gaps = orders_df_sorted["processed_at"].diff().dt.days.max()
+        if date_gaps and date_gaps < 7:
+            st.success(f"✅ No significant date gaps (max gap: {date_gaps} days)")
+            checks_passed += 1
+        elif date_gaps:
+            st.warning(f"⚠️ Found {date_gaps}-day gap in order dates")
+        else:
+            st.success("✅ Date continuity check passed")
+            checks_passed += 1
+
+        # Summary
+        st.divider()
+        if checks_passed == total_checks:
+            st.success(f"🎉 All {total_checks} checks passed! Data looks complete and accurate.")
+        else:
+            st.warning(f"⚠️ {checks_passed}/{total_checks} checks passed. Review warnings above.")
+
+        st.divider()
+
+        # Comparison with Shopify
+        st.subheader("🔄 Verify Against Shopify Admin")
+
+        st.markdown("""
+        To verify completeness, compare these totals with your Shopify Admin reports:
+
+        1. Go to **Shopify Admin** → **Analytics** → **Reports**
+        2. Run **Sales by month** report for each store
+        3. Compare totals below with Shopify
+        """)
+
+        # Show monthly totals for verification
+        orders_df["month"] = orders_df["processed_at"].dt.to_period("M")
+        monthly = orders_df.groupby(["store_id", "month"]).agg({
+            "order_id": "count",
+            "total_sales": "sum"
+        }).rename(columns={"order_id": "Orders"})
+        monthly = monthly.reset_index()
+        monthly["month"] = monthly["month"].astype(str)
+        monthly["Total Sales"] = monthly["total_sales"].apply(lambda x: f"${x:,.2f}")
+
+        st.dataframe(monthly[["store_id", "month", "Orders", "Total Sales"]], use_container_width=True, hide_index=True)
+
+    else:
+        st.warning("No curated data to audit. Upload or extract data first.")
 
 # Page: Upload Data
 elif page == "Upload Data":
