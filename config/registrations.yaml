@@ -1,39 +1,77 @@
 # State Tax Registrations
-# Fabric Outlet LLC - Currently registered states
+# Fabric Outlet LLC
 
 registrations:
+  # === Current 6 Filing States (monthly per CPA, confirmed 2026-05-07) ===
   GA:
     registered: true
-    filing_frequency: quarterly
-    account_number: ""
-
-  MI:
-    registered: true
-    filing_frequency: quarterly
+    filing_frequency: monthly
     account_number: ""
 
   IL:
     registered: true
-    filing_frequency: quarterly
+    filing_frequency: monthly
     account_number: ""
 
-  UT:
+  MI:
     registered: true
-    filing_frequency: quarterly
+    filing_frequency: monthly
     account_number: ""
 
   OH:
     registered: true
-    filing_frequency: quarterly
+    filing_frequency: monthly
+    account_number: ""
+
+  UT:
+    registered: true
+    filing_frequency: monthly
     account_number: ""
 
   WA:
     registered: true
-    filing_frequency: quarterly
+    filing_frequency: monthly
     account_number: ""
 
-# Add more states as needed:
-#  STATE_CODE:
-#    registered: true
-#    filing_frequency: monthly|quarterly|annually
-#    account_number: ""
+  # === 7 New States (registering May 2026, cadence TBD) ===
+  AR:
+    registered: true
+    filing_frequency: unknown
+    account_number: ""
+    registered_since: "2026-05"
+
+  KY:
+    registered: true
+    filing_frequency: unknown
+    account_number: ""
+    registered_since: "2026-05"
+
+  MD:
+    registered: true
+    filing_frequency: unknown
+    account_number: ""
+    registered_since: "2026-05"
+
+  MN:
+    registered: true
+    filing_frequency: unknown
+    account_number: ""
+    registered_since: "2026-05"
+
+  NE:
+    registered: true
+    filing_frequency: unknown
+    account_number: ""
+    registered_since: "2026-05"
+
+  NY:
+    registered: true
+    filing_frequency: unknown
+    account_number: ""
+    registered_since: "2026-05"
+
+  VA:
+    registered: true
+    filing_frequency: unknown
+    account_number: ""
+    registered_since: "2026-05"

@@ -5,7 +5,12 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Optional
 
+# Final report outputs go to iCloud so they're accessible and backed up.
+# Raw/curated data stays in ai-projects-local (intermediate processing only).
+REPORTS_DIR = Path("~/ai-projects/mission-control/reports/tax").expanduser()
+
 import pandas as pd
+import subprocess
 import typer
 import yaml
 from dotenv import load_dotenv
@@ -14,8 +19,36 @@ from rich.table import Table
 
 from . import extract, transform, aggregate, reconcile, nexus, render
 
-# Load environment variables
-load_dotenv()
+
+def load_secrets():
+    """Load environment variables from encrypted secrets.sh if available, fallback to .env."""
+    secrets_script = os.path.expanduser("~/secrets.sh")
+    if os.path.exists(secrets_script):
+        try:
+            result = subprocess.run(
+                [secrets_script, "load"],
+                capture_output=True,
+                text=True,
+                timeout=5
+            )
+            if result.returncode == 0:
+                for line in result.stdout.strip().split('\n'):
+                    if line.startswith('export '):
+                        # Parse: export KEY=value
+                        kv = line[7:]  # Remove 'export '
+                        if '=' in kv:
+                            key, value = kv.split('=', 1)
+                            os.environ[key] = value
+                return True
+        except (subprocess.TimeoutExpired, Exception):
+            pass
+    # Fallback to .env
+    load_dotenv()
+    return False
+
+
+# Load environment variables (prefer encrypted secrets)
+load_secrets()
 
 app = typer.Typer(help="Shopify Sales Tax Filing Agent")
 console = Console()
@@ -151,7 +184,7 @@ def run(
     exceptions_summary = reconcile.summarize_exceptions(exceptions)
 
     if len(exceptions) > 0:
-        exc_path = reconcile.save_exceptions(exceptions, period_name, f"{data_dir}/outputs")
+        exc_path = reconcile.save_exceptions(exceptions, period_name, str(REPORTS_DIR))
         console.print(f"  [yellow]Found {len(exceptions)} exceptions[/yellow]")
         console.print(f"  Saved to: {exc_path}")
         for exc_type, data in exceptions_summary.get("by_type", {}).items():
@@ -162,7 +195,7 @@ def run(
 
     # Step 5: Render outputs
     console.print("[bold]Step 5: Generating filing packets...[/bold]")
-    output_dir = f"{data_dir}/outputs"
+    output_dir = str(REPORTS_DIR)
 
     for state, state_data in state_aggregates.items():
         # State summary CSV
@@ -260,11 +293,11 @@ def nexus_report(
     
     # Generate reports
     console.print("[bold]Generating reports...[/bold]")
-    output_dir = f"{data_dir}/outputs"
-    
+    output_dir = str(REPORTS_DIR)
+
     md_path = render.render_nexus_report_md(nexus_status, action_items, analysis_date, output_dir)
     console.print(f"  [green]Created: {md_path}[/green]")
-    
+
     csv_path = render.render_nexus_report_csv(nexus_status, analysis_date, output_dir)
     console.print(f"  [green]Created: {csv_path}[/green]")
     

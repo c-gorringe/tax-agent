@@ -7,6 +7,10 @@ from pathlib import Path
 import hashlib
 import hmac
 
+# Reports live in iCloud so they're backed up and accessible outside this app.
+# Raw/curated data stays local (intermediate processing only).
+REPORTS_DIR = Path("~/ai-projects/mission-control/reports/tax").expanduser()
+
 import pandas as pd
 import streamlit as st
 
@@ -27,6 +31,11 @@ from src.jurisdictions import (
     generate_wa_worksheet_html
 )
 from src.extract_jurisdictions import load_jurisdiction_orders
+from src.jurisdiction_aggregator import (
+    aggregate_jurisdiction_report,
+    get_summary,
+    get_summary_by_type,
+)
 
 # Page config
 st.set_page_config(
@@ -314,11 +323,29 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Load environment variables from .env if present
-env_path = Path(__file__).parent / ".env"
-if env_path.exists():
-    from dotenv import load_dotenv
-    load_dotenv(env_path)
+# Load environment variables (prefer encrypted secrets, fallback to .env)
+def _load_secrets():
+    import subprocess
+    secrets_script = os.path.expanduser("~/secrets.sh")
+    if os.path.exists(secrets_script):
+        try:
+            result = subprocess.run([secrets_script, "load"], capture_output=True, text=True, timeout=5)
+            if result.returncode == 0:
+                for line in result.stdout.strip().split('\n'):
+                    if line.startswith('export ') and '=' in line:
+                        kv = line[7:]
+                        key, value = kv.split('=', 1)
+                        os.environ[key] = value
+                return
+        except Exception:
+            pass
+    # Fallback to .env
+    env_path = Path(__file__).parent / ".env"
+    if env_path.exists():
+        from dotenv import load_dotenv
+        load_dotenv(env_path)
+
+_load_secrets()
 
 
 # =============================================================================
@@ -405,6 +432,7 @@ def load_all_orders() -> pd.DataFrame:
 
     combined = pd.concat(all_orders, ignore_index=True)
     combined["processed_at"] = pd.to_datetime(combined["processed_at"])
+    combined = combined.drop_duplicates(subset=["order_id", "store_id"])
     return combined
 
 
@@ -423,6 +451,7 @@ def load_all_refunds() -> pd.DataFrame:
     combined = pd.concat(all_refunds, ignore_index=True)
     if "processed_at" in combined.columns:
         combined["processed_at"] = pd.to_datetime(combined["processed_at"])
+    combined = combined.drop_duplicates(subset=["refund_id", "store_id"])
     return combined
 
 
@@ -494,7 +523,7 @@ st.sidebar.markdown(f"""
 # Navigation
 page = st.sidebar.radio(
     "Navigation",
-    ["🎯 Nexus Status", "📋 Filing Packets", "📈 Data Explorer", "🔍 Data Audit", "📤 Upload Data", "⚙️ Settings"],
+    ["🎯 Nexus Status", "📋 Filing Packets", "📊 Jurisdiction Reports", "📄 Reports", "📈 Data Explorer", "🔍 Data Audit", "📤 Upload Data", "⚙️ Settings"],
     label_visibility="collapsed"
 )
 
@@ -1000,6 +1029,287 @@ elif page == "Filing Packets":
         else:
             st.code(f".venv/bin/python -m src.cli run --period monthly --year {year} --month {period}")
 
+# Page: Jurisdiction Reports
+elif page == "Jurisdiction Reports":
+    import yaml
+
+    RAW_DIR = Path(__file__).parent / "data" / "raw"
+
+    st.markdown("""
+    <div class="main-header">
+        <h1>📊 Jurisdiction Reports</h1>
+        <p>Auto-generated from Shopify order data — jurisdiction-level tax breakdown ready for filing</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # ── Period selector ──────────────────────────────────────────────────────
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        jur_year = st.selectbox("Year", [2026, 2025, 2024], key="jur_year")
+    with col2:
+        jur_view = st.selectbox("View as", ["Monthly", "Quarterly"], key="jur_view")
+    with col3:
+        if jur_view == "Monthly":
+            jur_month = st.selectbox(
+                "Month", range(1, 13),
+                format_func=lambda x: datetime(2000, x, 1).strftime("%B"),
+                index=datetime.now().month - 1,
+                key="jur_month"
+            )
+            jur_period = f"{jur_year}-{jur_month:02d}"
+        else:
+            jur_quarter = st.selectbox("Quarter", [1, 2, 3, 4], key="jur_quarter")
+            jur_period = f"{jur_year}-Q{jur_quarter}"
+
+    st.markdown(f"**Period:** `{jur_period}`")
+    st.divider()
+
+    # ── Filing cadence per state ─────────────────────────────────────────────
+    st.subheader("Filing Cadence by State")
+
+    all_registrations = registrations_config.get("registrations", {})
+    cadence_changed = {}
+    cadence_colors = {"monthly": "#22c55e", "quarterly": "#6366f1", "unknown": "#f59e0b"}
+    cadence_labels = {"monthly": "Monthly", "quarterly": "Quarterly", "unknown": "Unknown"}
+
+    registered_states_sorted = sorted(all_registrations.keys())
+    cols_per_row = 7
+    state_rows = [registered_states_sorted[i:i+cols_per_row]
+                  for i in range(0, len(registered_states_sorted), cols_per_row)]
+
+    for row_states in state_rows:
+        cols = st.columns(len(row_states))
+        for i, state in enumerate(row_states):
+            cfg = all_registrations[state]
+            freq = cfg.get("filing_frequency", "unknown")
+            color = cadence_colors.get(freq, "#f59e0b")
+            with cols[i]:
+                st.markdown(f"""
+                <div style="background: {color}22; border: 1px solid {color}; border-radius: 8px;
+                            padding: 0.5rem; text-align: center; margin-bottom: 0.5rem;">
+                    <div style="font-size: 1.1rem; font-weight: 700; color: #f1f5f9;">{state}</div>
+                    <div style="font-size: 0.65rem; color: {color}; text-transform: uppercase;">
+                        {cadence_labels.get(freq, freq)}
+                    </div>
+                </div>
+                """, unsafe_allow_html=True)
+                if freq == "unknown":
+                    new_cadence = st.selectbox(
+                        f"{state} cadence",
+                        ["unknown", "monthly", "quarterly"],
+                        key=f"cadence_{state}",
+                        label_visibility="collapsed"
+                    )
+                    if new_cadence != "unknown":
+                        cadence_changed[state] = new_cadence
+
+    if cadence_changed:
+        if st.button("💾 Save cadence changes", type="primary"):
+            config_path = Path(__file__).parent / "config" / "registrations.yaml"
+            with open(config_path) as f:
+                raw_config = yaml.safe_load(f)
+            for state, cadence in cadence_changed.items():
+                raw_config["registrations"][state]["filing_frequency"] = cadence
+            with open(config_path, "w") as f:
+                yaml.dump(raw_config, f, default_flow_style=False, allow_unicode=True, sort_keys=True)
+            st.success(f"Saved cadence for: {', '.join(cadence_changed.keys())}")
+            st.cache_data.clear()
+            st.rerun()
+
+    st.divider()
+
+    # ── Generate reports ─────────────────────────────────────────────────────
+    st.subheader(f"Jurisdiction Breakdown — {jur_period}")
+
+    if not RAW_DIR.exists():
+        st.warning("No raw order data found. Run the CLI to extract data first.")
+        st.code(f".venv/bin/python -m src.cli run --period monthly --year {jur_year} --month {jur_month if jur_view == 'Monthly' else 1}")
+        st.stop()
+
+    # State filter — default to current 6 filing states, can expand to all 13
+    state_options = sorted(all_registrations.keys())
+    current_6 = [s for s in state_options if all_registrations[s].get("registered_since") is None]
+    new_7 = [s for s in state_options if all_registrations[s].get("registered_since") is not None]
+
+    show_new = st.checkbox("Include new states (AR, KY, MD, MN, NE, NY, VA)", value=False)
+    states_to_show = current_6 + (new_7 if show_new else [])
+
+    @st.cache_data(ttl=300)
+    def cached_jurisdiction_report(raw_dir_str: str, state: str, period: str):
+        return aggregate_jurisdiction_report(raw_dir_str, state, period)
+
+    all_summaries = []
+
+    for state in sorted(states_to_show):
+        with st.spinner(f"Loading {state}..."):
+            df = cached_jurisdiction_report(str(RAW_DIR), state, jur_period)
+
+        summary = get_summary(df)
+        by_type = get_summary_by_type(df)
+        cadence = all_registrations.get(state, {}).get("filing_frequency", "unknown")
+
+        if df.empty:
+            st.info(f"**{state}** — No order data found for `{jur_period}`. Run CLI to extract this period.")
+            continue
+
+        all_summaries.append({
+            "State": state,
+            "Cadence": cadence_labels.get(cadence, cadence),
+            "Orders": summary["order_count"],
+            "Taxable Sales": f"${summary['total_taxable_sales']:,.2f}",
+            "Item Tax": f"${summary['total_item_tax']:,.2f}",
+            "Total Tax": f"${summary['total_tax']:,.2f}",
+            "Jurisdictions": summary["jurisdiction_count"],
+        })
+
+        with st.expander(
+            f"**{state}** — ${summary['total_tax']:,.2f} total tax "
+            f"| {summary['order_count']} orders | {summary['jurisdiction_count']} jurisdictions "
+            f"| {cadence_labels.get(cadence, cadence)}",
+            expanded=False
+        ):
+            col1, col2, col3, col4 = st.columns(4)
+            with col1:
+                st.metric("Taxable Sales", f"${summary['total_taxable_sales']:,.2f}")
+            with col2:
+                st.metric("Item Tax", f"${summary['total_item_tax']:,.2f}")
+            with col3:
+                st.metric("Total Tax Due", f"${summary['total_tax']:,.2f}")
+            with col4:
+                st.metric("Jurisdictions", summary["jurisdiction_count"])
+
+            # Type breakdown
+            if by_type:
+                type_rows = [
+                    {
+                        "Type": jtype,
+                        "Count": d["count"],
+                        "Taxable Sales": f"${d['taxable_sales']:,.2f}",
+                        "Tax Amount": f"${d['tax_amount']:,.2f}",
+                    }
+                    for jtype, d in sorted(by_type.items())
+                ]
+                st.dataframe(pd.DataFrame(type_rows), use_container_width=True, hide_index=True)
+
+            # Full jurisdiction table
+            with st.expander("Full jurisdiction breakdown"):
+                display_cols = [
+                    "Tax jurisdiction", "Tax jurisdiction type", "Tax rate",
+                    "Total taxable item sales", "Total item tax amount", "Order count"
+                ]
+                available = [c for c in display_cols if c in df.columns]
+                st.dataframe(df[available], use_container_width=True, hide_index=True)
+
+            col1, col2 = st.columns(2)
+            with col1:
+                st.download_button(
+                    f"📥 Download {state} filing CSV",
+                    df.to_csv(index=False),
+                    file_name=f"{state}_jurisdiction_{jur_period}.csv",
+                    mime="text/csv",
+                    key=f"dl_jur_{state}_{jur_period}"
+                )
+
+    # ── All-states summary ───────────────────────────────────────────────────
+    if len(all_summaries) > 1:
+        st.divider()
+        st.subheader("All States Summary")
+        summary_df = pd.DataFrame(all_summaries)
+        st.dataframe(summary_df, use_container_width=True, hide_index=True)
+        st.download_button(
+            "📥 Download All States Summary",
+            summary_df.to_csv(index=False),
+            file_name=f"jurisdiction_summary_{jur_period}.csv",
+            mime="text/csv",
+            key=f"dl_jur_summary_{jur_period}"
+        )
+
+# Page: Reports
+elif page == "Reports":
+    st.markdown("""
+    <div class="main-header">
+        <h1>📄 Reports</h1>
+        <p>CPA briefings, nexus reports, filing packets, and exception logs</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    if not REPORTS_DIR.exists():
+        st.warning(f"Reports directory not found: `{REPORTS_DIR}`")
+        st.info("Run the CLI to generate reports. They will appear here automatically.")
+    else:
+        # Collect all report files
+        all_files = sorted(REPORTS_DIR.rglob("*"), key=lambda p: p.stat().st_mtime, reverse=True)
+        report_files = [f for f in all_files if f.is_file() and f.suffix in (".html", ".md", ".csv")]
+
+        if not report_files:
+            st.info("No reports found yet. Run the CLI to generate filing packets and nexus reports.")
+        else:
+            # Group by type
+            html_files = [f for f in report_files if f.suffix == ".html"]
+            md_files = [f for f in report_files if f.suffix == ".md"]
+            csv_files = [f for f in report_files if f.suffix == ".csv"]
+
+            # CPA Briefings / HTML reports
+            if html_files:
+                st.subheader("CPA Briefings")
+                for f in html_files:
+                    col1, col2, col3 = st.columns([3, 1, 1])
+                    with col1:
+                        st.markdown(f"**{f.name}**")
+                        st.caption(f"Modified {datetime.fromtimestamp(f.stat().st_mtime).strftime('%Y-%m-%d %H:%M')}")
+                    with col2:
+                        st.download_button(
+                            "Download",
+                            data=f.read_bytes(),
+                            file_name=f.name,
+                            mime="text/html",
+                            key=f"dl_html_{f.name}"
+                        )
+                    with col3:
+                        if st.button("Preview", key=f"preview_{f.name}"):
+                            st.session_state[f"show_{f.name}"] = not st.session_state.get(f"show_{f.name}", False)
+                    if st.session_state.get(f"show_{f.name}", False):
+                        st.components.v1.html(f.read_text(), height=800, scrolling=True)
+                st.divider()
+
+            # Filing Packets / Nexus reports (MD)
+            if md_files:
+                st.subheader("Filing Packets & Nexus Reports")
+                for f in md_files:
+                    col1, col2 = st.columns([4, 1])
+                    with col1:
+                        with st.expander(f.name):
+                            st.markdown(f.read_text())
+                    with col2:
+                        st.download_button(
+                            "Download",
+                            data=f.read_bytes(),
+                            file_name=f.name,
+                            mime="text/markdown",
+                            key=f"dl_md_{f.name}"
+                        )
+                st.divider()
+
+            # Exception / summary CSVs
+            if csv_files:
+                st.subheader("CSVs")
+                for f in csv_files:
+                    col1, col2 = st.columns([4, 1])
+                    with col1:
+                        with st.expander(f.name):
+                            try:
+                                st.dataframe(pd.read_csv(f), use_container_width=True)
+                            except Exception:
+                                st.caption("Could not parse as table.")
+                    with col2:
+                        st.download_button(
+                            "Download",
+                            data=f.read_bytes(),
+                            file_name=f.name,
+                            mime="text/csv",
+                            key=f"dl_csv_{f.name}"
+                        )
+
 # Page: Data Explorer
 elif page == "Data Explorer":
     st.title("Data Explorer")
@@ -1013,7 +1323,7 @@ elif page == "Data Explorer":
     with col1:
         st.metric("Total Orders", f"{len(orders_df):,}")
     with col2:
-        st.metric("Total Sales", f"${orders_df['total_sales'].sum():,.2f}")
+        st.metric("Taxable Sales", f"${orders_df['taxable_sales'].sum():,.2f}")
     with col3:
         st.metric("Tax Collected", f"${orders_df['tax_collected'].sum():,.2f}")
     with col4:
@@ -1028,40 +1338,40 @@ elif page == "Data Explorer":
     with tab1:
         store_summary = orders_df.groupby("store_id").agg({
             "order_id": "count",
-            "total_sales": "sum",
+            "taxable_sales": "sum",
             "tax_collected": "sum"
         }).rename(columns={"order_id": "Orders"})
-        store_summary["Total Sales"] = store_summary["total_sales"].apply(lambda x: f"${x:,.2f}")
+        store_summary["Taxable Sales"] = store_summary["taxable_sales"].apply(lambda x: f"${x:,.2f}")
         store_summary["Tax Collected"] = store_summary["tax_collected"].apply(lambda x: f"${x:,.2f}")
-        st.dataframe(store_summary[["Orders", "Total Sales", "Tax Collected"]], use_container_width=True)
+        st.dataframe(store_summary[["Orders", "Taxable Sales", "Tax Collected"]], use_container_width=True)
 
     with tab2:
         us_orders = orders_df[orders_df["country"] == "US"]
         state_summary = us_orders.groupby("state").agg({
             "order_id": "count",
-            "total_sales": "sum",
+            "taxable_sales": "sum",
             "tax_collected": "sum"
         }).rename(columns={"order_id": "Orders"})
-        state_summary = state_summary.sort_values("total_sales", ascending=False)
-        state_summary["Total Sales"] = state_summary["total_sales"].apply(lambda x: f"${x:,.2f}")
+        state_summary = state_summary.sort_values("taxable_sales", ascending=False)
+        state_summary["Taxable Sales"] = state_summary["taxable_sales"].apply(lambda x: f"${x:,.2f}")
         state_summary["Tax Collected"] = state_summary["tax_collected"].apply(lambda x: f"${x:,.2f}")
-        st.dataframe(state_summary[["Orders", "Total Sales", "Tax Collected"]], use_container_width=True)
+        st.dataframe(state_summary[["Orders", "Taxable Sales", "Tax Collected"]], use_container_width=True)
 
     with tab3:
         orders_df["month"] = orders_df["processed_at"].dt.to_period("M")
         month_summary = orders_df.groupby("month").agg({
             "order_id": "count",
-            "total_sales": "sum",
+            "taxable_sales": "sum",
             "tax_collected": "sum"
         }).rename(columns={"order_id": "Orders"})
         month_summary.index = month_summary.index.astype(str)
 
         # Chart
-        st.bar_chart(month_summary["total_sales"])
+        st.bar_chart(month_summary["taxable_sales"])
 
-        month_summary["Total Sales"] = month_summary["total_sales"].apply(lambda x: f"${x:,.2f}")
+        month_summary["Taxable Sales"] = month_summary["taxable_sales"].apply(lambda x: f"${x:,.2f}")
         month_summary["Tax Collected"] = month_summary["tax_collected"].apply(lambda x: f"${x:,.2f}")
-        st.dataframe(month_summary[["Orders", "Total Sales", "Tax Collected"]], use_container_width=True)
+        st.dataframe(month_summary[["Orders", "Taxable Sales", "Tax Collected"]], use_container_width=True)
 
 # Page: Data Audit
 elif page == "Data Audit":
@@ -1133,19 +1443,19 @@ elif page == "Data Audit":
             date_range = (orders_df["processed_at"].max() - orders_df["processed_at"].min()).days
             st.metric("Date Range", f"{date_range} days")
         with col4:
-            st.metric("Total Sales", f"${orders_df['total_sales'].sum():,.2f}")
+            st.metric("Taxable Sales", f"${orders_df['taxable_sales'].sum():,.2f}")
 
         # Store breakdown
         st.markdown("**Orders by Store:**")
         store_summary = orders_df.groupby("store_id").agg({
             "order_id": "count",
-            "total_sales": "sum",
+            "taxable_sales": "sum",
             "tax_collected": "sum"
         }).rename(columns={"order_id": "Orders"})
         store_summary["% of Total"] = (store_summary["Orders"] / store_summary["Orders"].sum() * 100).round(1).astype(str) + "%"
-        store_summary["Total Sales"] = store_summary["total_sales"].apply(lambda x: f"${x:,.2f}")
+        store_summary["Taxable Sales"] = store_summary["taxable_sales"].apply(lambda x: f"${x:,.2f}")
         store_summary["Tax Collected"] = store_summary["tax_collected"].apply(lambda x: f"${x:,.2f}")
-        st.dataframe(store_summary[["Orders", "% of Total", "Total Sales", "Tax Collected"]], use_container_width=True)
+        st.dataframe(store_summary[["Orders", "% of Total", "Taxable Sales", "Tax Collected"]], use_container_width=True)
 
         st.divider()
 
@@ -1228,13 +1538,13 @@ elif page == "Data Audit":
         orders_df["month"] = orders_df["processed_at"].dt.to_period("M")
         monthly = orders_df.groupby(["store_id", "month"]).agg({
             "order_id": "count",
-            "total_sales": "sum"
+            "taxable_sales": "sum"
         }).rename(columns={"order_id": "Orders"})
         monthly = monthly.reset_index()
         monthly["month"] = monthly["month"].astype(str)
-        monthly["Total Sales"] = monthly["total_sales"].apply(lambda x: f"${x:,.2f}")
+        monthly["Taxable Sales"] = monthly["taxable_sales"].apply(lambda x: f"${x:,.2f}")
 
-        st.dataframe(monthly[["store_id", "month", "Orders", "Total Sales"]], use_container_width=True, hide_index=True)
+        st.dataframe(monthly[["store_id", "month", "Orders", "Taxable Sales"]], use_container_width=True, hide_index=True)
 
     else:
         st.warning("No curated data to audit. Upload or extract data first.")

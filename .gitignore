@@ -41,3 +41,6 @@ Thumbs.db
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Claude Code — never commit (may contain cached credentials)
+.claude/

@@ -15,8 +15,11 @@ def extract_jurisdiction_data(raw_dir: str = "data/raw", output_dir: str = "data
     raw_path = Path(raw_dir)
     output_path = Path(output_dir)
 
-    # States that need jurisdiction breakdown
-    jurisdiction_states = ["UT", "WA", "OH", "CO", "TX"]
+    # All registered + newly registering states
+    jurisdiction_states = [
+        "GA", "IL", "MI", "OH", "UT", "WA",   # current 6
+        "AR", "KY", "MD", "MN", "NE", "NY", "VA",  # new 7
+    ]
 
     results = {}
 
